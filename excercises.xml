@@ -1,27 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <excersises>
     <shoulder>
-        <li class="shoulder"><span>Жимы арнольда</span></li>
-        <li class="shoulder"><span>Жимы штанги из-за головы</span></li>
-        <li class="shoulder"><span>Жимы с гантелями</span></li>
-        <li class="shoulder"><span>Армейский жим</span></li>
-        <li class="shoulder"><span>Жим штанги с подъемом от пола</span></li>
-        <li class="shoulder"><span>Жимы штанги на тренажере</span></li>
-        <li class="shoulder"><span>Швунги штанги</span></li>
-        <li class="shoulder"><span>Разведение прямых рук с гантелями в положении стоя</span></li>
-        <li class="shoulder"><span>Отведение руки на уровень плеча на блочном тренажере (положение стоя)</span></li>
-        <li class="shoulder"><span>Отведение руки вбок на блочном тренажере</span></li>
-        <li class="shoulder"><span>Отведение руки на уровень плеча на блочном тренажере (положение сидя)</span></li>
-        <li class="shoulder"><span>Сведение рук с гантелями над головой</span></li>
-        <li class="shoulder"><span>Сведение-отведение рук на тренажерах</span></li>
-        <li class="shoulder"><span>Попеременные подъемы рук с гантелями</span></li>
-        <li class="shoulder"><span>Разведение рук с гантелями в наклоне сидя</span></li>
-        <li class="shoulder"><span>Разведение рук с гантелями в наклоне стоя</span></li>
-        <li class="shoulder"><span>Тяга к разноименному плечу в наклоне на блочном устройстве</span></li>
-        <li class="shoulder"><span>Поднимание прямой руки с гантелью от живота из положения лежа</span></li>
+        <li class="shoulder" data-complexity="8">
+            <span class="excercise-name">Жимы арнольда</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">15</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/arnold.jpg" alt="shoulder" />
+                <p>Жим Арнольда - базовое упражнение на дельтовидные мышцы: задействуются все три пучка, преимущественно средний и передний.</p>
+                <ol>
+                    <li>Возьмите гантели и поднимите их до уровня шеи. Локти должны быть в одной плоскости с туловищем или слегка выдвинуты вперед. Ладонями - быть повернутыми к туловищу;</li>
+                    <li>Выжмите гантели вертикально вверх. Взгляд направлен строго вперед;</li>
+                    <li>На уровене макушки начинайте разворачивать гантели (ладони) наружу. В верхней точке руки должны быть полностью выпрямлены, но не заблокированы в локтях, плечи приподняты, а ладони направлены вперед;</li>
+                    <li>В верхней точке сделайте паузу и еще сильнее напрягите дельты;</li>
+                    <li>Плавно опустите гантели в исходное положение, разворачивая гантели в обратном порядке.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Эффективность и безопасность упражнения зависят от правильной форма движения: вначале вы поднимаете гантели перед плоскостью туловища (локти при этом плавно разворачиваются в стороны), затем следует поворот в плечевом суставе и руки продолжают движение уже в плоскости туловища;</li>
+                    <li>Выполняйте движение плавно, желательно без остановки в нижней точке. Рывки и ускорения переносят нагрузку на позвоночник;</li>
+                    <li>Поднимайте гантели как можно выше, чтобы добиться максимального сокращения дельт.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="shoulder" data-complexity="8">
+            <span class="excercise-name">Жимы штанги из-за головы</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/behind-pullup.jpg" alt="shoulder" />
+                <p>Жим из-за головы - упражнение для развития плеч, которое нагружает дельтовидные мышцы: средний пучок, с акцентом на передний, а также верхнюю часть трапециевидных мышц, трицепсы и переднюю зубчатую мышцу.</p>
+                <ol>
+                    <li>Положите гриф штанги на плечи за голову. Держите спину ровно, не сутулясь и не прогибаясь сильно в пояснице;</li>
+                    <li>Выжмите штангу вверх. В верхней точке амплитуды гриф должен быть над вашей головой.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Чтобы избежать травм плечевых суставов, которые являются в этом упражнении особо уязвимыми, можно опускать гриф штанги настолько, насколько позволяет степень подвижности суставов;</li>
+                    <li>Упражнение можно выполнять как стоя, так и сидя. Также можно менять ширину хвата;</li>
+                    <li>Нет смысла поднимать тяжелую штангу с пола в начале каждого подхода. Вы можете положить штангу на стойки.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="shoulder" data-complexity="6">
+            <span class="excercise-name">Жимы с гантелями</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/dumbbell-press.jpg" alt="shoulder" />
+                <p>Жим гантелей сидя - одно из базовых упражнений для плеч. Прежде всего, оно нагружает передние пучки дельтовидных мышц, во вторую - средние пучки дельт. Задняя часть плеча получает и вовсе незначительную долю нагрузки.</p>
+                <ol>
+                    <li>Примите исходное положение и начните выжимать гантели вверх;</li>
+                    <li>Локти должны находиться строго под кистями по всей амплитуде движения. В этом случае, гантели будут двигаться по дугообразной траектории, немного сближаясь в верхней точке. Жим гантелей сидя выполняется двумя руками одновременно. Разворота кистей делать не нужно. Локти не следует выдвигать вперед, спину не прогибать, назад не наклоняться, даже если тяжело.</li>
+                    <li>В верхней точке сделайте небольшую паузу. Выполняйте движение с ускорением, но не распрямляйте руки в верхней точке рывком - это может отрицательно сказаться на локтевых суставах. Опускайте вес подконтрольно, готовясь к очередному повторению.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="shoulder" data-complexity="6">
+            <span class="excercise-name">Армейский жим</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/army-press.jpg" alt="shoulder" />
+                <p>Армейский жим, или жим над головой - одно из лучших упражнений для развития мышц плечевого пояса: дельты, верх груди, а также трицепсы.</p>
+                <ol>
+                    <li>Возьмите гриф хватом чуть шире плеч;</li>
+                    <li>Плавно выжмите штангу в верхнюю точку. Выпрямляйте локти не до конца, чтобы снизить травматичность для локтей;</li>
+                    <li>Медленно опустите штангу на грудь, не расслабляя мышцы в нижней точке и не допуская касания штангой груди и плеч.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="shoulder" data-complexity="6">
+            <span class="excercise-name">Швунги штанги</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/shvungi.jpg" alt="shoulder" />
+                <p>Упражнение построено на принципе «читинга» и используется для формирования дополнительной силы дельтовидных мышц за счет использования большего веса.</p>
+                <ol>
+                    <li>Возмите штангу хватом чуть-чуть шире плеч;</li>
+                    <li>Толкните штангу вверх, помогая себе ногами;</li>
+                    <li>Плавно опускайте штангу плеч</li>
+                </ol>
+            </div>
+        </li>
+        <li class="shoulder">
+            <span class="excercise-name">Разведение прямых рук с гантелями в положении стоя</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере (положение стоя)</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Отведение руки вбок на блочном тренажере</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере (положение сидя)</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Сведение рук с гантелями над головой</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Сведение-отведение рук на тренажерах</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Попеременные подъемы рук с гантелями</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Разведение рук с гантелями в наклоне сидя</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Разведение рук с гантелями в наклоне стоя</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Тяга к разноименному плечу в наклоне на блочном устройстве</span></li>
+        <li class="shoulder">
+            <span class="excercise-name">Поднимание прямой руки с гантелью от живота из положения лежа</span></li>
     </shoulder>
     <trapezium>
-        <li class="trapezium" data-complexity="5"><span>Высокая тяга штанги узким хватом</span>
+        <li class="trapezium" data-complexity="5">
+            <span class="excercise-name">Высокая тяга штанги узким хватом</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
@@ -39,7 +137,8 @@
                 <P>9. Темп выполнения упражнения — подчеркнуто плавный.</P>
             </div>
         </li>
-        <li class="trapezium" data-complexity="5"><span>Поднимание плеч с гантелями ("шраги")</span>
+        <li class="trapezium" data-complexity="5">
+            <span class="excercise-name">Поднимание плеч с гантелями ("шраги")</span>
             <div class="sets">
               <span contenteditable="true">3</span>x
               <span contenteditable="true">8</span>
@@ -54,7 +153,8 @@
                 <p>6. В нижней точке сделайте короткую паузу, вдохните и приступайте к следующему повторению.</p>
             </div>
         </li>
-        <li class="trapezium" data-complexity="5"><span>"Шраги" со штангой</span>
+        <li class="trapezium" data-complexity="5">
+            <span class="excercise-name">"Шраги" со штангой</span>
             <div class="sets">
               <span contenteditable="true">3</span>x
               <span contenteditable="true">8</span>
@@ -71,111 +171,211 @@
         </li>
     </trapezium>
     <chest>
-        <li class="chest"><span>Жим штанги на горизонтальной скамье</span></li>
-        <li class="chest"><span>Жим штанги на наклонной скамье</span></li>
-        <li class="chest"><span>Жимы гантелей на горизонтальной скамье</span></li>
-        <li class="chest"><span>Жимы гантелей на наклонной скамье</span></li>
-        <li class="chest"><span>Жимы гантелей на скамье с обратным наклоном</span></li>
-        <li class="chest"><span>Отжимание на брусьях</span></li>
-        <li class="chest"><span>Жимы на тренажере</span></li>
-        <li class="chest"><span>Сведение-разведение рук с гантелями</span></li>
-        <li class="chest"><span>Сведение-разведение рук с гантелями на наклонной скамье</span></li>
-        <li class="chest"><span>Сведение рук на верхнем блоке (положение стоя)</span></li>
-        <li class="chest"><span>Сведение рук на нижнем блоке с наклоном вперед</span></li>
-        <li class="chest"><span>Сведение рук на нижнем блоке (положение лежа)</span></li>
-        <li class="chest"><span>Сведение рук на тренажере "пек-дек"</span></li>
-        <li class="chest"><span>Пуллоуверы с гантелью на прямых руках</span></li>
-        <li class="chest"><span>Тяга к полу на верхнем блоке</span></li>
-        <li class="chest"><span>Тяга к полу на верхнем блоке одной рукой</span></li>
-        <li class="chest"><span>Пуллоуверы на тренажере</span></li>
-        <li class="chest"><span>Подтягивание на скобах-адаптерах узким хватом</span></li>
-        <li class="chest"><span>Боковое сгибание туловища на перекладине</span></li>
-        <li class="chest"><span>Тяга гантелей вниз головой на перекладине</span></li>
+        <li class="chest">
+            <span class="excercise-name">Жим штанги на горизонтальной скамье</span></li>
+        <li class="chest">
+            <span class="excercise-name">Жим штанги на наклонной скамье</span></li>
+        <li class="chest">
+            <span class="excercise-name">Жимы гантелей на горизонтальной скамье</span></li>
+        <li class="chest">
+            <span class="excercise-name">Жимы гантелей на наклонной скамье</span>
+        </li>
+        <li class="chest">
+            <span class="excercise-name">Жимы гантелей на скамье с обратным наклоном</span></li>
+        <li class="chest">
+            <span class="excercise-name">Отжимание на брусьях</span></li>
+        <li class="chest">
+            <span class="excercise-name">Жимы на тренажере</span></li>
+        <li class="chest">
+            <span class="excercise-name">Сведение-разведение рук с гантелями</span></li>
+        <li class="chest">
+            <span class="excercise-name">Сведение-разведение рук с гантелями на наклонной скамье</span></li>
+        <li class="chest">
+            <span class="excercise-name">Сведение рук на верхнем блоке (положение стоя)</span></li>
+        <li class="chest">
+            <span class="excercise-name">Сведение рук на нижнем блоке с наклоном вперед</span>
+        </li>
+        <li class="chest">
+            <span class="excercise-name">Сведение рук на нижнем блоке (положение лежа)</span></li>
+        <li class="chest">
+            <span class="excercise-name">Сведение рук на тренажере "пек-дек"</span></li>
+        <li class="chest">
+            <span class="excercise-name">Пуллоуверы с гантелью на прямых руках</span></li>
+        <li class="chest">
+            <span class="excercise-name">Тяга к полу на верхнем блоке</span></li>
+        <li class="chest">
+            <span class="excercise-name">Тяга к полу на верхнем блоке одной рукой</span></li>
+        <li class="chest">
+            <span class="excercise-name">Пуллоуверы на тренажере</span></li>
+        <li class="chest">
+            <span class="excercise-name">Подтягивание на скобах-адаптерах узким хватом</span></li>
+        <li class="chest">
+            <span class="excercise-name">Боковое сгибание туловища на перекладине</span></li>
+        <li class="chest">
+            <span class="excercise-name">Тяга гантелей вниз головой на перекладине</span></li>
     </chest>
     <biceps>
-        <li class="biceps"><span>Сгибание рук со штангой стоя</span></li>
-        <li class="biceps"><span>Сгибание рук с "читтингом"</span></li>
-        <li class="biceps"><span>Сгибание рук со штангой на изолирующей скамье</span></li>
-        <li class="biceps"><span>Сгибания на три счета ("21")</span></li>
-        <li class="biceps"><span>Сгибание рук с гантелями на наклонной скамье</span></li>
-        <li class="biceps"><span>Сгибание рук с гантелями сидя</span></li>
-        <li class="biceps"><span>Сгибание рук с гантелями вдоль ("молоток")</span></li>
-        <li class="biceps"><span>Попеременное сгибание рук с гантелями</span></li>
-        <li class="biceps"><span>Сгибание руки с гантелью к разноименному плечу ("сосредоточенное сгибание")</span></li>
-        <li class="biceps"><span>Сгибание рук с гантелями на горизонтальной скамье</span></li>
-        <li class="biceps"><span>Сгибание рук с перекладиной на нижнем блоке</span></li>
-        <li class="biceps"><span>Сгибание рук с перекладиной на изолирующей скамье (на выбор)</span></li>
-        <li class="biceps"><span>Сгибание рук со штангой обратным хватом</span></li>
-        <li class="biceps"><span>Сгибание обратным хватом на изолирующей скамье</span></li>
-        <li class="biceps"><span>Тренажеры для бицепсов</span></li>
-        <li class="biceps"><span>Сгибание рук на тренажере</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук со штангой стоя</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с "читтингом"</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук со штангой на изолирующей скамье</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибания на три счета ("21")</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с гантелями на наклонной скамье</span>
+        </li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с гантелями сидя</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с гантелями вдоль ("молоток")</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Попеременное сгибание рук с гантелями</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание руки с гантелью к разноименному плечу ("сосредоточенное сгибание")</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с гантелями на горизонтальной скамье</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с перекладиной на нижнем блоке</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук с перекладиной на изолирующей скамье (на выбор)</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук со штангой обратным хватом</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание обратным хватом на изолирующей скамье</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Тренажеры для бицепсов</span></li>
+        <li class="biceps">
+            <span class="excercise-name">Сгибание рук на тренажере</span></li>
     </biceps>
     <triceps>
-        <li class="triceps"><span>Трицепсовые жимы вниз на верхнем блоке (или на тренажере для латеральных мышц)</span></li>
-        <li class="triceps"><span>Жимы одной рукой на блоке обратным хватом</span></li>
-        <li class="triceps"><span>Трицепсовый жим (французский жим) сидя</span></li>
-        <li class="triceps"><span>Трицепсовый жим стоя</span></li>
-        <li class="triceps"><span>Трицепсовые экстензии (французский жим) лежа</span></li>
-        <li class="triceps"><span>Пуллоуверы с гантелями</span></li>
-        <li class="triceps"><span>Трицепсовые экстензии с гантелью одной рукой (на выбор)</span></li>
-        <li class="triceps"><span>Отведение назад руки с гантелью в наклоне</span></li>
-        <li class="triceps"><span>Разгибание руки с гантелью из-за головы</span></li>
-        <li class="triceps"><span>Отжимание на брусьях</span></li>
-        <li class="triceps"><span>Отжимания на параллельных скамьях</span></li>
-        <li class="triceps"><span>Экстензии для трицепсов на неподвижной перекладине</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Трицепсовые жимы вниз на верхнем блоке (или на тренажере для латеральных мышц)</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Жимы одной рукой на блоке обратным хватом</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Трицепсовый жим (французский жим) сидя</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Трицепсовый жим стоя</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Трицепсовые экстензии (французский жим) лежа</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Пуллоуверы с гантелями</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Трицепсовые экстензии с гантелью одной рукой (на выбор)</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Отведение назад руки с гантелью в наклоне</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Разгибание руки с гантелью из-за головы</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Отжимание на брусьях</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Отжимания на параллельных скамьях</span></li>
+        <li class="triceps">
+            <span class="excercise-name">Экстензии для трицепсов на неподвижной перекладине</span></li>
     </triceps>
     <arm>
-        <li class="arm"><span>Сгибание-разгибание запястий со штангой</span></li>
-        <li class="arm"><span>Сгибание запястья с гантелью</span></li>
-        <li class="arm"><span>Сгибание запястий со штангой за спиной</span></li>
-        <li class="arm"><span> Обратное сгибание запястий со штангой (сидя или на изолирующей скамье)</span></li>
-        <li class="arm"><span>Обратное сгибание запястий с гантелями</span></li>
-        <li class="arm"><span>Обратное сгибание запястий со штангой (стоя)</span></li>
-        <li class="arm"><span>Обратное сгибание запястий со штангой на изолирующей скамье (вариант)</span></li>
-        <li class="arm"><span>Обратное сгибание запястий на тренажере</span></li>
-        <li class="arm"><span>Обратное сгибание одной рукой на нижнем блоке</span></li>
+        <li class="arm">
+            <span class="excercise-name">Сгибание-разгибание запястий со штангой</span></li>
+        <li class="arm">
+            <span class="excercise-name">Сгибание запястья с гантелью</span></li>
+        <li class="arm">
+            <span class="excercise-name">Сгибание запястий со штангой за спиной</span></li>
+        <li class="arm">
+            <span class="excercise-name">Обратное сгибание запястий со штангой (сидя или на изолирующей скамье)</span></li>
+        <li class="arm">
+            <span class="excercise-name">Обратное сгибание запястий с гантелями</span></li>
+        <li class="arm">
+            <span class="excercise-name">Обратное сгибание запястий со штангой (стоя)</span></li>
+        <li class="arm">
+            <span class="excercise-name">Обратное сгибание запястий со штангой на изолирующей скамье (вариант)</span></li>
+        <li class="arm">
+            <span class="excercise-name">Обратное сгибание запястий на тренажере</span></li>
+        <li class="arm">
+            <span class="excercise-name">Обратное сгибание одной рукой на нижнем блоке</span></li>
     </arm>
     <press>
-        <li class="press"><span>Сгибание туловища на римской скамье</span></li>
-        <li class="press"><span>Сгибание туловища</span></li>
-        <li class="press"><span>Сгибание туловища со скручиванием</span></li>
-        <li class="press"><span>Обратное сгибание туловища</span></li>
-        <li class="press"><span>Обратное сгибание туловища на перекладине</span></li>
-        <li class="press"><span>Группировка на вертикальной скамье</span></li>
-        <li class="press"><span>Сгибание туловища на верхнем блоке</span></li>
-        <li class="press"><span>Сгибание туловища на тренажере</span></li>
-        <li class="press"><span>Группировка на горизонтальной скамье</span></li>
-        <li class="press"><span>Повороты туловища в положении сидя</span></li>
-        <li class="press"><span>Наклоны стоя с поворотом туловища</span></li>
-        <li class="press"><span>Подъемы ног</span></li>
-        <li class="press"><span>Подъемы ног на горизонтальной скамье</span></li>
-        <li class="press"><span>Подъемы ног с согнутыми коленями на горизонтальной скамье</span></li>
-        <li class="press"><span>Подъемы ног с согнутыми коленями на наклонной скамье</span></li>
-        <li class="press"><span>Подъемы ног с согнутыми коленями на вертикальной скамье</span></li>
-        <li class="press"><span>Подъемы ног на перекладине</span></li>
-        <li class="press"><span>Подъемы ног на перекладине с поворотом туловища</span></li>
-        <li class="press"><span>Дополнительные варианты подъема ног</span></li>
-        <li class="press"><span>Боковые подъемы ног</span></li>
-        <li class="press"><span>Боковые подъемы ног с согнутыми коленями</span></li>
-        <li class="press"><span>Махи ногами на боку</span></li>
-        <li class="press"><span>Задние подъемы ног на скамье</span></li>
-        <li class="press"><span>"Ножницы" на животе</span></li>
-        <li class="press"><span>Втягивание живота ("вакуум")</span></li>
+        <li class="press">
+            <span class="excercise-name">Сгибание туловища на римской скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Сгибание туловища</span></li>
+        <li class="press">
+            <span class="excercise-name">Сгибание туловища со скручиванием</span></li>
+        <li class="press">
+            <span class="excercise-name">Обратное сгибание туловища</span></li>
+        <li class="press">
+            <span class="excercise-name">Обратное сгибание туловища на перекладине</span></li>
+        <li class="press">
+            <span class="excercise-name">Группировка на вертикальной скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Сгибание туловища на верхнем блоке</span></li>
+        <li class="press">
+            <span class="excercise-name">Сгибание туловища на тренажере</span></li>
+        <li class="press">
+            <span class="excercise-name">Группировка на горизонтальной скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Повороты туловища в положении сидя</span></li>
+        <li class="press">
+            <span class="excercise-name">Наклоны стоя с поворотом туловища</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног на горизонтальной скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног с согнутыми коленями на горизонтальной скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног с согнутыми коленями на наклонной скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног с согнутыми коленями на вертикальной скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног на перекладине</span></li>
+        <li class="press">
+            <span class="excercise-name">Подъемы ног на перекладине с поворотом туловища</span>
+        </li>
+        <li class="press">
+            <span class="excercise-name">Дополнительные варианты подъема ног</span></li>
+        <li class="press">
+            <span class="excercise-name">Боковые подъемы ног</span></li>
+        <li class="press">
+            <span class="excercise-name">Боковые подъемы ног с согнутыми коленями</span></li>
+        <li class="press">
+            <span class="excercise-name">Махи ногами на боку</span></li>
+        <li class="press">
+            <span class="excercise-name">Задние подъемы ног на скамье</span></li>
+        <li class="press">
+            <span class="excercise-name">"Ножницы" на животе</span></li>
+        <li class="press">
+            <span class="excercise-name">Втягивание живота ("вакуум")</span></li>
     </press>
     <quadriceps>
-        <li class="quadriceps"><span>Приседания со штангой</span></li>
-        <li class="quadriceps"><span>Тяжелые приседы</span></li>
-        <li class="quadriceps"><span>Полуприседы</span></li>
-        <li class="quadriceps"><span>Машинные приседы</span></li>
-        <li class="quadriceps"><span>Приседания со штангой перекрестным хватом</span></li>
-        <li class="quadriceps"><span>Сисси-приседы</span></li>
-        <li class="quadriceps"><span>Жимы ногами</span></li>
-        <li class="quadriceps"><span>Варианты жимов ногами</span></li>
-        <li class="quadriceps"><span>Приседания на гакк-машине</span></li>
-        <li class="quadriceps"><span>Выпады со штангой</span></li>
-        <li class="quadriceps"><span>Выпрямление ног на тренажере</span></li>
-        <li class="quadriceps"><span>Сгибание ног на тренажере в положении лежа</span></li>
-        <li class="quadriceps"><span>Сгибание ног на тренажере в положении стоя</span></li>
-        <li class="quadriceps"><span>Становая тяга штанги с прямыми ногами</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Приседания со штангой</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Тяжелые приседы</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Полуприседы</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Машинные приседы</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Приседания со штангой перекрестным хватом</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Сисси-приседы</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Жимы ногами</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Варианты жимов ногами</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Приседания на гакк-машине</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Выпады со штангой</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Выпрямление ног на тренажере</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Сгибание ног на тренажере в положении лежа</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Сгибание ног на тренажере в положении стоя</span></li>
+        <li class="quadriceps">
+            <span class="excercise-name">Становая тяга штанги с прямыми ногами</span></li>
     </quadriceps>
 </excersises>

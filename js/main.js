@@ -1,11 +1,18 @@
 window.onload = function () {
 
-    var dragAndDrop = (function () {
+    var kachManager = (function () {
 
         var dragExcercise,
             dragExcerciseNext,
             mouseOffset,
-            trainings = [];
+            trainings = [],
+            timer = 0,
+            info = document.getElementById('info'),
+            addTrainingButton = document.getElementById("addTraining"),
+            droppable = document.getElementsByClassName('droppable'),
+            shedule = document.getElementById('shedule'),
+            muscules = document.getElementById('body').getElementsByTagName('g'),
+            excercises = document.getElementById('excercises');
 
         function fixEvent(e) {
             e = e || window.event;
@@ -24,19 +31,18 @@ window.onload = function () {
         }
 
         function getPosition(e) {
-            var left = 0,
-                top = 0;
+            var left = 0;
+            var top = 0;
+            while (e.offsetParent) {
+                left += e.offsetLeft;
+                top += e.offsetTop;
+                e = e.offsetParent;
+            }
 
-        	while (e.offsetParent){
-        	    left += e.offsetLeft;
-        	    top += e.offsetTop;
-        	    e = e.offsetParent;
-        	}
+            left += e.offsetLeft
+            top += e.offsetTop
 
-        	left += e.offsetLeft;
-            top  += e.offsetTop;
-
-            return { x: left, y: top };
+            return { x: left, y: top }
         }
 
         function moveExcerciseStart(e) {
@@ -45,10 +51,11 @@ window.onload = function () {
             dragExcercise.classList.add("temp");
 
             var pos = getPosition(this);
-            mouseOffset= { 
-                x: e.pageX - pos.x, 
-                y: e.pageY - pos.y 
+            mouseOffset = {
+                x: e.pageX - pos.x,
+                y: e.pageY - pos.y
             }
+            document.body.onselectstart = function () { return false };
             return false;
         }
 
@@ -76,11 +83,9 @@ window.onload = function () {
                 var targHeight = parseInt(targ.offsetHeight);
 
                 if ((e.pageX > targPos.x) && (e.pageX < (targPos.x + targWidth)) && (e.pageY > targPos.y) && (e.pageY < (targPos.y + targHeight))) {
-                    if (dragExcercise) {
-                        dragExcercise.classList.remove("temp");
-                        kach.addExcersice(targ, dragExcercise);
-                        isDropped = true;
-                    }
+                    dragExcercise.classList.remove("temp");
+                    addExcersice(targ, dragExcercise);
+                    isDropped = true;
                 }
             }
             if (!isDropped && dragExcercise)
@@ -93,26 +98,7 @@ window.onload = function () {
             dragExcerciseNext = null;
         }
 
-        return {
-            init: function () {
-                document.onmousemove = moveExcercise;
-                document.onmouseup = moveExcerciseEnd;
-            },
-            makeDraggable: function (e) {
-                e.onmousedown = moveExcerciseStart;
-            }, 
-            addDropTarget: function(dropTarget){
-                trainings.push(dropTarget)
-            }
-        }
-
-    }());
-    
-
-    var kach = {
-        timer: null,
-
-        showExcercises: function (e) {
+        function showExcercises(e) {
             var musculeName = this.id,
                 ajax = new XMLHttpRequest();
 
@@ -120,33 +106,37 @@ window.onload = function () {
             ajax.onreadystatechange = function (e) {
                 if (ajax.readyState == 4) {
                     var html = ajax.responseXML.getElementsByTagName(musculeName)[0];
-                    document.getElementById("excercises").innerHTML = html.innerHTML;
+                    excercises.innerHTML = html.innerHTML;
+                    var excercisesList = excercises.children;
 
-                    for (var i = 0; i < excercises.length; i++) {
-                        if (excercises[i].className === musculeName) {
-                            excercises[i].style.display = "block";
-                            excercises[i].onmouseover = kach.showInfo;
-                            excercises[i].onmouseout = kach.hideInfo;
+                    for (var i = 0; i < excercises.childElementCount; i++) {
+                        if (excercisesList[i].className === musculeName) {
+                            excercisesList[i].style.display = "block";
+                            excercisesList[i].onmouseover = showInfo;
+                            //excercisesList[i].onmouseout = hideInfo;
                         }
-                        else {
-                            excercises[i].style.display = "none";
-                        }
-                        dragAndDrop.makeDraggable(excercises[i]);
+                        else
+                            excercisesList[i].style.display = "none";
+
+                        excercisesList[i].onmousedown = moveExcerciseStart;
                     }
                 }
             }
             ajax.send(null);
-        },
+        }
 
-        addExcersice: function (training, excercise) {
-            var complexity = parseInt(excercise.dataset["complexity"]);
+        function addExcersice(training, excercise) {
+            var complexity = 0;
 
             training.appendChild(excercise);
             localStorage.trainingProgramm = shedule.innerHTML;
 
-            if (training.dataset["complexity"] !== undefined)
+            if (training.dataset["complexity"] !== undefined) {
                 complexity += parseInt(training.dataset["complexity"]);
-
+            } else {
+                complexity = parseInt(excercise.dataset["complexity"]);
+            }
+                
             training.dataset.complexity = complexity;
 
             if (complexity > 0)
@@ -157,63 +147,58 @@ window.onload = function () {
                 training.classList.add("hard");
             if (complexity > 15)
                 training.classList.add("insane");
-        },
+        }
 
-        showInfo: function (e) {
+        function addTraining() {
+            var newTraining = document.createElement('ul');
+            newTraining.classList.add('training');
+            newTraining.classList.add('droppable');
+            newTraining.classList.add('new');
+            trainings.push(newTraining);
+            document.getElementsByClassName("trainings")[0].appendChild(newTraining);
+            setTimeout(function () { newTraining.classList.remove('new'); }, 100);
+        }
+
+        function showInfo(e) {
+            clearTimeout(timer);
             var html = this.innerHTML;
 
-            clearTimeout(kach.timer);
-            setTimeout(function () {
+            timer = setTimeout(function () {
                 info.innerHTML = html;
                 info.classList.add("opened");
             }, 200);
-        },
+        }
 
-        hideInfo: function (e) {
-            info__temp.innerHTML = info.innerHTML;
-            info__temp.classList.add("opened");
+        function hideInfo(e) {
+            info.nextElementSibling.innerHTML = info.innerHTML;
+            info.nextElementSibling.classList.add("opened");
             setTimeout(function () {
                 info.classList.remove("opened");
-                info__temp.classList.remove("opened");
+                info.nextElementSibling.classList.remove("opened");
             }, 200);
-        },
-
-        init: function () {
-            if (localStorage.trainingProgramm !== undefined) {
-                shedule.innerHTML = localStorage.trainingProgramm;
-            }
-
-            for (var i = 0; i < muscules.length; i++) {
-                muscules[i].onclick = this.showExcercises;
-            }
-
-            for (var i = 0; i < droppable.length; i++) {
-                dragAndDrop.addDropTarget(droppable[i]);
-            }
-
-            addTraining.onclick = function () {
-                var newTraining = document.createElement('ul');
-
-                newTraining.classList.add('training', 'droppable', 'new');
-                dragAndDrop.addDropTarget(newTraining);
-                trainings.appendChild(newTraining);
-                setTimeout(function () { newTraining.classList.remove('new'); }, 100);
-            };
         }
-    }
 
-    var info = document.getElementById("info"),
-        info__temp = document.getElementById("info__temp"),
-        droppable = document.getElementsByClassName('droppable'),
-        shedule = document.getElementById("shedule"),
-        trainings = document.getElementById("trainings"),
-        addTraining = document.getElementById("addTraining"),
-        muscules = document.getElementById("body").getElementsByTagName('g'),
-        excercises = document.getElementById("excercises").getElementsByTagName('li');
+        return {
+            init: function () {
+                document.onmousemove = moveExcercise;
+                document.onmouseup = moveExcerciseEnd;
 
-    dragAndDrop.init();
-    kach.init();
-    
+                /*if (localStorage.trainingProgramm !== undefined)
+                    shedule.innerHTML = localStorage.trainingProgramm;*/
+
+                for (var i = 0; i < muscules.length; i++)
+                    muscules[i].onclick = showExcercises;
+
+                for (var i = 0; i < droppable.length; i++)
+                    trainings.push(droppable[i]);
+
+                addTrainingButton.onclick = addTraining;
+            }
+        }
+
+    }());
+        
+    kachManager.init();
 }
 
 
