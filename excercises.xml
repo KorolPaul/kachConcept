@@ -90,31 +90,51 @@
                 <ol>
                     <li>Возмите штангу хватом чуть-чуть шире плеч;</li>
                     <li>Толкните штангу вверх, помогая себе ногами;</li>
-                    <li>Плавно опускайте штангу плеч</li>
+                    <li>Плавно опускайте штангу на плечи.</li>
                 </ol>
             </div>
         </li>
-        <li class="shoulder">
-            <span class="excercise-name">Разведение прямых рук с гантелями в положении стоя</span></li>
-        <li class="shoulder">
-            <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере (положение стоя)</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="5">
+            <span class="excercise-name">Разведение рук с гантелями</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/breeding-hands.jpg" alt="shoulder" />
+                <p>Упражнение для развития боковой головки дельтовидной мышцы с дополнительной нагрузкой для передней и задней головки дельтовидной мышцы.</p>
+                <ol>
+                    <li>Возьмите гантели, слегка наклонитесь вперед и вытяните опущенные руки перед собой. Каждое повторение начинайте с четкой остановки, чтобы не делать махов гантелями;</li>
+                    <li>Поднимите гантели вверх и в стороны, слегка повернув запястья так, чтобы задняя часть гантели была выше передней (чтобы перенести часть нагрузки на задние дельты);</li>
+                    <li>Поднимите гантели немного выше плеч, затем медленно и плавно опустите их вниз.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Частой ошибкой является раскачивание взад-вперед и махи гантелями вместо плавных движений, что резко снижает эффективность упражнения;</li>
+                    <li>При выполнении упражнения в положении стоя у вас может появиться склонность к "читтингу". Этого можно избежать в положении сидя.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="shoulder" data-complexity="6">
+            <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере</span>
+        </li>
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Отведение руки вбок на блочном тренажере</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере (положение сидя)</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Сведение рук с гантелями над головой</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Сведение-отведение рук на тренажерах</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Попеременные подъемы рук с гантелями</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Разведение рук с гантелями в наклоне сидя</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Разведение рук с гантелями в наклоне стоя</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Тяга к разноименному плечу в наклоне на блочном устройстве</span></li>
-        <li class="shoulder">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Поднимание прямой руки с гантелью от живота из положения лежа</span></li>
     </shoulder>
     <trapezium>
