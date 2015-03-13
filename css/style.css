@@ -61,18 +61,21 @@ li.temp {position: absolute;}
 .info img {max-width: 100%; max-height: 300px; margin: 0 auto 10px;}
 
 /*trainings*/
-.shedule {height: 25%; width: 100%; border: 1px solid #3a414e; position: fixed; left: 0; bottom: 0;}
-.trainings {display: table; height: 100%; float: left;}
-.training {width: 300px; display: table-cell; border-right: 1px solid #3a414e; transition: background-color .3s ease, width .6s ease-in-out;}
+.shedule {border: 1px solid #3a414e; position: fixed; left: 0; bottom: 0; top: 0; width: 400px;}
+.shedule_header {border-bottom: 1px solid #3a414e; padding: 10px; font-size: 30px;}
+.trainings {counter-reset: i 0;}
+.training {min-height: 200px; border-bottom: 1px solid #3a414e; transition: background-color .3s ease, min-height .6s ease-in-out; position: relative; counter-increment: i;}
+.training:after {content: counter(i); opacity: 1; transition: .3s opacity ease-in; position: absolute; z-index: 0; bottom: -15px; left: 0; font-size: 100px; color: #b1b0b0; text-align: center;}
 .training .sets {display: block;}
-.training.new {width: 0;}
+.training.new {min-height: 0;}
+.training.new:after {opacity: 0;}
 .training li {left: 0 !important; top: 0 !important;}
 .training li span {border-left-width: 0;border-right-width: 0; }
 
 
 
-#addTraining { position: absolute; transition: .3s all ease; margin: -23px 0 0 -22px; top: 50%; font-size: 30px; color: #fff; background: #027f49; padding: 1px 15px 3px; border-radius: 100%; cursor: pointer; }
-#addTraining:hover {opacity: .7;}
+.addTraining { position: absolute; transition: .3s all ease; margin: -23px 0 0 -22px; left: 50%; font-size: 30px; color: #fff; background: #027f49; padding: 1px 15px 3px; border-radius: 100%; cursor: pointer; }
+.addTraining:hover {opacity: .7;}
 
 .easy {background: #ccffd8;}
 .normal {background: #08e53c;}
