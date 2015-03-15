@@ -6,7 +6,7 @@ a { outline: none; color: #027f49; }
 a:hover { text-decoration: none; }
 img { border: none; display: block; }
 
-p { font-size: 13px; margin: 0 0 10px 0; }
+p { font-size: 15px; margin: 0 0 10px 0; }
 
 h1 { color: #027f49; font-size: 36px; font-weight: normal; margin: 0 0 25px 0; }
 h2 { color: #3a414e; font-size: 20px; font-weight: normal; line-height: 20px; }

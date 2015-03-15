@@ -122,7 +122,7 @@
                 <span contenteditable="true">12</span>
             </div>
             <div class="description">
-                <img src="img/excercises/shoulders/block-side.jpg" alt="shoulder" />
+                <img src="img/excercises/shoulders/block-side-shoulder.jpg" alt="shoulder" />
                 <p>В этом упражнении трос создает для ваших мышц постоянное сопротивление, что позволяет хорошо проработать боковую головку дельтовидной мышцы.</p>
                 <ol>
                     <li>Возьмите рукоятку и опустите рабочую руку вверх перед собой. Свободной рукой упритесь в бедро;</li>
@@ -131,131 +131,249 @@
                 <span>Особенности:</span>
                 <ul>
                     <li>Не помогайте себе, поднимая туловище: пользуйтесь дельтовидными мышцами;</li>
-                    <li>Альтернативный вариант движения: трос находится за спиной.</li>
+                    <li>Альтернативный вариант упражнения: трос находится за спиной.</li>
                 </ul>
             </div>
         </li>
         <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Отведение руки вбок на блочном тренажере</span></li>
+            <span class="excercise-name">Отведение руки вбок на блочном тренажере</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/block-side.jpg" alt="shoulder" />
+                <p>Данное упражнение поможет проработать боковую головку дельтовидной мышцы и сделать плечи более рельефными.</p>
+                <ol>
+                    <li>Опустите руку вдоль туловища и возьмитесь за рукоятку блочного устройства. Свободной руокй упритесь в бедро;</li>
+                    <li>Поднимите выпрямленную руку по дуге плавным движением чуть выше головы;</li>
+                    <li>Опустите руку на уровень бедра.</li>
+                </ol>
+            </div>
+        </li>
         <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере (положение сидя)</span></li>
+            <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере сидя</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/block-side-sit.jpg" alt="shoulder" />
+                <p>Изолирующее упражнение для задней дальты.</p>
+                <ol>
+                    <li>Сидя, возьмитесь за рукоятку блочного устройства так, чтобы ваша рука была полностью вытянута перед туловищем;</li>
+                    <li>Потяните рукоятку в сторону и вверх до уровеня плеча;</li>
+                    <li>В верхней точке напрягите плечо, для полного сокращения дельтовидной мышцы;</li>
+                    <li>Опустите руку в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="shoulder" data-complexity="7">
+            <span class="excercise-name">Подъемы рук с гантелями</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/shoulders-lift.jpg" alt="shoulder" />
+                <p>Упражнение для развитие передней головки дельтовидной мышцы, а также, трапециевидных мышц (в верхней трети движения).</p>
+                <ol>
+                    <li>Возмите гантели и опустите руки вдоль туловища. Прямой рукой поднимите одну гантель вверх по широкой дуге выше головы;</li>
+                    <li>Полностью контролируя движение, плавно опускайте гантель, одновременно поднимая другую. Вы должны поднимать гантели прямо перед собой.</li>
+                </ol>
+            </div>
+        </li>
         <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Сведение рук с гантелями над головой</span></li>
-        <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Сведение-отведение рук на тренажерах</span></li>
-        <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Попеременные подъемы рук с гантелями</span></li>
-        <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Разведение рук с гантелями в наклоне сидя</span></li>
-        <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Разведение рук с гантелями в наклоне стоя</span></li>
-        <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Тяга к разноименному плечу в наклоне на блочном устройстве</span></li>
-        <li class="shoulder" data-complexity="6">
-            <span class="excercise-name">Поднимание прямой руки с гантелью от живота из положения лежа</span></li>
+            <span class="excercise-name">Разведение рук с гантелями в наклоне</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/shoulders/back-shoulder.jpg" alt="shoulder" />
+                <p>Отличное изолирующее упражнение для проработки задней головки дельтовидной мышцы.</p>
+                <ol>
+                    <li>Наклонитесь вперед на 45 градусов, опустите руки с гантелями. Ладонями направлены друг к другу;</li>
+                    <li>Разведите руки в стороны, повернув запястья таким образом, чтобы большой палец находился ниже мизинца;</li>
+                    <li>Медленно опустите руки, преодолевая сопротивление.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Упражнения также можно выполнять сидя. Это позволит делать его с большей четкостью;</li>
+                    <li>Еще один вариант выполнения: на блочном устройстве.</li>
+                </ul>
+            </div>
+        </li>
     </shoulder>
     <trapezium>
-        <li class="trapezium" data-complexity="5">
+        <li class="trapezium" data-complexity="7">
             <span class="excercise-name">Высокая тяга штанги узким хватом</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
             <div class="description">
-                <img alt="" src="img/excercises/trapezium/1.jpg" />
-                <p>1. Возьмите штангу хватом сверху (расстояние между ладонями чуть меньше ширины плеч) и станьте ровно.</p>
-                <p>2. В исходной позиции спина выпрямлена и слегка прогнута в пояснице, грудь «колесом», плечи расправлены, руки выпрямлены в локтях, гриф штанги касается бедер.</p>
-                <p>3. Сделайте вдох и, задержав дыхание, напрягите трапеции и дельты. Разводя локти, потяните их вертикально вверх.</p>
-                <p>4. Движение «ведут» именно локти, а не плечи или предплечья.</p>
-                <p>5. Когда вы тянете локти вверх, гриф штанги должен скользить в вертикальной плоскости вдоль тела от бедер до подбородка. Не нависайте над грифом, выгибая спину дугой. Держите корпус и шею ровно, а подбородок — горизонтально.</p>
-                <P>6. В верхней точке локти подняты максимально вверх (однозначно выше плеч), а верхняя часть рук на 30° выше горизонтали.</P>
-                <p>7. Достигнув верхнюю точку, выдохните, сделайте паузу и еще сильнее напрягите трапеции и дельты.</p>
-                <p>8. Плавно опустите штангу в исходное положение.</p>
-                <P>9. Темп выполнения упражнения — подчеркнуто плавный.</P>
+                <img alt="trapezium" src="img/excercises/trapezium/high-lift.jpg" />
+                <p>Это упражнение хорошо развивает трапециевидные и передние дельтовидные мышцы.</p>
+                <ol>
+                    <li>Возмите штангу верхним хватом;</li>
+                    <li>Потяните штангу вверх, удерживая ее рядом с туловищем, до уровня чуть ниже подбородка. Спина при этом прямая, вместе со штангой поднимается весь плечевой пояс;</li>
+                    <li>Из верхней точки плавно опустите штангу.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Ширина хвата должна составлять 20-25 см;</li>
+                    <li>Для общего укрепления плечевого пояса можно выполнять разновидность этого упражнения с большим весом и широким хватом.</li>
+                </ul>
             </div>
         </li>
-        <li class="trapezium" data-complexity="5">
-            <span class="excercise-name">Поднимание плеч с гантелями ("шраги")</span>
-            <div class="sets">
-              <span contenteditable="true">3</span>x
-              <span contenteditable="true">8</span>
-            </div>
-            <div class="description">
-                <img alt="" src="img/excercises/trapezium/3.jpg" />
-                <p>1. Станьте прямо и возьмите в обе руки тяжелые гантели. Поставьте ступни чуть уже ширины плеч, выпрямите ноги в коленях, но не до предела (не до блокировки в коленных суставах).</p>
-                <P>2. Гантели свободно свисают на выпрямленных руках по бокам бедер. Немного подайте их вперед и слегка поверните ладони внутрь (к передней стороне бедер). Выпрямите торс, поднимите подбородок до горизонтального положения, расправьте грудь и отведите плечи назад. В исходном положении спина выпрямлена, слегка прогнута в пояснице, руки и дельты почти расслаблены, но не до конца, иначе плечи непроизвольно выдвинутся вперед и опустятся.</P>
-                <p>3. Сделайте вдох и, задержав дыхание, напрягите трапеции, поднимите плечи как можно выше. Поднимайте плечи строго вверх, не позволяйте им выдвигаться вперед и не сгибайте руки в локтях. Представьте, что руки — это канаты, к концам которых прикреплены гантели, и ваша задача поднять их исключительно усилием трапеций.</p>
-                <P>4. Подняв плечи максимально вверх, выдохните, еще сильнее напрягите трапеции и постарайтесь продержаться в этом положении пару секунд.</P>
-                <P>4. Плавно опустите плечи и вернитесь в исходную позицию.</P>
-                <p>6. В нижней точке сделайте короткую паузу, вдохните и приступайте к следующему повторению.</p>
-            </div>
-        </li>
-        <li class="trapezium" data-complexity="5">
+        <li class="trapezium" data-complexity="6">
             <span class="excercise-name">"Шраги" со штангой</span>
             <div class="sets">
-              <span contenteditable="true">3</span>x
-              <span contenteditable="true">8</span>
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">10</span>
             </div>
             <div class="description">
-                <img alt="" src="img/excercises/trapezium/3.jpg" />
-                <p>1. Поставьте ноги на ширине плеч и возьмитесь за штангу хватом сверху. Расстояние между ладонями чуть шире плеч.</p>
-                <p>2. Полностью выпрямитесь — расправьте грудь и плечи, слегка прогнитесь в пояснице, поднимите подбородок до параллели с полом. В исходном положении руки выпрямлены, спина находится в вертикальной плоскости, изгиб позвоночника естественный, S-бразный, а взгляд направлен строго вперед.</p>
-                <p>3. Сделайте вдох и, задержав дыхание, напрягите трапеции, потяните плечи вверх, по направлению к ушам. Представьте, что вы просто пожимаете плечами, когда вас спрашивают о чем-то, о чем вы не имеете ни малейшего представления.</p>
-                <p>4. Не сгибайте руки, не наклоняйте торс и не приседайте. Ваша задача — поднять плечи в вертикальной плоскости как можно выше, сохраняя при этом все остальные части неподвижными.</p>
-                <P>5. Подняв плечи максимально вверх, выдохните и на 1-2 секунды постарайтесь удержать плечи в этом положении.</P>
-                <p>6. Плавно опустите плечи в исходное положение.</p>
-            </div>    
+                <img alt="trapezium" src="img/excercises/trapezium/shrags.jpg" />
+                <p>Шраги - основное упражнение лоя развития плотности и массивности трапециевидных мышц. Выполняется с очень тяжелыми весами.</p>
+                <ol>
+                    <li>Возмите штангу верхним хватом и держите ее перед собой;</li>
+                    <li>Поднимите плечи максимально высоко и задержитесь на секунду в верхней точке;</li>
+                    <li>Вернитесь в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="trapezium" data-complexity="6">
+            <span class="excercise-name">"Шраги" с гантелями</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img alt="" src="img/excercises/trapezium/shrags-dumbbells.jpg" />
+                <p>Шраги - основное упражнение лоя развития плотности и массивности трапециевидных мышц. Выполняется с очень тяжелыми весами.</p>
+                <ol>
+                    <li>Возмите в руки гантели и встаньте прямо;</li>
+                    <li>Поднимите плечи максимально высоко и задержитесь на секунду в верхней точке;</li>
+                    <li>Вернитесь в исходное положение.</li>
+                </ol>
+            </div>
         </li>
     </trapezium>
     <chest>
-        <li class="chest">
-            <span class="excercise-name">Жим штанги на горизонтальной скамье</span></li>
-        <li class="chest">
-            <span class="excercise-name">Жим штанги на наклонной скамье</span></li>
-        <li class="chest">
-            <span class="excercise-name">Жимы гантелей на горизонтальной скамье</span></li>
-        <li class="chest">
+        <li class="chest" data-complexity="8">
+            <span class="excercise-name">Жим штанги лежа</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">10</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/bench-press.jpeg" alt="" />
+                <p>Базовое упражнение, позволяющее значительно развить силу и массу грудных мышц, а теже передних дельтоидов и трицепсов.</p>
+                <ol>
+                    <li>Лягте спиной на скамью и упритесь ногами в пол. Возмите штангу средним хватом и снимите ее со стоек;</li>
+                    <li>Плавно опустите штангу до касания туловища чуть ниже груди;</li>
+                    <li>В нижней точке ненадолго зафиксируйте штангу, затем снова поднимите ее до полного выпрямления рук.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="chest" data-complexity="8">
+            <span class="excercise-name">Жим штанги на наклонной скамье</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/incle-bench-press.jpeg" alt="" />
+                <p>Помогает развить силу и массу среднего и верхнего отдела грудных машц, а также передних дельтоидов. При таком угле движения часть нагрузки переходит к верхним грудным мышцам и дельтоидам.</p>
+                <ol>
+                    <li>Лягте спиной на наклонную скамью и упритесь ногами в пол. Возмите штангу средним хватом и снимите ее со стоек;</li>
+                    <li>Плавно опустите штангу до касания груди;</li>
+                    <li>В нижней точке ненадолго зафиксируйте штангу, затем снова поднимите ее до полного выпрямления рук.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="chest" data-complexity="8">
+            <span class="excercise-name">Жимы гантелей на горизонтальной скамье</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/bench-dumbbels.jpg" alt="" />
+                <p>Упражнения для развития массы и силы среднего и нижнего отдела грудных мышц. Гантели позволяют работать с большим диапазоном движения, чем штанга. Также в работу активнее включаются стабилизирующие мышцы.</p>
+                <ol>
+                    <li>Возмите гантели, лягте на скамью и упритесь ногами в пол, либо поставте их на скамью. Запястья должны быть повернуты ладонями вперед;</li>
+                    <li>Опустите гантели по обе стороны от груди, стараясь полностью контролировать ход их движения;</li>
+                    <li>В нижней точке вы должны ощутить, как растягиваются грудные мышцы, затем выжмите гантели вверх.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="chest" data-complexity="8">
             <span class="excercise-name">Жимы гантелей на наклонной скамье</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/incle-bench-dumbbels.jpg" alt="" />
+                <p>Упражнения для развития массы и силы среднего и верхнего отдела грудных мышц.</p>
+                <ol>
+                    <li>Возмите гантели и лягте на скамью. Гантели держите на уровне плеч, ладони направьте вверх;</li>
+                    <li>Поднимите гантели над головой, затем опустите их в исходное положение.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Угол наклона скамьи может быть разным. Чем он больше, больше нагрузки для дельтовидных мышц;</li>
+                    <li>Также можно выполнять начало движения с ладонями, повернутыми друг к другу, а во время жима поворачивать запястья так, чтобы ладони смотрели вверх.</li>
+                </ul>
+            </div>
         </li>
-        <li class="chest">
-            <span class="excercise-name">Жимы гантелей на скамье с обратным наклоном</span></li>
-        <li class="chest">
-            <span class="excercise-name">Отжимание на брусьях</span></li>
-        <li class="chest">
-            <span class="excercise-name">Жимы на тренажере</span></li>
-        <li class="chest">
-            <span class="excercise-name">Сведение-разведение рук с гантелями</span></li>
-        <li class="chest">
-            <span class="excercise-name">Сведение-разведение рук с гантелями на наклонной скамье</span></li>
-        <li class="chest">
-            <span class="excercise-name">Сведение рук на верхнем блоке (положение стоя)</span></li>
-        <li class="chest">
-            <span class="excercise-name">Сведение рук на нижнем блоке с наклоном вперед</span>
+        <li class="chest" data-complexity="6">
+            <span class="excercise-name">Отжимание на брусьях</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/dips.jpg" alt="" />
+                <p>Базовое упражнения для развития грудных мышц и трицепсов. Его эффект схож с эфектом от жима на скамье с обратным наклоном, однако оно позволяет выполнять движение с большим диапазоном.</p>
+                <ol>
+                    <li>Обопритесь на брусьях на вытянутых руках;</li>
+                    <li>Медленно опуститесь вниз настолько, насколько сможете;</li>
+                    <li>Затем отожмитесь от брусьев. В верхней точке на несколько секунд напрягите грудь и трицепсы.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Чем больше вы наклоняетесь вперед, тем больше нагрузки переходит на грудные мышцы, поэтому вы время выполнения упражнения скрещивайте ноги за ягодицами.</li>
+                </ul>
+            </div>
         </li>
-        <li class="chest">
-            <span class="excercise-name">Сведение рук на нижнем блоке (положение лежа)</span></li>
-        <li class="chest">
-            <span class="excercise-name">Сведение рук на тренажере "пек-дек"</span></li>
-        <li class="chest">
-            <span class="excercise-name">Пуллоуверы с гантелью на прямых руках</span></li>
-        <li class="chest">
-            <span class="excercise-name">Тяга к полу на верхнем блоке</span></li>
-        <li class="chest">
-            <span class="excercise-name">Тяга к полу на верхнем блоке одной рукой</span></li>
-        <li class="chest">
-            <span class="excercise-name">Пуллоуверы на тренажере</span></li>
-        <li class="chest">
-            <span class="excercise-name">Подтягивание на скобах-адаптерах узким хватом</span></li>
-        <li class="chest">
-            <span class="excercise-name">Боковое сгибание туловища на перекладине</span></li>
-        <li class="chest">
-            <span class="excercise-name">Тяга гантелей вниз головой на перекладине</span></li>
+        <li class="chest" data-complexity="6">
+            <span class="excercise-name">Сведение-разведение рук с гантелями</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+        </li>
+        <li class="chest" data-complexity="6">
+            <span class="excercise-name">Сведение рук на верхнем блоке (положение стоя)</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+        </li>
+        <li class="chest" data-complexity="6">
+            <span class="excercise-name">Пуллоуверы с гантелью на прямых руках</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+        </li>
     </chest>
     <biceps>
         <li class="biceps">
             <span class="excercise-name">Сгибание рук со штангой стоя</span></li>
-        <li class="biceps">
-            <span class="excercise-name">Сгибание рук с "читтингом"</span></li>
         <li class="biceps">
             <span class="excercise-name">Сгибание рук со штангой на изолирующей скамье</span></li>
         <li class="biceps">
@@ -268,23 +386,13 @@
         <li class="biceps">
             <span class="excercise-name">Сгибание рук с гантелями вдоль ("молоток")</span></li>
         <li class="biceps">
-            <span class="excercise-name">Попеременное сгибание рук с гантелями</span></li>
-        <li class="biceps">
             <span class="excercise-name">Сгибание руки с гантелью к разноименному плечу ("сосредоточенное сгибание")</span></li>
         <li class="biceps">
             <span class="excercise-name">Сгибание рук с гантелями на горизонтальной скамье</span></li>
         <li class="biceps">
             <span class="excercise-name">Сгибание рук с перекладиной на нижнем блоке</span></li>
         <li class="biceps">
-            <span class="excercise-name">Сгибание рук с перекладиной на изолирующей скамье (на выбор)</span></li>
-        <li class="biceps">
             <span class="excercise-name">Сгибание рук со штангой обратным хватом</span></li>
-        <li class="biceps">
-            <span class="excercise-name">Сгибание обратным хватом на изолирующей скамье</span></li>
-        <li class="biceps">
-            <span class="excercise-name">Тренажеры для бицепсов</span></li>
-        <li class="biceps">
-            <span class="excercise-name">Сгибание рук на тренажере</span></li>
     </biceps>
     <triceps>
         <li class="triceps">
@@ -299,8 +407,6 @@
             <span class="excercise-name">Трицепсовые экстензии (французский жим) лежа</span></li>
         <li class="triceps">
             <span class="excercise-name">Пуллоуверы с гантелями</span></li>
-        <li class="triceps">
-            <span class="excercise-name">Трицепсовые экстензии с гантелью одной рукой (на выбор)</span></li>
         <li class="triceps">
             <span class="excercise-name">Отведение назад руки с гантелью в наклоне</span></li>
         <li class="triceps">
@@ -319,18 +425,6 @@
             <span class="excercise-name">Сгибание запястья с гантелью</span></li>
         <li class="arm">
             <span class="excercise-name">Сгибание запястий со штангой за спиной</span></li>
-        <li class="arm">
-            <span class="excercise-name">Обратное сгибание запястий со штангой (сидя или на изолирующей скамье)</span></li>
-        <li class="arm">
-            <span class="excercise-name">Обратное сгибание запястий с гантелями</span></li>
-        <li class="arm">
-            <span class="excercise-name">Обратное сгибание запястий со штангой (стоя)</span></li>
-        <li class="arm">
-            <span class="excercise-name">Обратное сгибание запястий со штангой на изолирующей скамье (вариант)</span></li>
-        <li class="arm">
-            <span class="excercise-name">Обратное сгибание запястий на тренажере</span></li>
-        <li class="arm">
-            <span class="excercise-name">Обратное сгибание одной рукой на нижнем блоке</span></li>
     </arm>
     <press>
         <li class="press">
@@ -340,48 +434,19 @@
         <li class="press">
             <span class="excercise-name">Сгибание туловища со скручиванием</span></li>
         <li class="press">
-            <span class="excercise-name">Обратное сгибание туловища</span></li>
-        <li class="press">
             <span class="excercise-name">Обратное сгибание туловища на перекладине</span></li>
         <li class="press">
             <span class="excercise-name">Группировка на вертикальной скамье</span></li>
         <li class="press">
             <span class="excercise-name">Сгибание туловища на верхнем блоке</span></li>
         <li class="press">
-            <span class="excercise-name">Сгибание туловища на тренажере</span></li>
-        <li class="press">
             <span class="excercise-name">Группировка на горизонтальной скамье</span></li>
         <li class="press">
             <span class="excercise-name">Повороты туловища в положении сидя</span></li>
         <li class="press">
-            <span class="excercise-name">Наклоны стоя с поворотом туловища</span></li>
-        <li class="press">
             <span class="excercise-name">Подъемы ног</span></li>
         <li class="press">
-            <span class="excercise-name">Подъемы ног на горизонтальной скамье</span></li>
-        <li class="press">
-            <span class="excercise-name">Подъемы ног с согнутыми коленями на горизонтальной скамье</span></li>
-        <li class="press">
-            <span class="excercise-name">Подъемы ног с согнутыми коленями на наклонной скамье</span></li>
-        <li class="press">
-            <span class="excercise-name">Подъемы ног с согнутыми коленями на вертикальной скамье</span></li>
-        <li class="press">
             <span class="excercise-name">Подъемы ног на перекладине</span></li>
-        <li class="press">
-            <span class="excercise-name">Подъемы ног на перекладине с поворотом туловища</span>
-        </li>
-        <li class="press">
-            <span class="excercise-name">Дополнительные варианты подъема ног</span></li>
-        <li class="press">
-            <span class="excercise-name">Боковые подъемы ног</span></li>
-        <li class="press">
-            <span class="excercise-name">Боковые подъемы ног с согнутыми коленями</span></li>
-        <li class="press">
-            <span class="excercise-name">Махи ногами на боку</span></li>
-        <li class="press">
-            <span class="excercise-name">Задние подъемы ног на скамье</span></li>
-        <li class="press">
-            <span class="excercise-name">"Ножницы" на животе</span></li>
         <li class="press">
             <span class="excercise-name">Втягивание живота ("вакуум")</span></li>
     </press>
@@ -391,28 +456,25 @@
         <li class="quadriceps">
             <span class="excercise-name">Тяжелые приседы</span></li>
         <li class="quadriceps">
-            <span class="excercise-name">Полуприседы</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Машинные приседы</span></li>
-        <li class="quadriceps">
             <span class="excercise-name">Приседания со штангой перекрестным хватом</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Сисси-приседы</span></li>
         <li class="quadriceps">
             <span class="excercise-name">Жимы ногами</span></li>
         <li class="quadriceps">
-            <span class="excercise-name">Варианты жимов ногами</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Приседания на гакк-машине</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Выпады со штангой</span></li>
+            <span class="excercise-name">Выпады</span></li>
         <li class="quadriceps">
             <span class="excercise-name">Выпрямление ног на тренажере</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Сгибание ног на тренажере в положении лежа</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Сгибание ног на тренажере в положении стоя</span></li>
-        <li class="quadriceps">
-            <span class="excercise-name">Становая тяга штанги с прямыми ногами</span></li>
     </quadriceps>
+    <hamstrings>
+        <li class="hamstrings">
+            <span class="excercise-name">Сгибание ног на тренажере</span>
+        </li>
+        <li class="hamstrings">
+            <span class="excercise-name">Становая тяга штанги с прямыми ногами</span>
+        </li>
+    </hamstrings>
+    <butt>
+        <li class="butt">
+            <span class="excercise-name">Задние подъемы ног</span>
+        </li>
+    </butt>
 </excersises>
