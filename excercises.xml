@@ -250,7 +250,7 @@
                 <span contenteditable="true">12</span>
             </div>
             <div class="description">
-                <img alt="" src="img/excercises/trapezium/shrags-dumbbells.jpg" />
+                <img alt="trapezium" src="img/excercises/trapezium/shrags-dumbbells.jpg" />
                 <p>Шраги - основное упражнение лоя развития плотности и массивности трапециевидных мышц. Выполняется с очень тяжелыми весами.</p>
                 <ol>
                     <li>Возмите в руки гантели и встаньте прямо;</li>
@@ -268,7 +268,7 @@
                 <span contenteditable="true">10</span>
             </div>
             <div class="description">
-                <img src="img/excercises/chest/bench-press.jpeg" alt="" />
+                <img src="img/excercises/chest/bench-press.jpeg" alt="chest" />
                 <p>Базовое упражнение, позволяющее значительно развить силу и массу грудных мышц, а теже передних дельтоидов и трицепсов.</p>
                 <ol>
                     <li>Лягте спиной на скамью и упритесь ногами в пол. Возмите штангу средним хватом и снимите ее со стоек;</li>
@@ -284,7 +284,7 @@
                 <span contenteditable="true">8</span>
             </div>
             <div class="description">
-                <img src="img/excercises/chest/incle-bench-press.jpeg" alt="" />
+                <img src="img/excercises/chest/incle-bench-press.jpeg" alt="chest" />
                 <p>Помогает развить силу и массу среднего и верхнего отдела грудных машц, а также передних дельтоидов. При таком угле движения часть нагрузки переходит к верхним грудным мышцам и дельтоидам.</p>
                 <ol>
                     <li>Лягте спиной на наклонную скамью и упритесь ногами в пол. Возмите штангу средним хватом и снимите ее со стоек;</li>
@@ -300,7 +300,7 @@
                 <span contenteditable="true">8</span>
             </div>
             <div class="description">
-                <img src="img/excercises/chest/bench-dumbbels.jpg" alt="" />
+                <img src="img/excercises/chest/bench-dumbbels.jpg" alt="chest" />
                 <p>Упражнения для развития массы и силы среднего и нижнего отдела грудных мышц. Гантели позволяют работать с большим диапазоном движения, чем штанга. Также в работу активнее включаются стабилизирующие мышцы.</p>
                 <ol>
                     <li>Возмите гантели, лягте на скамью и упритесь ногами в пол, либо поставте их на скамью. Запястья должны быть повернуты ладонями вперед;</li>
@@ -316,7 +316,7 @@
                 <span contenteditable="true">8</span>
             </div>
             <div class="description">
-                <img src="img/excercises/chest/incle-bench-dumbbels.jpg" alt="" />
+                <img src="img/excercises/chest/incle-bench-dumbbels.jpg" alt="chest" />
                 <p>Упражнения для развития массы и силы среднего и верхнего отдела грудных мышц.</p>
                 <ol>
                     <li>Возмите гантели и лягте на скамью. Гантели держите на уровне плеч, ладони направьте вверх;</li>
@@ -336,8 +336,9 @@
                 <span contenteditable="true">12</span>
             </div>
             <div class="description">
-                <img src="img/excercises/chest/dips.jpg" alt="" />
+                <img src="img/excercises/chest/dips.jpg" alt="chest" />
                 <p>Базовое упражнения для развития грудных мышц и трицепсов. Его эффект схож с эфектом от жима на скамье с обратным наклоном, однако оно позволяет выполнять движение с большим диапазоном.</p>
+                <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
                 <ol>
                     <li>Обопритесь на брусьях на вытянутых руках;</li>
                     <li>Медленно опуститесь вниз настолько, насколько сможете;</li>
@@ -353,127 +354,180 @@
             <span class="excercise-name">Сведение-разведение рук с гантелями</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/breeding-dumbbels.jpg" alt="chest" />
+                <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
+                <ol>
+                    <li>Возмите гантели и лягте на скамью. Гантели поднимите над грудью, руки слегка согнуты в локтях;</li>
+                    <li>Разведите гантели в стороны до уровня плеч или чуть ниже и максимально напрягите мышцы груди. Угол в локтевом суставе не меняется во время всего движения;</li>
+                    <li>Сведите руки вместе.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Используйте скамью с разными углами наклона для распределения нагрузки по всей поверхности грудных;</li>
+                    <li>Веса в этом упражнении не должны быть слишком большими. Большой вас заставит вас сгибать руки в локтевом суставе и опускать локти значительно ниже уровня плеч, что повредит технике и повысит травмоопасность;</li>
+                    <li>Ни в коем случае не выполняйте упражнение с прямыми руками: это прямой путь к травме. Оптимаьлный угол в суставе должен быть неизменным и составлять около 150 градусов.</li>
+                </ul>
             </div>
         </li>
-        <li class="chest" data-complexity="6">
-            <span class="excercise-name">Сведение рук на верхнем блоке (положение стоя)</span>
+        <li class="chest" data-complexity="7">
+            <span class="excercise-name">Сведение рук на верхнем блоке стоя</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/chest/mix-hands-block.jpg" alt="chest" />
+                <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
+                <ol>
+                    <li>Возмите рукоятки в руки, сведите руки перед собой, немного наклонитесь вперед;</li>
+                    <li>Немного согнув руки в локтях начните разводить руки по сторонам, пока не почувствуете растяжение в грудных мышцах. Торс при этом должен быть неподвижным, а руки - работать только в плечевых суставах;</li>
+                    <li>Сведите руки вместе.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="chest" data-complexity="3">
+            <span class="excercise-name">Пуллоуверы</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
-        </li>
-        <li class="chest" data-complexity="6">
-            <span class="excercise-name">Пуллоуверы с гантелью на прямых руках</span>
-            <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+            <div class="description">
+                <img src="img/excercises/chest/pullover.jpg" alt="chest" />
+                <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
+                <ol>
+                    <li>Лягте поперек прямой скамьи. Возьмите гантель, блин от штанги или другой груз и держите его над грудью. Слегка согните руки в локтях;</li>
+                    <li>Медленно опустите груз за голову, пока не почувствуете натяжение в грудных мышцах;</li>
+                    <li>Плавно поднимите груз обратно.</li>
+                </ol>
             </div>
         </li>
     </chest>
     <biceps>
-        <li class="biceps">
-            <span class="excercise-name">Сгибание рук со штангой стоя</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
+            <span class="excercise-name">Сгибание рук со штангой стоя</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/biceps/burbell-curl.jpg" alt="biceps" />
+                <p>Базовое и самое эффективное упрежнение для наращивания массы бицепсов.</p>
+                <ol>
+                    <li>Возмите штангу средним хватом и держите перед собой на вытянутых руках;</li>
+                    <li>Сгибая руки в локтях, поднимите штангу на уровень груди. При этом локти должны оставаться на месте, прижатыми к туловищу;</li>
+                    <li>Плавно опустите штангу вниз.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Не раскачивайтесь во время выполнения движений. Работать должны только бицепсы;</li>
+                    <li>В верхней точке не поднимайте штангу выше груди с помощью локтей, чтобы не смещать нагрузку с бицепсов. Ваши плечи должны оставаться на месте;</li>
+                    <li>В нижней точке не отбивайте штангу от бедер. Делайте полную остановку, прежде чем сделать очередной повтор.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук со штангой на изолирующей скамье</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибания на три счета ("21")</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук с гантелями на наклонной скамье</span>
         </li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук с гантелями сидя</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук с гантелями вдоль ("молоток")</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание руки с гантелью к разноименному плечу ("сосредоточенное сгибание")</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук с гантелями на горизонтальной скамье</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук с перекладиной на нижнем блоке</span></li>
-        <li class="biceps">
+        <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук со штангой обратным хватом</span></li>
     </biceps>
     <triceps>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Трицепсовые жимы вниз на верхнем блоке (или на тренажере для латеральных мышц)</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Жимы одной рукой на блоке обратным хватом</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Трицепсовый жим (французский жим) сидя</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Трицепсовый жим стоя</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Трицепсовые экстензии (французский жим) лежа</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Пуллоуверы с гантелями</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Отведение назад руки с гантелью в наклоне</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Разгибание руки с гантелью из-за головы</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Отжимание на брусьях</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Отжимания на параллельных скамьях</span></li>
-        <li class="triceps">
+        <li class="triceps" data-complexity="6">
             <span class="excercise-name">Экстензии для трицепсов на неподвижной перекладине</span></li>
     </triceps>
     <arm>
-        <li class="arm">
+        <li class="arm" data-complexity="6">
             <span class="excercise-name">Сгибание-разгибание запястий со штангой</span></li>
-        <li class="arm">
+        <li class="arm" data-complexity="6">
             <span class="excercise-name">Сгибание запястья с гантелью</span></li>
-        <li class="arm">
+        <li class="arm" data-complexity="6">
             <span class="excercise-name">Сгибание запястий со штангой за спиной</span></li>
     </arm>
     <press>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Сгибание туловища на римской скамье</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Сгибание туловища</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Сгибание туловища со скручиванием</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Обратное сгибание туловища на перекладине</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Группировка на вертикальной скамье</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Сгибание туловища на верхнем блоке</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Группировка на горизонтальной скамье</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Повороты туловища в положении сидя</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Подъемы ног</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Подъемы ног на перекладине</span></li>
-        <li class="press">
+        <li class="press" data-complexity="6">
             <span class="excercise-name">Втягивание живота ("вакуум")</span></li>
     </press>
     <quadriceps>
-        <li class="quadriceps">
+        <li class="quadriceps" data-complexity="6">
             <span class="excercise-name">Приседания со штангой</span></li>
-        <li class="quadriceps">
+        <li class="quadriceps" data-complexity="6">
             <span class="excercise-name">Тяжелые приседы</span></li>
-        <li class="quadriceps">
+        <li class="quadriceps" data-complexity="6">
             <span class="excercise-name">Приседания со штангой перекрестным хватом</span></li>
-        <li class="quadriceps">
+        <li class="quadriceps" data-complexity="6">
             <span class="excercise-name">Жимы ногами</span></li>
-        <li class="quadriceps">
+        <li class="quadriceps" data-complexity="6">
             <span class="excercise-name">Выпады</span></li>
-        <li class="quadriceps">
+        <li class="quadriceps" data-complexity="6">
             <span class="excercise-name">Выпрямление ног на тренажере</span></li>
     </quadriceps>
     <hamstrings>
-        <li class="hamstrings">
+        <li class="hamstrings" data-complexity="6">
             <span class="excercise-name">Сгибание ног на тренажере</span>
         </li>
-        <li class="hamstrings">
+        <li class="hamstrings" data-complexity="6">
             <span class="excercise-name">Становая тяга штанги с прямыми ногами</span>
         </li>
     </hamstrings>
     <butt>
-        <li class="butt">
+        <li class="butt" data-complexity="6">
             <span class="excercise-name">Задние подъемы ног</span>
         </li>
     </butt>
