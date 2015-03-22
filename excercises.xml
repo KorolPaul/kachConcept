@@ -676,42 +676,271 @@
         </li>
     </arm>
     <press>
+        <li class="press" data-complexity="5">
+            <span class="excercise-name">Сгибание туловища на наклонной</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/bending-body-incle.jpg" alt="press" />
+                <p>Упражнение для развитие верхней части прямых мышц живота.</p>
+                <ol>
+                    <li>Сядьте на скамью, зафиксируйте ноги под опорой и сложите скрещенные руки на груди;</li>
+                    <li>Опустите туловище вниз до уровня чуть выше параллели с полом, а затем подинмите его вверх.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>В верхней точке не наклоняйтесь вперед, чтобы не дать мышцам живота расслабиться;</li>
+                    <li>Упражнение можно выполнять с дополнительным отягощением на груди.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="press" data-complexity="5">
+            <span class="excercise-name">Сгибание туловища</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/trunk-flexion.jpg" alt="press" />
+                <p>Упражнение для развитие верхней части брюшного пресса и косых мышц живота.</p>
+                <ol>
+                    <li>Лягте на пол и забросьте ноги на скамью, чтобы бедра ваши были примерно перпендикулярны полу;</li>
+                    <li>Поднимите туловище по направлению к коленям. Не отрывать всю спину от пола, просто наклонитесь вперед, почувствовав напряжение в мышцах живота;</li>
+                    <li>В верхней точке напрягите мышцы брюшного пресса на секунду и опустите туловище вниз.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="press" data-complexity="5">
+            <span class="excercise-name">Скручивания</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/twisting.jpg" alt="press" />
+                <p>Упражнение для развитие верхней части прямых мышц живота.</p>
+                <ol>
+                    <li>Лягте на пол и забросьте ноги на скамью, чтобы бедра ваши были примерно перпендикулярны полу (либо сядьте на наклонную скамью);</li>
+                    <li>Поднимите туловище по направлению к коленям, при этом поворачиваясь набок и пытаясь дотянутся локтем до противоположной ноги;</li>
+                    <li>Опуститесь вниз и сделайте движение, повернувшись в другую сторону.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="press" data-complexity="7">
+            <span class="excercise-name">Подъем ног на перекладине</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">15</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/rise-legs-crossbar.jpg" alt="press" />
+                <p>Развитие приемущественно нижнего отдела прямых мышц живота.</p>
+                <ol>
+                    <li>Повиснув на перекладине, поднимите колени до уровня живота, а затем до уровня подбородка, выгнув спину (вариант 1);</li>
+                    <li>Поднимите прямые ноги как можно выше. В идеале вы должны дотронутся до перекладины (вариант 2);</li>
+                    <li>В верхней точке напрягите на секунду мышци пресса и опустите ноги в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
         <li class="press" data-complexity="6">
-            <span class="excercise-name">Сгибание туловища на римской скамье</span></li>
+            <span class="excercise-name">Подъем ног в упоре</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">15</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/rise-legs-vertical-bench.jpg" alt="press" />
+                <p>Упражнение  для развития приемущественно нижнего отдела прямых мышц живота. Альтернатива подъемам ног к перекладине.</p>
+                <ol>
+                    <li>Заняв исходное положение на вертикальной скамье с опорой для локтей, поднимите колени, пытаясь дотянуться до подбородка (вариант 1);</li>
+                    <li>Поднимите выпрямленные ноги, пока бедра не бедут пораллельны полу (вариант 2);</li>
+                    <li>В верхней точке напрягите на секунду мышци пресса и опустите ноги в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
         <li class="press" data-complexity="6">
-            <span class="excercise-name">Сгибание туловища</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Сгибание туловища со скручиванием</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Обратное сгибание туловища на перекладине</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Группировка на вертикальной скамье</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Сгибание туловища на верхнем блоке</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Группировка на горизонтальной скамье</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Повороты туловища в положении сидя</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Подъемы ног</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Подъемы ног на перекладине</span></li>
-        <li class="press" data-complexity="6">
-            <span class="excercise-name">Втягивание живота ("вакуум")</span></li>
+            <span class="excercise-name">Сгибание туловища на верхнем блоке</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">15</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/flexion-trunk-block.jpg" alt="press" />
+                <p>Развитие верхнего и нижнего отделов прямых мышц живота.</p>
+                <ol>
+                    <li>Прикрепите к верхнему блоку веревку, возьмитесь за нее и встаньте на колени;</li>
+                    <li>Держа веревку перед собой, опустите туловище вперед и вниз, выгибая спину. Тяните веревку мышцами живота, но не руками;</li>
+                    <li>В нижней точке напрягите на секунду мышци пресса и поднимитесь в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="press" data-complexity="5">
+            <span class="excercise-name">Группировка на горизонтальной скамье</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/grouping-horizontal-bar.jpg" alt="press" />
+                <p>Развитие верхнего и нижнего отделов прямых мышц живота. В остальных упражнениях для пресса грудная клетка сближается с тазом или наоборот. Здесь же оба эти движения выполняются одновременно.</p>
+                <ol>
+                    <li>Сядьте на скамью скраю, отклонитесь назад под углом примерно 45° и вытяните ноги вперед;</li>
+                    <li>Согните туловище вперед, одновременно поднимая колени к подбородку;</li>
+                    <li>Вернитесь в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="press" data-complexity="1">
+            <span class="excercise-name">Повороты туловища</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/turns-torso.jpg" alt="press" />
+                <p>Упражнение для уплотнения косых мышц живота. Оно выполняется без отягощения, поэтому не увеличивает объем косых мышц, а помогает его уплотнить.</p>
+                <ol>
+                    <li>Положите на плечи за голову длинную палку или легкий металлический стержень и возьмитесь за его концы;</li>
+                    <li>Удерживая голову неподвижной, медленно поверните туловище максимально далеко;</li>
+                    <li>На секунду задержитесь в крайней точке медленно вернитесь в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="press" data-complexity="5">
+            <span class="excercise-name">Подъемы ног</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/leg-raises.jpg" alt="press" />
+                <p>Развитие нижнего отдела брюшного пресса.</p>
+                <ol>
+                    <li>Лягте на скамью, либо на пол и вытяните ноги вперед;</li>
+                    <li>Поднимите прямые ноги вверх, а затем опустите их вниз.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="press" data-complexity="2">
+            <span class="excercise-name">Втягивание живота ("вакуум")</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">30</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/press/vacum.jpg" alt="press" />
+                <p>Это упражнение для развития внутренних мышц живота поможет сделать живот подтянутым.</p>
+                <ol>
+                    <li>Напрягая мышцы пресса, втяните живот так сильно, как только сможете и удерживайте его таким как можно дольше;</li>
+                    <li>Расслабьте живот, пердохните и повторите упражнение.</li>
+                </ol>
+            </div>
+        </li>
     </press>
     <quadriceps>
+        <li class="quadriceps" data-complexity="10">
+            <span class="excercise-name">Приседания со штангой</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/quadriceps/squats.jpg" alt="quadriceps" />
+                <p>Приседания со штангой на плечах являются базовым упражнением в бодибилдинге и пауэрлифтинге для развития бедер и ягодиц. Они считаются не только одним из главных силовых упражнений, но также используется в качестве вспомогательногых практически во всех видах спорта.</p>
+                <ol>
+                    <li>Подойдите к стойке, положите штангу на плечи, выпрямитесь и сделайте шаг или два назад;</li>
+                    <li>Согните ноги в коленях и опускайтесь вниз, пока ваши бедра не окажутся параллельными полу или чуть ниже. Держите спину прямо. Голова должны быть поднята, а взгляд - быть направленным вперед;</li>
+                    <li>Медленно вернитесь в исходное положение.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>На протяжении всего упражнения ступни должны твердо стоять на полу;</li>
+                    <li>Пока вы еще работаете с небольшими весами, важно опускаться ниже параллельной линии. Так вы будете развивать силу по всему диапазону движения и избежите травм впоследствии, при работе с более тяжелымм весами;</li>
+                    <li>От начала и до самого конца упражнения держите спину немного прогнутой в пояснице. Это поможет вам сохранить здоровую спину;</li>
+                    <li>Широкая постановке ног лучше проработать внутреннюю часть бедер, а узкая - внешней.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="quadriceps" data-complexity="9">
+            <span class="excercise-name">Полуприседы</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">8</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/quadriceps/half-squats.jpg" alt="quadriceps" />
+                <p>За счет работы с более тяжелым веслм, это упражнение помогает развить дополнительную массу и силу бедер.</p>
+                <ol>
+                    <li>Подойдите к стойке, положите штангу на плечи, выпрямитесь и сделайте шаг или два назад;</li>
+                    <li>Согните ноги в коленях и присядьте наполовину;</li>
+                    <li>Медленно вернитесь в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="quadriceps" data-complexity="9">
+            <span class="excercise-name">Приседания со штангой на груди</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/quadriceps/squats-chest.jpg" alt="quadriceps" />
+                <p>По сравнению с классическими приседаниями, это упражнение позволяет акцентировать нагрузку на квадрицепсах и снимает часть нагрузки со спины.</p>
+                <ol>
+                    <li>Подойдите к стойке, заведите плечи под гриф штанги, скрестите руки, возьмитесь за гриф и снимите штангу со стоек. Удерживайте локти в поднятом положении, тем самым, удерживая штангу на плечах. Затем сделайте шаг или два назад;</li>
+                    <li>Согните ноги в коленях и медленно приседайте с прямой спиной до параллели или ниже;</li>
+                    <li>Медленно вернитесь в исходное положение.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="quadriceps" data-complexity="8">
+            <span class="excercise-name">Жимы ногами</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/quadriceps/legs-press.jpg" alt="quadriceps" />
+                <p>Упражнение для наращивание массы и силы бедер. В отличие от приседаний со штангой, жимы не нагружают нижнюю часть спины, и, поэтому, позволяют работать с очень большим весом.</p>
+                <ol>
+                    <li>Упритесь ступнями в нижнюю опору тренажера и опустите вес максимально вниз, сгибая колени;</li>
+                    <li>Выжимайте вес до полного выпрямления ног.</li>
+                </ol>
+            </div>
+        </li>
+        <li class="quadriceps" data-complexity="7">
+            <span class="excercise-name">Выпады</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">16</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/quadriceps/lunges.jpeg" alt="quadriceps" />
+                <p>Упражнение для развития передней части бедра и ягодиц.</p>
+                <ol>
+                    <li>Встаньте прямо с гантелями в руках (или штангой на плечах), держите ноги вместе;</li>
+                    <li>Смотрите прямо, спину держите прямой и сделайте одной ногой широкий шаг вперед, чтобы колено второй ноги коснулось пола. Чем шире шаг, тем больше нагрузка на ягодицы;</li>
+                    <li>Вернитесь в исходное положение одним мощным движением. Повторите движение для другой ноги.</li>
+                </ol>
+            </div>
+        </li>
         <li class="quadriceps" data-complexity="6">
-            <span class="excercise-name">Приседания со штангой</span></li>
-        <li class="quadriceps" data-complexity="6">
-            <span class="excercise-name">Тяжелые приседы</span></li>
-        <li class="quadriceps" data-complexity="6">
-            <span class="excercise-name">Приседания со штангой перекрестным хватом</span></li>
-        <li class="quadriceps" data-complexity="6">
-            <span class="excercise-name">Жимы ногами</span></li>
-        <li class="quadriceps" data-complexity="6">
-            <span class="excercise-name">Выпады</span></li>
-        <li class="quadriceps" data-complexity="6">
-            <span class="excercise-name">Выпрямление ног на тренажере</span></li>
+            <span class="excercise-name">Выпрямление ног на тренажере</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">16</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/quadriceps/legs-extensions.jpg" alt="quadriceps" />
+                <p>Отличное упражнение для развития формы и рельефности передней части бедра.</p>
+                <ol>
+                    <li>Займите исходное положение в тренажере и выпрямите ноги, преодолевая сопротивление. В верхней точке зафиксируйте положение ног для максимального эффекта;</li>
+                    <li>Согните ноги, опустив рычаг тренажера.</li>
+                </ol>
+            </div>
+        </li>
     </quadriceps>
     <hamstrings>
         <li class="hamstrings" data-complexity="6">
