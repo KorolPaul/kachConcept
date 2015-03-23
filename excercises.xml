@@ -675,6 +675,50 @@
             </div>
         </li>
     </arm>
+    
+    <back>
+        <li class="back" data-complexity="8">
+            <span class="excercise-name">Подтягивания широким хватом</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">15</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/back/pull-ups.jpg" alt="back" />
+                <p>Прекрасное упражнение для расширение верхней части спины и развития всего плечевого пояса.</p>
+                <ol>
+                    <li>Возьмитесь за перекладину турника хватом сверху и повисните на ней, полностью расслабив руки и спину;</li>
+                    <li>Подтянитесь вверх до касания перкладины грудью (или затылком). В верхней точке задержитесь на секунду;</li>
+                    <li>Медленно опуститесь в исходное положение.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Упражнение можно выполнять с гантелями, а также, на изолирующей скамье или стоя.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="back" data-complexity="8">
+            <span class="excercise-name">Подтягивания узким хватом</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">15</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/back/close-grip-pull-ups.jpg" alt="back" />
+                <p>Базовое упражнение для развития спины и расширения ее нижнего отдела.</p>
+                <ol>
+                    <li>Возьмитесь за перекладину турника узким хватом и повисните на ней, полностью расслабив руки и спину;</li>
+                    <li>Подтянитесь вверх до касания перкладины грудью. В верхней точке задержитесь на секунду;</li>
+                    <li>Медленно опуститесь в исходное положение, ощущая растягивание мышц спины.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Упражнение можно выполнять с гантелями, а также, на изолирующей скамье или стоя.</li>
+                </ul>
+            </div>
+        </li>
+    </back>
+    
     <press>
         <li class="press" data-complexity="5">
             <span class="excercise-name">Сгибание туловища на наклонной</span>
@@ -926,7 +970,7 @@
                 </ol>
             </div>
         </li>
-        <li class="quadriceps" data-complexity="6">
+        <li class="quadriceps" data-complexity="5">
             <span class="excercise-name">Выпрямление ног на тренажере</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -943,16 +987,64 @@
         </li>
     </quadriceps>
     <hamstrings>
-        <li class="hamstrings" data-complexity="6">
+        <li class="hamstrings" data-complexity="7">
             <span class="excercise-name">Сгибание ног на тренажере</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">12</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/hamstrings/flexion-simulator.jpg" alt="hamstrings" />
+                <p>Это основное упражнение, направленное на развитие двуглавой мышцы бедра.</p>
+                <ol>
+                    <li>Займите исходное положение на скамье тренажера и заведите щиколотки под упоры;</li>
+                    <li>Согните ноги до полного сокращения двуглавых мышц бедра;</li>
+                    <li>Плавно опустите ноги в исходное положение.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Упражнение должно выполняться со строгой техникой и полным диапазоном движения;</li>
+                    <li>Также это упражнение можно выполнять для стоя, поочередно для каждой ноги.</li>
+                </ul>
+            </div>
         </li>
-        <li class="hamstrings" data-complexity="6">
+        <li class="hamstrings" data-complexity="8">
             <span class="excercise-name">Становая тяга штанги с прямыми ногами</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">10</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/hamstrings/deadlift-streight-legs.jpg" alt="hamstrings" />
+                <p>Отличное упражнение для развития бицепса бюедра, и, в меньшей степени, ягодиц и нижней части спины.</p>
+                <ol>
+                    <li>Возмите не слишком тяжелую штангу и выпрямитесь. Держите штангу перед собой;</li>
+                    <li>Удерживая ноги прямыми, наклонитесь вперед, пока ваше туловище не будет параллельно полу;</li>
+                    <li>Плавно выпрямитесь, расправьте плечи и немного прогнитесь назад.</li>
+                </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Т.к. это в этом упражнение штанга поднимается без помощи ног, ее вес должен быть значительно меньше, чем для классической становой тяги.</li>
+                </ul>
+            </div>
         </li>
     </hamstrings>
     <butt>
-        <li class="butt" data-complexity="6">
+        <li class="butt" data-complexity="4">
             <span class="excercise-name">Задние подъемы ног</span>
+            <div class="sets">
+                <span contenteditable="true">3</span>x
+                <span contenteditable="true">10</span>
+            </div>
+            <div class="description">
+                <img src="img/excercises/butt/rear-leg-raises.jpg" alt="butt" />
+                <p>Упражнение для развития ягодичных мышц.</p>
+                <ol>
+                    <li>Станьте одним коленом на скамью и возмитесь за нее руками для равновесия;</li>
+                    <li>Медленно, чувствуя сокращение ягодичных мышц, поднимите свободную ногу вверх и назад. Задержитесь в верхней точке и максимально напрягите ягоцицу;</li>
+                    <li>Плавно опустите ногу и вынесете ее немного вперед для полного сокращения мышц.</li>
+                </ol>
+            </div>
         </li>
     </butt>
 </excersises>
