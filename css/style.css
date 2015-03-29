@@ -6,7 +6,7 @@ a { outline: none; color: #027f49; }
 a:hover { text-decoration: none; }
 img { border: none; display: block; }
 
-p { font-size: 15px; margin: 0 0 10px 0; }
+p { margin: 0 0 10px 0; }
 
 h1 { color: #027f49; font-size: 36px; font-weight: normal; margin: 0 0 25px 0; }
 h2 { color: #3a414e; font-size: 20px; font-weight: normal; line-height: 20px; }
@@ -29,26 +29,35 @@ header, section, footer, nav, article, aside { display: block; }
 
 
 /*BODY*/
-svg {height: 65%; position: absolute; top: -8%; left: 20%;}
+.muscles {position: absolute; top: -8%; left: 22%; text-align: center; width: 40%; padding-top: 31%;}
+.muscles_switcher {}
+
+svg { height: 90%; opacity: 0; position: absolute; left: 50%; top: 0; margin: 0 0 0 -250px; transition: .3s ease opacity; visibility: hidden;}
+svg:target {opacity: 1; visibility: visible;}
 g {cursor: pointer; transition: .2s all ease-out; opacity: .3;}
 g:hover {opacity: 0;}
-
-#fon {opacity: 1; cursor: default;}
+path {fill: #fff;}
+#bg, #bg-back {opacity: 1; cursor: default;}
 
 
 
 /*excerrsizes*/
 .excercises {width: 15%; margin: 5% 0 0 47%; background: #fff; max-height: 50%; overflow: auto;}
 .excercises li, .training li {display: none; position: relative; z-index: 1; transition: .05s all ease;}
-.excercises li>span, .training li>span {border: 1px solid #3a414e; padding: 2px 50px 2px 2px; display: block; cursor: pointer; transition: .2s all ease-in;}
+.training .excercise-name, .excercises .excercise-name {border: 1px solid #3a414e; padding: 2px 20px 2px 2px; display: block; cursor: pointer; transition: .2s all ease-in;}
+.training .excercise-name {padding-right: 70px;}
 .excercises li.animated, .training li.animated {transition: .2s all ease-in;}
 li.temp {position: absolute;}
 
-.sets {position: absolute; top: 3px; right: 5px; display: none;}
+
+.sets {position: absolute; top: 3px; right: 20px; display: none;}
 .sets>span {padding: 2px 4px; transition: .2s all ease;}
 .sets>span:hover, .sets>span:focus {background: #e0dfdf; color: #858585;}
+.delete {color: red; position: absolute; right: 5px; top: 2px; opacity: 0; cursor: pointer; transition: .2s ease opacity, .3s ease text-shadow;}
+.delete:hover {text-shadow: 0 0 1px red;}
+.trainings li:hover .delete {opacity: 1;}
 
-.description {display: none; font-size: 13px; line-height: normal;}
+.description {display: none; font-size: 16px; line-height: normal;}
 .description ul, .description ol {margin: 0 0 10px;}
 .description li {margin: 0 0 3px 15px;}
 

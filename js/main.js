@@ -11,7 +11,7 @@ window.onload = function () {
             addTrainingButton = document.getElementById("addTraining"),
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
-            muscules = document.getElementById('body').getElementsByTagName('g'),
+            muscules = document.getElementsByTagName('g'),
             excercises = document.getElementById('excercises');
 
         function fixEvent(e) {
@@ -102,23 +102,24 @@ window.onload = function () {
             var musculeName = this.id,
                 ajax = new XMLHttpRequest();
 
+            excercises.innerHTML = '';
+
             ajax.open('get', 'excercises.xml', true);
             ajax.onreadystatechange = function (e) {
                 if (ajax.readyState == 4) {
-                    var html = ajax.responseXML.getElementsByTagName(musculeName)[0];
-                    excercises.innerHTML = html.innerHTML;
-                    var excercisesList = excercises.children;
+                    var html = ajax.responseXML.getElementsByClassName(musculeName);
 
-                    for (var i = 0; i < excercises.childElementCount; i++) {
-                        if (excercisesList[i].className === musculeName) {
-                            excercisesList[i].style.display = "block";
-                            excercisesList[i].onmouseover = showInfo;
-                            //excercisesList[i].onmouseout = hideInfo;
-                        }
-                        else
-                            excercisesList[i].style.display = "none";
+                    for (var i = 0; i < html.length; i++) {
+                        var excercise = document.createElement('div');
+                        excercise.innerHTML = html[i].innerHTML;
+                        excercises.appendChild(excercise);
 
-                        excercisesList[i].onmousedown = moveExcerciseStart;
+                        excercises.children[i].style.display = "block";
+                        excercises.children[i].onmouseover = showInfo;
+                        //excercises.children[i].onmouseout = hideInfo;
+
+                        excercises.children[i].onmousedown = moveExcerciseStart;
+                        
                     }
                 }
             }
@@ -126,10 +127,21 @@ window.onload = function () {
         }
 
         function addExcersice(training, excercise) {
-            var complexity = 0;
+            var complexity = 0,
+                sets = excercise.querySelector('.sets'),
+                deleteButton = document.createElement('a');
+
+            deleteButton.innerHTML = '&#x2715;';
+            deleteButton.classList.add('delete');
+            deleteButton.onclick = deleteExcersice;
+            excercise.appendChild(deleteButton);
+
+            for (var i = 0; i < sets.childElementCount; i++) {
+                sets.children[i].addEventListener("DOMCharacterDataModified", saveProgram, false);
+            }
 
             training.appendChild(excercise);
-            localStorage.trainingProgramm = shedule.innerHTML;
+            saveProgram();
 
             if (training.dataset["complexity"] !== undefined) {
                 complexity += parseInt(training.dataset["complexity"]);
@@ -139,14 +151,20 @@ window.onload = function () {
                 
             training.dataset.complexity = complexity;
 
-            if (complexity > 0)
-                training.classList.add("easy");
-            if (complexity > 5)
-                training.classList.add("normal");
             if (complexity > 10)
+                training.classList.add("easy");
+            if (complexity > 30)
+                training.classList.add("normal");
+            if (complexity > 40)
                 training.classList.add("hard");
-            if (complexity > 15)
+            if (complexity > 50)
                 training.classList.add("insane");
+        }
+
+        function deleteExcersice(e) {
+            var training = e.target.parentNode.parentNode;
+            training.removeChild(e.target.parentNode);
+            saveProgramm();
         }
 
         function addTraining() {
@@ -176,6 +194,10 @@ window.onload = function () {
                 info.classList.remove("opened");
                 info.nextElementSibling.classList.remove("opened");
             }, 200);
+        }
+
+        function saveProgram() {
+            localStorage.trainingProgramm = shedule.innerHTML;
         }
 
         return {

@@ -928,14 +928,16 @@
                 </ol>
             </div>
         </li>
-        <li class="back" data-complexity="5">
+    </back>
+    <small-back>
+        <li class="small-back" data-complexity="5">
             <span class="excercise-name">Гиперэкстензии</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
             <div class="description">
-                <img src="img/excercises/back/hyperextension.jpg" alt="back" />
+                <img src="img/excercises/small-back/hyperextension.jpg" alt="back" />
                 <p>Отличное упражнение для развития и укрепления мышц-разгибателей позвоночника в нижней части спины. Держа эти мышцы в тонусе, вы забудете о болях в спине и обезопасите себя от травм позвоночника. Также здесь прорабатываются ягодицы и бицепс бедра</p>
                 <ol>
                     <li>Займите исходное на скамье для гиперэкстензий;</li>
@@ -944,7 +946,7 @@
                 </ol>
             </div>
         </li>
-    </back>
+    </small-back>
     <press>
         <li class="press" data-complexity="5">
             <span class="excercise-name">Сгибание туловища на наклонной</span>
@@ -1110,7 +1112,7 @@
         </li>
     </press>
     <quadriceps>
-        <li class="quadriceps" data-complexity="10">
+        <li class="quadriceps butt" data-complexity="10">
             <span class="excercise-name">Приседания со штангой</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -1180,7 +1182,7 @@
                 </ol>
             </div>
         </li>
-        <li class="quadriceps" data-complexity="7">
+        <li class="quadriceps butt" data-complexity="7">
             <span class="excercise-name">Выпады</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -1213,7 +1215,7 @@
         </li>
     </quadriceps>
     <hamstrings>
-        <li class="hamstrings" data-complexity="7">
+        <li class="hamstrings butt" data-complexity="7">
             <span class="excercise-name">Сгибание ног на тренажере</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -1234,7 +1236,7 @@
                 </ul>
             </div>
         </li>
-        <li class="hamstrings" data-complexity="8">
+        <li class="hamstrings butt" data-complexity="8">
             <span class="excercise-name">Становая тяга штанги с прямыми ногами</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -1274,47 +1276,54 @@
         </li>
     </butt>
     <shin>
-        <li class="shin" data-complexity="7">
-            <span class="excercise-name">Подъемы на носки</span>
+        <li class="shin" data-complexity="8">
+            <span class="excercise-name">Подъемы на носки стоя</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span contenteditable="true">20</span>
             </div>
             <div class="description">
-                <img src="img/excercises/shin/rear-leg-raises.jpg" alt="shin" />
-                <p>Упражнение для развития ягодичных мышц.</p>
+                <img src="img/excercises/shin/toes-ups.jpg" alt="shin" />
+                <p>Упражнение для развития массы икроножных мышц.</p>
                 <ol>
-                    <li>Станьте одним коленом на скамью и возмитесь за нее руками для равновесия;</li>
-                    <li>Медленно, чувствуя сокращение ягодичных мышц, поднимите свободную ногу вверх и назад. Задержитесь в верхней точке и максимально напрягите ягоцицу;</li>
-                    <li>Плавно опустите ногу и вынесете ее немного вперед для полного сокращения мышц.</li>
+                    <li>Займите исходное положение на тренажере, поставив носки на блок или диски для штанги, чтобы ваши носки находились выше пяток. Упритесь плечами в подкладки тренажера и поднимите вес с опоры, выпрямив ноги. Опустите пятки на пол;</li>
+                    <li>Подниматесь на носки так высоко, как только можете.</li>
                 </ol>
+                <span>Особенности:</span>
+                <ul>
+                    <li>Чтобы проработать икры по всей длине, удерживайте колени слегка согнутыми во время движения;</li>
+                    <li>Икроножные мышцы являются очень сильными и выносливыми, поэтому для их развития следует работать с большими отягощенями;</li>
+                    <li>Когда вы уже не можете выполнить ни одного повторения, сделайие несколько частичных повторений, чтобы добить ваши икры.</li>
+                </ul>
             </div>
         </li>
         <li class="shin" data-complexity="7">
-            <span class="excercise-name">Подъемы на носки "осликом"</span>
+            <span class="excercise-name">Подъемы на носки сидя</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span contenteditable="true">20</span>
             </div>
             <div class="description">
-                <img src="img/excercises/shin/rear-leg-raises.jpg" alt="shin" />
-                <p>Упражнение для развития ягодичных мышц.</p>
+                <img src="img/excercises/shin/toes-ups-sitting.gif" alt="shin" />
+                <p>Упражнение для развития нижней и верхней части икроножных мышц.</p>
                 <ol>
-
+                    <li>Займите исходное положение на тренажере и зафиксируйте ноги в опоре. Медленно опустите пятки максимально вниз;</li>
+                    <li>Выжмите вес вверх до полного сокращения икроножных мышц.</li>
                 </ol>
             </div>
         </li>
-        <li class="shin" data-complexity="7">
+        <li class="shin" data-complexity="8">
             <span class="excercise-name">Подъемы на носки "осликом"</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span contenteditable="true">20</span>
             </div>
             <div class="description">
-                <img src="img/excercises/shin/rear-leg-raises.jpg" alt="shin" />
-                <p>Упражнение для развития ягодичных мышц.</p>
+                <img src="img/excercises/shin/donkey.jpg" alt="shin" />
+                <p>Отличное упражнение для развития силы и мощности задней части икроножных мышц.</p>
                 <ol>
-
+                    <li>Станьте носками на опору, наклонитесь вперед и упритесь во что-нибудь руками для равновесия. Пусть партнер сядет к вам на поясницу как можно ближе к копчику. Опустите пятки максимально низко;</li>
+                    <li>Поднимитесь на носках до полного сокращения мышц.</li>
                 </ol>
             </div>
         </li>
