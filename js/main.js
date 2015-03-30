@@ -8,11 +8,12 @@ window.onload = function () {
             trainings = [],
             timer = 0,
             info = document.getElementById('info'),
-            addTrainingButton = document.getElementById("addTraining"),
+            addTrainingButton = document.getElementById('addTraining'),
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
             muscules = document.getElementsByTagName('g'),
-            excercises = document.getElementById('excercises');
+            excercises = document.getElementById('excercises'), 
+            switcher = document.getElementById('muscles_switcher');
 
         function fixEvent(e) {
             e = e || window.event;
@@ -110,13 +111,13 @@ window.onload = function () {
                     var html = ajax.responseXML.getElementsByClassName(musculeName);
 
                     for (var i = 0; i < html.length; i++) {
-                        var excercise = document.createElement('div');
+                        var excercise = document.createElement('li');
                         excercise.innerHTML = html[i].innerHTML;
                         excercises.appendChild(excercise);
 
                         excercises.children[i].style.display = "block";
                         excercises.children[i].onmouseover = showInfo;
-                        //excercises.children[i].onmouseout = hideInfo;
+                        excercises.children[i].onmouseout = hideInfo;
 
                         excercises.children[i].onmousedown = moveExcerciseStart;
                         
@@ -200,10 +201,19 @@ window.onload = function () {
             localStorage.trainingProgramm = shedule.innerHTML;
         }
 
+        function rotateBody() {
+            var body = document.getElementsByTagName('svg');
+
+            for (var i = 0; i < body.length; i++) {
+                body[i].classList.toggle('active');
+            }
+        }
+
         return {
             init: function () {
                 document.onmousemove = moveExcercise;
                 document.onmouseup = moveExcerciseEnd;
+                switcher.onclick = rotateBody;
 
                 /*if (localStorage.trainingProgramm !== undefined)
                     shedule.innerHTML = localStorage.trainingProgramm;*/
