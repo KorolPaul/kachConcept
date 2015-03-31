@@ -31,7 +31,7 @@ header, section, footer, nav, article, aside { display: block; }
 /*BODY*/
 
 /*trainings*/
-.shedule {border: 1px solid #3a414e; width: 20%; position: relative;}
+.shedule {border: 1px solid #3a414e; width: 23%; position: relative;}
 .shedule_header {border-bottom: 1px solid #3a414e; padding: 10px; font-size: 30px;}
 .trainings {counter-reset: i 0;}
 .training {min-height: 200px; border-bottom: 1px solid #3a414e; transition: background-color .3s ease, min-height .6s ease-in-out; position: relative; counter-increment: i;}
@@ -40,7 +40,6 @@ header, section, footer, nav, article, aside { display: block; }
 .training.new {min-height: 0;}
 .training.new:after {opacity: 0;}
 .training li {left: 0 !important; top: 0 !important;}
-.training li span {border-left-width: 0;border-right-width: 0; }
 
 .muscles { text-align: center; align-content: flex-end; flex-grow: 2; position: relative;}
 .muscles_switcher { padding: 5px 10px; position: absolute; bottom: 5px; left: 50%; margin: 0 0 0 -30px; }
@@ -58,25 +57,27 @@ path {fill: #fff;}
 
 /*excerrsizes*/
 .excercises { position: absolute; left: 10px; top: 10vh; max-width: 33%; background: #fff; max-height: 70%; overflow: auto;}
-.excercises li, .training li {display: none; position: relative; z-index: 1; transition: .05s all ease;}
-.training .excercise-name, .excercises .excercise-name {border: 1px solid #3a414e; padding: 2px 20px 2px 2px; display: block; cursor: pointer; transition: .2s all ease-in;}
-.training .excercise-name {padding-right: 70px;}
+.excercises li, .training li {position: relative; z-index: 1; transition: .05s all ease;}
+.excercise-name {border: 1px solid #3a414e; padding: 2px 20px 2px 2px; display: block; cursor: pointer; transition: .2s all ease-in;}
+.training .excercise-name {padding-right: 120px;}
 .excercises li.animated, .training li.animated {transition: .2s all ease-in;}
-li.temp {position: absolute;}
+li.temp {position: absolute; cursor: pointer;}
 
 .info {position: absolute; top: 5vh; z-index: 1; left: 35%; width: 50%; border: 1px solid #333333; padding: 10px 15px; background: #fefefe; opacity: 0; transition: .2s all ease;}
 .info.opened {opacity: 1;}
 .info+.info.opened {z-index: 2;}
 .info .description {display: block;}
-.info .excercise-name {margin: 0 0 5px; display: block; font-weight: bold;}
+.info .excercise-name {margin: 0 0 5px; display: block; font-weight: bold; border: none; font-size: 18px;}
 .info img {max-width: 100%; max-height: 300px; margin: 0 auto 10px;}
 
 .sets {position: absolute; top: 3px; right: 20px; display: none;}
 .sets>span {padding: 2px 4px; transition: .2s all ease;}
-.sets>span:hover, .sets>span:focus {background: #e0dfdf; color: #858585;}
+.sets span[contenteditable]:hover, .sets span[contenteditable]:focus {background: #e0dfdf; color: #858585;}
 .delete {color: red; position: absolute; right: 5px; top: 2px; opacity: 0; cursor: pointer; transition: .2s ease opacity, .3s ease text-shadow;}
 .delete:hover {text-shadow: 0 0 1px red;}
 .trainings li:hover .delete {opacity: 1;}
+
+.weight {border-right: 1px solid #3a414e; border-left: 1px solid #3a414e;}
 
 .description {display: none; font-size: 16px; line-height: normal;}
 .description ul, .description ol {margin: 0 0 10px;}

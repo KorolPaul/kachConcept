@@ -48,8 +48,9 @@ window.onload = function () {
 
         function moveExcerciseStart(e) {
             e = fixEvent(e);
-            dragExcercise = this.parentNode.insertBefore(this.cloneNode(true), this);
+            dragExcercise = this.cloneNode(true);
             dragExcercise.classList.add("temp");
+            document.body.appendChild(dragExcercise);
 
             var pos = getPosition(this);
             mouseOffset = {
@@ -115,11 +116,10 @@ window.onload = function () {
                         excercise.innerHTML = html[i].innerHTML;
                         excercises.appendChild(excercise);
 
-                        excercises.children[i].style.display = "block";
-                        excercises.children[i].onmouseover = showInfo;
-                        excercises.children[i].onmouseout = hideInfo;
+                        excercise.onmouseover = showInfo;
+                        excercise.onmouseout = hideInfo;
 
-                        excercises.children[i].onmousedown = moveExcerciseStart;
+                        excercise.onmousedown = moveExcerciseStart;
                         
                     }
                 }

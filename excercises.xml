@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <excersises>
     <shoulder>
-        <li class="shoulder" data-complexity="8">
+        <li class="shoulder" data-complexity="7">
             <span class="excercise-name">Жимы арнольда</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
@@ -25,9 +26,10 @@
                 </ul>
             </div>
         </li>
-        <li class="shoulder" data-complexity="8">
+        <li class="shoulder" data-complexity="7">
             <span class="excercise-name">Жимы штанги из-за головы</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -49,6 +51,7 @@
         <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Жимы с гантелями</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -62,9 +65,10 @@
                 </ol>
             </div>
         </li>
-        <li class="shoulder" data-complexity="6">
+        <li class="shoulder" data-complexity="7">
             <span class="excercise-name">Армейский жим</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -78,9 +82,10 @@
                 </ol>
             </div>
         </li>
-        <li class="shoulder" data-complexity="6">
+        <li class="shoulder" data-complexity="7">
             <span class="excercise-name">Швунги штанги</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -97,6 +102,7 @@
         <li class="shoulder" data-complexity="5">
             <span class="excercise-name">Разведение рук с гантелями</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">3</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -115,9 +121,10 @@
                 </ul>
             </div>
         </li>
-        <li class="shoulder" data-complexity="7">
+        <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -138,6 +145,7 @@
         <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Отведение руки вбок на блочном тренажере</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -154,6 +162,7 @@
         <li class="shoulder" data-complexity="6">
             <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере сидя</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -171,6 +180,7 @@
         <li class="shoulder" data-complexity="7">
             <span class="excercise-name">Подъемы рук с гантелями</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -183,9 +193,10 @@
                 </ol>
             </div>
         </li>
-        <li class="shoulder" data-complexity="6">
+        <li class="shoulder" data-complexity="4">
             <span class="excercise-name">Разведение рук с гантелями в наклоне</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -209,6 +220,7 @@
         <li class="trapezium" data-complexity="7">
             <span class="excercise-name">Высокая тяга штанги узким хватом</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -230,6 +242,7 @@
         <li class="trapezium" data-complexity="6">
             <span class="excercise-name">"Шраги" со штангой</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">40</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">10</span>
             </div>
@@ -246,6 +259,7 @@
         <li class="trapezium" data-complexity="6">
             <span class="excercise-name">"Шраги" с гантелями</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">40</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -264,6 +278,7 @@
         <li class="chest" data-complexity="8">
             <span class="excercise-name">Жим штанги лежа</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">10</span>
             </div>
@@ -280,6 +295,7 @@
         <li class="chest" data-complexity="8">
             <span class="excercise-name">Жим штанги на наклонной скамье</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -296,6 +312,7 @@
         <li class="chest" data-complexity="8">
             <span class="excercise-name">Жимы гантелей на горизонтальной скамье</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -312,6 +329,7 @@
         <li class="chest" data-complexity="8">
             <span class="excercise-name">Жимы гантелей на наклонной скамье</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -329,7 +347,7 @@
                 </ul>
             </div>
         </li>
-        <li class="chest" data-complexity="6">
+        <li class="chest" data-complexity="7">
             <span class="excercise-name">Отжимание на брусьях</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -353,6 +371,7 @@
         <li class="chest" data-complexity="6">
             <span class="excercise-name">Сведение-разведение рук с гантелями</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -375,6 +394,7 @@
         <li class="chest" data-complexity="7">
             <span class="excercise-name">Сведение рук на верхнем блоке стоя</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -391,6 +411,7 @@
         <li class="chest" data-complexity="5">
             <span class="excercise-name">Пуллоуверы</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -406,9 +427,10 @@
         </li>
     </chest>
     <biceps>
-        <li class="biceps" data-complexity="6">
+        <li class="biceps" data-complexity="7">
             <span class="excercise-name">Сгибание рук со штангой стоя</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -431,6 +453,7 @@
         <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук на изолирующей скамье</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -451,6 +474,7 @@
         <li class="biceps" data-complexity="7">
             <span class="excercise-name">Сгибания на три счета ("21")</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">21</span>
             </div>
@@ -469,9 +493,10 @@
                 </ul>
             </div>
         </li>
-        <li class="biceps" data-complexity="6">
+        <li class="biceps" data-complexity="5">
             <span class="excercise-name">Сгибание рук с гантелями на наклонной скамье</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -490,9 +515,10 @@
                 </ul>
             </div>
         </li>
-        <li class="biceps" data-complexity="6">
+        <li class="biceps" data-complexity="4">
             <span class="excercise-name">Сгибание рук с гантелями сидя</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -515,6 +541,7 @@
         <li class="biceps" data-complexity="6">
             <span class="excercise-name">"Молоток"</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -528,9 +555,10 @@
                 </ol>
             </div>
         </li>
-        <li class="biceps" data-complexity="6">
+        <li class="biceps" data-complexity="5">
             <span class="excercise-name">"Сосредоточенные сгибания"</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -552,6 +580,7 @@
         <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук на нижнем блоке</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -573,6 +602,7 @@
         <li class="biceps" data-complexity="6">
             <span class="excercise-name">Сгибание рук со штангой обратным хватом</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -596,6 +626,7 @@
         <li class="triceps" data-complexity="5">
             <span class="excercise-name">Жимы вниз на верхнем блоке</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -617,6 +648,7 @@
         <li class="triceps" data-complexity="5">
             <span class="excercise-name">Жимы одной рукой на блоке обратным хватом</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -633,6 +665,7 @@
         <li class="triceps" data-complexity="6">
             <span class="excercise-name">Французский жим</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -653,6 +686,7 @@
         <li class="triceps" data-complexity="4">
             <span class="excercise-name">Отведение назад руки с гантелью в наклоне</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -674,6 +708,7 @@
         <li class="triceps" data-complexity="5">
             <span class="excercise-name">Разгибание руки с гантелью из-за головы</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">5</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
@@ -726,9 +761,10 @@
         </li>
     </triceps>
     <arm>
-        <li class="arm" data-complexity="6">
+        <li class="arm" data-complexity="5">
             <span class="excercise-name">Сгибание запястий со штангой</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -747,9 +783,10 @@
                 </ul>
             </div>
         </li>
-        <li class="arm" data-complexity="6">
+        <li class="arm" data-complexity="5">
             <span class="excercise-name">Сгибание запястий со штангой за спиной</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -763,9 +800,10 @@
                 </ol>
             </div>
         </li>
-        <li class="arm" data-complexity="6">
+        <li class="arm" data-complexity="5">
             <span class="excercise-name">Обратное сгибание запястий со штангой</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -820,6 +858,7 @@
         <li class="back" data-complexity="7">
             <span class="excercise-name">Тяга за голову на высоком блоке</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
@@ -840,6 +879,7 @@
         <li class="back" data-complexity="10">
             <span class="excercise-name">Становая тяга</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">40</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">10</span>
             </div>
@@ -858,9 +898,10 @@
                 </ul>
             </div>
         </li>
-        <li class="back" data-complexity="7">
+        <li class="back" data-complexity="8">
             <span class="excercise-name">Тяга штанги в наклоне</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">10</span>
             </div>
@@ -877,9 +918,10 @@
                 </ul>
             </div>
         </li>
-        <li class="back" data-complexity="7">
+        <li class="back" data-complexity="8">
             <span class="excercise-name">Тяга на T-грифе</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">20</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">10</span>
             </div>
@@ -899,6 +941,7 @@
         <li class="back" data-complexity="7">
             <span class="excercise-name">Тяга гантели одной рукой в наклоне</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
@@ -915,6 +958,7 @@
         <li class="back" data-complexity="5">
             <span class="excercise-name">Тяга к животу на нижнем блоке</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">15</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
@@ -1035,6 +1079,7 @@
         <li class="press" data-complexity="6">
             <span class="excercise-name">Сгибание туловища на верхнем блоке</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">15</span>
             </div>
@@ -1095,7 +1140,7 @@
                 </ol>
             </div>
         </li>
-        <li class="press" data-complexity="2">
+        <li class="press" data-complexity="1">
             <span class="excercise-name">Втягивание живота ("вакуум")</span>
             <div class="sets">
                 <span contenteditable="true">3</span>x
@@ -1115,6 +1160,7 @@
         <li class="quadriceps butt" data-complexity="10">
             <span class="excercise-name">Приседания со штангой</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -1138,6 +1184,7 @@
         <li class="quadriceps" data-complexity="9">
             <span class="excercise-name">Полуприседы</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">40</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">8</span>
             </div>
@@ -1154,6 +1201,7 @@
         <li class="quadriceps" data-complexity="9">
             <span class="excercise-name">Приседания со штангой на груди</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">25</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -1170,6 +1218,7 @@
         <li class="quadriceps" data-complexity="8">
             <span class="excercise-name">Жимы ногами</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">40</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -1185,6 +1234,7 @@
         <li class="quadriceps butt" data-complexity="7">
             <span class="excercise-name">Выпады</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">16</span>
             </div>
@@ -1201,6 +1251,7 @@
         <li class="quadriceps" data-complexity="5">
             <span class="excercise-name">Выпрямление ног на тренажере</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">16</span>
             </div>
@@ -1215,9 +1266,10 @@
         </li>
     </quadriceps>
     <hamstrings>
-        <li class="hamstrings butt" data-complexity="7">
+        <li class="hamstrings butt" data-complexity="6">
             <span class="excercise-name">Сгибание ног на тренажере</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">10</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">12</span>
             </div>
@@ -1239,6 +1291,7 @@
         <li class="hamstrings butt" data-complexity="8">
             <span class="excercise-name">Становая тяга штанги с прямыми ногами</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">10</span>
             </div>
@@ -1276,9 +1329,10 @@
         </li>
     </butt>
     <shin>
-        <li class="shin" data-complexity="8">
+        <li class="shin" data-complexity="7">
             <span class="excercise-name">Подъемы на носки стоя</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">20</span>
             </div>
@@ -1300,6 +1354,7 @@
         <li class="shin" data-complexity="7">
             <span class="excercise-name">Подъемы на носки сидя</span>
             <div class="sets">
+                <span class="weight"><span contenteditable="true">30</span> кг</span>
                 <span contenteditable="true">3</span>x
                 <span contenteditable="true">20</span>
             </div>
