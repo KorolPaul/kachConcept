@@ -5,6 +5,7 @@ body { min-height: 100%; position: relative; display: flex;  color: #3a414e; fon
 a { outline: none; color: #027f49; }
 a:hover { text-decoration: none; }
 img { border: none; display: block; }
+li {list-style: none; padding: 0;}
 
 p { margin: 0 0 10px 0; }
 
@@ -61,7 +62,7 @@ path {fill: #fff;}
 .excercise-name {border: 1px solid #3a414e; padding: 2px 20px 2px 2px; display: block; cursor: pointer; transition: .2s all ease-in;}
 .training .excercise-name {padding-right: 120px;}
 .excercises li.animated, .training li.animated {transition: .2s all ease-in;}
-li.temp {position: absolute; cursor: pointer;}
+li.temp {position: absolute; cursor: pointer; left: -5000px; top: -100px;}
 
 .info {position: absolute; top: 5vh; z-index: 1; left: 35%; width: 50%; border: 1px solid #333333; padding: 10px 15px; background: #fefefe; opacity: 0; transition: .2s all ease;}
 .info.opened {opacity: 1;}
@@ -93,10 +94,10 @@ li.temp {position: absolute; cursor: pointer;}
 .addTraining { position: absolute; transition: .3s all ease; margin: -23px 0 0 -22px; left: 50%; font-size: 30px; color: #fff; background: #027f49; padding: 1px 15px 3px; border-radius: 100%; cursor: pointer; }
 .addTraining:hover {opacity: .7;}
 
-.easy {background: #ccffd8;}
-.normal {background: #08e53c;}
-.hard {background: #ff944d;}
-.insane {background: #f33838;}
+.easy {background: rgba(204, 255, 216, .7);}
+.normal {background: rgba(8, 229, 60, .3);}
+.hard {background: rgba(255, 148, 77, .4);}
+.insane {background: rgba(243, 56, 56, .4);}
 
 
 
