@@ -1,113 +1,360 @@
-﻿*, html, body, ul, ol, dl, li, dt, dd { margin: 0px; padding: 0px; }
-html { height: 100%; }
-body { min-height: 100%; position: relative; display: flex;  color: #3a414e; font: 16px 'Roboto Condensed', sans-serif; background: #fff; }
+﻿*, html, body, ul, ol, dl, li, dt, dd {
+    margin: 0px;
+    padding: 0px;
+}
+.color1 {
+    background: #5db0bf;
+}
+.color2 {
+    background: #355d80;
+}
+.color3 {
+    background: #ff4c36;
+}
+.color4 {
+    background: #404040;
+}
+.color5 {
+    background: #e6e24d;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    color: #404040;
+    font: 16px 'Roboto Condensed', sans-serif;
+    background: #fff;
+}
+a {
+    outline: none;
+    color: #355d80;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    border: none;
+    display: block;
+}
+li {
+    list-style: none;
+    padding: 0;
+}
+p {
+    margin: 0 0 10px 0;
+}
 
-a { outline: none; color: #027f49; }
-a:hover { text-decoration: none; }
-img { border: none; display: block; }
-li {list-style: none; padding: 0;}
+h1 {
+    color: #355d80;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0 0 25px 0;
+}
+h2 {
+    color: #404040;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+}
+h3 {
+    color: #404040;
+    font-size: 16px;
+    margin: 10px 0;
+}
+h4 {
+    color: #355d80;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 25px 0;
+}
 
-p { margin: 0 0 10px 0; }
-
-h1 { color: #027f49; font-size: 36px; font-weight: normal; margin: 0 0 25px 0; }
-h2 { color: #3a414e; font-size: 20px; font-weight: normal; line-height: 20px; }
-h3 { color: #343434; font-size: 16px; margin: 10px 0; }
-h4 { color: #027f49; font-size: 30px; font-weight: normal; margin: 0 0 25px 0; }
-
-input[type="text"], input[type="password"] { border: 1px solid #b1b0b0; text-align: center; padding: 2px 5px; color: #3f4554; font: 18px/29px 'PT Sans Narrow', sans-serif; background: #f1efef; transition: .2s all ease-in; }
-input[type="text"]:focus, input[type="password"]:focus { background: #e0dfdf; }
-
-table { border-collapse: collapse; border-spacing: 0; }
+input[type="text"], input[type="password"] {
+    border: 1px solid #404040;
+    text-align: center;
+    padding: 2px 5px;
+    color: #3f4554;
+    font: 18px/29px 'PT Sans Narrow', sans-serif;
+    background: #f1efef;
+    transition: .2s all ease-in;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+    background: #e0dfdf;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 
 
 /*HTML5*/
-header, section, footer, nav, article, aside { display: block; }
+header, section, footer, nav, article, aside {
+    display: block;
+}
 
 /*---Content---*/
-.content {}
+.content {
+}
 
-
-
-/*BODY*/
 
 /*trainings*/
-.shedule {border: 1px solid #3a414e; width: 23%; position: relative;}
-.shedule_header {border-bottom: 1px solid #3a414e; padding: 10px; font-size: 30px;}
-.trainings {counter-reset: i 0;}
-.training {min-height: 200px; border-bottom: 1px solid #3a414e; transition: background-color .3s ease, min-height .6s ease-in-out; position: relative; counter-increment: i;}
-.training:after {content: counter(i); opacity: 1; transition: .3s opacity ease-in; position: absolute; z-index: 0; bottom: -15px; left: 0; font-size: 100px; color: #b1b0b0; text-align: center;}
-.training .sets {display: block;}
-.training.new {min-height: 0;}
-.training.new:after {opacity: 0;}
-.training li {left: 0 !important; top: 0 !important;}
+.shedule {
+    border: 1px solid #404040;
+    width: 23%;
+    position: relative;
+}
+.shedule_header {
+    border-bottom: 1px solid #404040;
+    padding: 10px;
+    font-size: 30px;
+}
 
-.muscles { text-align: center; align-content: flex-end; flex-grow: 2; position: relative;}
-.muscles_switcher { padding: 5px 10px; position: absolute; bottom: 5px; left: 50%; margin: 0 0 0 -30px; }
+.trainings {
+    counter-reset: i 0;
+}
+.training {
+    min-height: 200px;
+    border-bottom: 1px solid #404040;
+    transition: background-color .3s ease, min-height .6s ease-in-out;
+    position: relative;
+    counter-increment: i;
+}
+.training:after {
+    content: counter(i);
+    opacity: 1;
+    transition: .3s opacity ease-in;
+    position: absolute;
+    z-index: 0;
+    bottom: -15px;
+    left: 0;
+    font-size: 100px;
+    color: #b1b0b0;
+    text-align: center;
+}
+.training .sets {
+    display: block;
+}
+.training.new {
+    min-height: 0;
+}
+.training.new:after {
+    opacity: 0;
+}
+.training li {
+    left: 0 !important;
+    top: 0 !important;
+}
 
-.excercise-info {position: relative; flex-grow: 5;}
+.addTraining {
+    position: absolute;
+    transition: .3s all ease;
+    margin: -23px 0 0 -22px;
+    left: 50%;
+    font-size: 30px;
+    color: #fff;
+    background: #ff4c36;
+    padding: 1px 15px 3px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.addTraining:hover {
+    opacity: .7;
+}
 
-svg { height: 90%; opacity: 0; height: 88vh; max-width: 90%; position: absolute; right: 0; top: 2vh; transition: .3s ease opacity; visibility: hidden;}
-svg.active {opacity: 1; visibility: visible;}
-g {cursor: pointer; transition: .2s all ease-out; opacity: .3;}
-g:hover {opacity: 0;}
-path {fill: #fff;}
-#bg, #bg-back {opacity: 1; cursor: default;}
+.muscles {
+    text-align: center;
+    align-content: flex-end;
+    flex-grow: 2;
+    position: relative;
+}
+.muscles_switcher {
+    background: #5db0bf;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin: 0 0 0 -30px;
+}
+
+.excercise-info {
+    position: relative;
+    flex-grow: 5;
+}
+
+svg {
+    height: 90%;
+    opacity: 0;
+    height: 88vh;
+    max-width: 90%;
+    position: absolute;
+    right: 0;
+    top: 2vh;
+    transition: .3s ease opacity;
+    visibility: hidden;
+}
+svg.active {
+    opacity: 1;
+    visibility: visible;
+}
+g {
+    cursor: pointer;
+    transition: .2s all ease-out;
+    opacity: .3;
+}
+g:hover {
+    opacity: 0;
+}
+
+path {
+    fill: #fff;
+}
+
+#bg, #bg-back {
+    opacity: 1;
+    cursor: default;
+}
 
 
 
 /*excerrsizes*/
-.excercises { position: absolute; left: 10px; top: 10vh; max-width: 33%; background: #fff; max-height: 70%; overflow: auto;}
-.excercises li, .training li {position: relative; z-index: 1; transition: .05s all ease;}
-.excercise-name {border: 1px solid #3a414e; padding: 2px 20px 2px 2px; display: block; cursor: pointer; transition: .2s all ease-in;}
-.training .excercise-name {padding-right: 120px;}
-.excercises li.animated, .training li.animated {transition: .2s all ease-in;}
-li.temp {position: absolute; cursor: pointer; left: -5000px; top: -100px;}
+.excercises {
+    position: absolute;
+    left: 10px;
+    top: 10vh;
+    max-width: 33%;
+    background: #fff;
+    max-height: 70%;
+    overflow: auto;
+}
+.excercises li, .training li {
+    position: relative;
+    z-index: 1;
+    transition: .05s all ease;
+}
+.excercise-name {
+    border: 1px solid #404040;
+    padding: 2px 20px 2px 2px;
+    display: block;
+    cursor: pointer;
+    transition: .2s all ease-in;
+}
 
-.info {position: absolute; top: 5vh; z-index: 1; left: 35%; width: 50%; border: 1px solid #333333; padding: 10px 15px; background: #fefefe; opacity: 0; transition: .2s all ease;}
-.info.opened {opacity: 1;}
-.info+.info.opened {z-index: 2;}
-.info .description {display: block;}
-.info .excercise-name {margin: 0 0 5px; display: block; font-weight: bold; border: none; font-size: 18px;}
-.info img {max-width: 100%; max-height: 300px; margin: 0 auto 10px;}
+.training .excercise-name {
+    padding-right: 120px;
+}
+.excercises li.animated, .training li.animated {
+    transition: .2s all ease-in;
+}
+li.temp {
+    position: absolute;
+    cursor: pointer;
+    left: -5000px;
+    top: -100px;
+}
 
-.sets {position: absolute; top: 3px; right: 20px; display: none;}
-.sets>span {padding: 2px 4px; transition: .2s all ease;}
-.sets span[contenteditable]:hover, .sets span[contenteditable]:focus {background: #e0dfdf; color: #858585;}
-.delete {color: red; position: absolute; right: 5px; top: 2px; opacity: 0; cursor: pointer; transition: .2s ease opacity, .3s ease text-shadow;}
-.delete:hover {text-shadow: 0 0 1px red;}
-.trainings li:hover .delete {opacity: 1;}
+.info {
+    position: absolute;
+    top: 5vh;
+    z-index: 1;
+    left: 35%;
+    width: 50%;
+    border: 1px solid #404040;
+    padding: 10px 15px;
+    background: #fefefe;
+    opacity: 0;
+    transition: .2s all ease;
+}
+.info.opened {
+    opacity: 1;
+}
+.info + .info.opened {
+    z-index: 2;
+}
+.info .description {
+    display: block;
+}
+.info .excercise-name {
+    margin: 0 0 5px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+}
+.info img {
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0 auto 10px;
+}
 
-.weight {border-right: 1px solid #3a414e; border-left: 1px solid #3a414e;}
+.sets {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    display: none;
+}
+.sets > span {
+    padding: 2px 4px;
+    transition: .2s all ease;
+}
+.sets span[contenteditable]:hover, .sets span[contenteditable]:focus {
+    background: #e0dfdf;
+    color: #858585;
+}
 
-.description {display: none; font-size: 16px; line-height: normal;}
-.description ul, .description ol {margin: 0 0 10px;}
-.description li {margin: 0 0 3px 15px;}
+.delete {
+    color: #ff4c36;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    opacity: 0;
+    cursor: pointer;
+    transition: .2s ease opacity, .3s ease text-shadow;
+}
+.delete:hover {
+    text-shadow: 0 0 1px #ff4c36;
+}
+
+.trainings li:hover .delete {
+    opacity: 1;
+}
+
+.weight {
+    border-right: 1px solid #404040;
+    border-left: 1px solid #404040;
+}
+
+.description {
+    display: none;
+    font-size: 16px;
+    line-height: normal;
+}
+.description ul, .description ol {
+    margin: 0 0 10px;
+}
+.description li {
+    margin: 0 0 3px 15px;
+}
 
 
 
 
-
-
-
-
-.addTraining { position: absolute; transition: .3s all ease; margin: -23px 0 0 -22px; left: 50%; font-size: 30px; color: #fff; background: #027f49; padding: 1px 15px 3px; border-radius: 100%; cursor: pointer; }
-.addTraining:hover {opacity: .7;}
-
-.easy {background: rgba(204, 255, 216, .7);}
-.normal {background: rgba(8, 229, 60, .3);}
-.hard {background: rgba(255, 148, 77, .4);}
-.insane {background: rgba(243, 56, 56, .4);}
-
-
-
-
-
-
-
-
-
-
-
+.easy {
+    background: rgba(204, 255, 216, .7);
+}
+.normal {
+    background: rgba(8, 229, 60, .3);
+}
+.hard {
+    background: rgba(255, 148, 77, .4);
+}
+.insane {
+    background: rgba(243, 56, 56, .4);
+}
 
 
