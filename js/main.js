@@ -9,6 +9,7 @@ window.onload = function () {
             timer = 0,
             xml, 
             info = document.getElementById('info'),
+            trainingsBlock = document.getElementById('trainings'),
             addTrainingButton = document.getElementById('addTraining'),
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
@@ -48,7 +49,7 @@ window.onload = function () {
         }
 
         function showExcercises(e) {
-            var musculeName = this.id;
+            var musculeName = this.className['baseVal'];
 
             excercises.innerHTML = '';
 
@@ -214,7 +215,7 @@ window.onload = function () {
         }
 
         function saveProgram() {
-            localStorage.trainingProgramm = shedule.innerHTML;
+            localStorage.trainingProgramm = trainingsBlock.innerHTML;
         }
 
         function rotateBody() {
@@ -230,7 +231,7 @@ window.onload = function () {
                 switcher.onclick = rotateBody;
                
                 if (localStorage.trainingProgramm !== undefined)
-                    shedule.innerHTML = localStorage.trainingProgramm;
+                    trainingsBlock.innerHTML = localStorage.trainingProgramm;
                 
                 for (var i = 0; i < muscules.length; i++)
                     muscules[i].onclick = showExcercises;

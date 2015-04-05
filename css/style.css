@@ -215,7 +215,8 @@ path {
     fill: #fff;
 }
 
-#bg, #bg-back {
+.bg, 
+.bg:hover {
     opacity: 1;
     cursor: default;
 }
@@ -338,6 +339,7 @@ li.temp {
     margin: 0 0 10px;
 }
 .description li {
+    list-style-type: disc;
     margin: 0 0 3px 15px;
 }
 
