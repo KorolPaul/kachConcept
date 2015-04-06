@@ -142,7 +142,7 @@ window.onload = function () {
             deleteButton.onclick = deleteExcersice;
             excercise.appendChild(deleteButton);
 
-            sets.addEventListener('input', validateSets, false);
+            sets.addEventListener('keydown', validateSets, false);
 
 
             training.appendChild(excercise);
@@ -153,7 +153,6 @@ window.onload = function () {
                 calculateComplexity(training, complexity);
             }
 
-            
             saveProgram();
         }
 
@@ -231,8 +230,7 @@ window.onload = function () {
 
         function validateSets(e) {
             if (/[0-9]/.test(e.key)) {
-                console.log(trainingsBlock.innerHTML)
-                saveProgram();
+                setTimeout(function () { saveProgram() }, 1000);
             } else if (e.keyCode != 8 && e.keyCode != 46 && e.keyCode != 8 && e.keyCode != 37 && e.keyCode != 39) {
                 e.preventDefault();
             }
@@ -275,7 +273,7 @@ window.onload = function () {
 
                 var sets = trainingsBlock.querySelectorAll('.sets');
                 for (var i = 0; i < sets.length; i++) {
-                    sets[i].addEventListener('input', validateSets, false);
+                    sets[i].addEventListener('keydown', validateSets, false);
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release
