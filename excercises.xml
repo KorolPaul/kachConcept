@@ -5,8 +5,10 @@
             <span class="excercise-name">Жимы арнольда</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/arnold.jpg" alt="shoulder" />
@@ -30,8 +32,10 @@
             <span class="excercise-name">Жимы штанги из-за головы</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/behind-pullup.jpg" alt="shoulder" />
@@ -52,8 +56,10 @@
             <span class="excercise-name">Жимы с гантелями</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/dumbbell-press.jpg" alt="shoulder" />
@@ -69,8 +75,10 @@
             <span class="excercise-name">Армейский жим</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/army-press.jpg" alt="shoulder" />
@@ -86,8 +94,10 @@
             <span class="excercise-name">Швунги штанги</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/shvungi.jpg" alt="shoulder" />
@@ -103,8 +113,10 @@
             <span class="excercise-name">Разведение рук с гантелями</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">3</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/breeding-hands.jpg" alt="shoulder" />
@@ -125,8 +137,10 @@
             <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/block-side-shoulder.jpg" alt="shoulder" />
@@ -146,8 +160,10 @@
             <span class="excercise-name">Отведение руки вбок на блочном тренажере</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/block-side.jpg" alt="shoulder" />
@@ -163,8 +179,10 @@
             <span class="excercise-name">Отведение руки на уровень плеча на блочном тренажере сидя</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/block-side-sit.jpg" alt="shoulder" />
@@ -181,8 +199,10 @@
             <span class="excercise-name">Подъемы рук с гантелями</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/shoulders-lift.jpg" alt="shoulder" />
@@ -197,8 +217,10 @@
             <span class="excercise-name">Разведение рук с гантелями в наклоне</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shoulders/back-shoulder.jpg" alt="shoulder" />
@@ -221,8 +243,10 @@
             <span class="excercise-name">Высокая тяга штанги узким хватом</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img alt="trapezium" src="img/excercises/trapezium/high-lift.jpg" />
@@ -243,8 +267,10 @@
             <span class="excercise-name">"Шраги" со штангой</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">40</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img alt="trapezium" src="img/excercises/trapezium/shrags.jpg" />
@@ -260,8 +286,10 @@
             <span class="excercise-name">"Шраги" с гантелями</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">40</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img alt="trapezium" src="img/excercises/trapezium/shrags-dumbbells.jpg" />
@@ -279,8 +307,10 @@
             <span class="excercise-name">Жим штанги лежа</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/bench-press.jpeg" alt="chest" />
@@ -296,8 +326,10 @@
             <span class="excercise-name">Жим штанги на наклонной скамье</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/incle-bench-press.jpeg" alt="chest" />
@@ -313,8 +345,10 @@
             <span class="excercise-name">Жимы гантелей на горизонтальной скамье</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/bench-dumbbels.jpg" alt="chest" />
@@ -330,8 +364,10 @@
             <span class="excercise-name">Жимы гантелей на наклонной скамье</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/incle-bench-dumbbels.jpg" alt="chest" />
@@ -350,8 +386,10 @@
         <li class="chest" data-complexity="7">
             <span class="excercise-name">Отжимание на брусьях</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/dips.jpg" alt="chest" />
@@ -372,8 +410,10 @@
             <span class="excercise-name">Сведение-разведение рук с гантелями</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/breeding-dumbbels.jpg" alt="chest" />
@@ -395,8 +435,10 @@
             <span class="excercise-name">Сведение рук на верхнем блоке стоя</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/mix-hands-block.jpg" alt="chest" />
@@ -412,8 +454,10 @@
             <span class="excercise-name">Пуллоуверы</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/chest/pullover.jpg" alt="chest" />
@@ -431,8 +475,10 @@
             <span class="excercise-name">Сгибание рук со штангой стоя</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/burbell-curl.jpg" alt="biceps" />
@@ -454,8 +500,10 @@
             <span class="excercise-name">Сгибание рук на изолирующей скамье</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/scott-pullup.jpg" alt="biceps" />
@@ -475,8 +523,10 @@
             <span class="excercise-name">Сгибания на три счета ("21")</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">21</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">21</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/21.jpg" alt="biceps" />
@@ -497,8 +547,10 @@
             <span class="excercise-name">Сгибание рук с гантелями на наклонной скамье</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/curl-dumbbells-incline-bench.jpg" alt="biceps" />
@@ -519,8 +571,10 @@
             <span class="excercise-name">Сгибание рук с гантелями сидя</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/сurl-dumbbell-sitting.jpg" alt="biceps" />
@@ -542,8 +596,10 @@
             <span class="excercise-name">"Молоток"</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/hummer.jpg" alt="biceps" />
@@ -559,8 +615,10 @@
             <span class="excercise-name">"Сосредоточенные сгибания"</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/concentrated-bending.jpg" alt="biceps" />
@@ -581,8 +639,10 @@
             <span class="excercise-name">Сгибание рук на нижнем блоке</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/сurls-block.jpg" alt="biceps" />
@@ -603,8 +663,10 @@
             <span class="excercise-name">Сгибание рук со штангой обратным хватом</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/biceps/burbell-revert-curl.jpg" alt="biceps" />
@@ -627,8 +689,10 @@
             <span class="excercise-name">Жимы вниз на верхнем блоке</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/presses-top-shelf.jpeg" alt="triceps" />
@@ -649,8 +713,10 @@
             <span class="excercise-name">Жимы одной рукой на блоке обратным хватом</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/presses-top-shelf-reverse.jpg" alt="triceps" />
@@ -666,8 +732,10 @@
             <span class="excercise-name">Французский жим</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/french-presses.jpg" alt="triceps" />
@@ -687,8 +755,10 @@
             <span class="excercise-name">Отведение назад руки с гантелью в наклоне</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/retraction-hand-dumbbells.jpg" alt="triceps" />
@@ -709,8 +779,10 @@
             <span class="excercise-name">Разгибание руки с гантелью из-за головы</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">5</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/extension-dumbbell-head.jpg" alt="triceps" />
@@ -725,8 +797,10 @@
         <li class="triceps" data-complexity="5">
             <span class="excercise-name">Отжимания на параллельных скамьях</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/push-ups-parallel-benches.jpg" alt="triceps" />
@@ -746,8 +820,10 @@
         <li class="triceps" data-complexity="4">
             <span class="excercise-name">Экстензии для трицепсов на перекладине</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/triceps/triceps-extensions.jpg" alt="triceps" />
@@ -765,8 +841,10 @@
             <span class="excercise-name">Сгибание запястий со штангой</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/arms/bending-wrist-barbell.jpg" alt="biceps" />
@@ -787,8 +865,10 @@
             <span class="excercise-name">Сгибание запястий со штангой за спиной</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/arms/bending-wrist-barbell-back.jpg" alt="biceps" />
@@ -804,8 +884,10 @@
             <span class="excercise-name">Обратное сгибание запястий со штангой</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/arms/revert-bending-wrist-barbell.jpg" alt="biceps" />
@@ -826,8 +908,10 @@
         <li class="back" data-complexity="8">
             <span class="excercise-name">Подтягивания широким хватом</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/pull-ups.jpg" alt="back" />
@@ -842,8 +926,10 @@
         <li class="back" data-complexity="8">
             <span class="excercise-name">Подтягивания узким хватом</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/close-grip-pull-ups.jpg" alt="back" />
@@ -859,8 +945,10 @@
             <span class="excercise-name">Тяга за голову на высоком блоке</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/traction-high-block.jpg" alt="back" />
@@ -880,8 +968,10 @@
             <span class="excercise-name">Становая тяга</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">40</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/deadlift.jpg" alt="back" />
@@ -902,8 +992,10 @@
             <span class="excercise-name">Тяга штанги в наклоне</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/thrust-rod-slope.jpg" alt="back" />
@@ -922,8 +1014,10 @@
             <span class="excercise-name">Тяга на T-грифе</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">20</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/t-neck.jpg" alt="back" />
@@ -942,8 +1036,10 @@
             <span class="excercise-name">Тяга гантели одной рукой в наклоне</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/thrust-dumbbell.jpg" alt="back" />
@@ -959,8 +1055,10 @@
             <span class="excercise-name">Тяга к животу на нижнем блоке</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">15</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/back/traction-low-block.jpg" alt="back" />
@@ -977,8 +1075,10 @@
         <li class="small-back" data-complexity="5">
             <span class="excercise-name">Гиперэкстензии</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/small-back/hyperextension.jpg" alt="back" />
@@ -995,8 +1095,10 @@
         <li class="press" data-complexity="5">
             <span class="excercise-name">Сгибание туловища на наклонной</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/bending-body-incle.jpg" alt="press" />
@@ -1015,8 +1117,10 @@
         <li class="press" data-complexity="5">
             <span class="excercise-name">Сгибание туловища</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/trunk-flexion.jpg" alt="press" />
@@ -1031,8 +1135,10 @@
         <li class="press" data-complexity="5">
             <span class="excercise-name">Скручивания</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/twisting.jpg" alt="press" />
@@ -1047,8 +1153,10 @@
         <li class="press" data-complexity="7">
             <span class="excercise-name">Подъем ног на перекладине</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/rise-legs-crossbar.jpg" alt="press" />
@@ -1063,8 +1171,10 @@
         <li class="press" data-complexity="6">
             <span class="excercise-name">Подъем ног в упоре</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/rise-legs-vertical-bench.jpg" alt="press" />
@@ -1080,8 +1190,10 @@
             <span class="excercise-name">Сгибание туловища на верхнем блоке</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">15</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">15</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/flexion-trunk-block.jpg" alt="press" />
@@ -1096,8 +1208,10 @@
         <li class="press" data-complexity="5">
             <span class="excercise-name">Группировка на горизонтальной скамье</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/grouping-horizontal-bar.jpg" alt="press" />
@@ -1112,8 +1226,10 @@
         <li class="press" data-complexity="1">
             <span class="excercise-name">Повороты туловища</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/turns-torso.jpg" alt="press" />
@@ -1128,8 +1244,10 @@
         <li class="press" data-complexity="5">
             <span class="excercise-name">Подъемы ног</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/leg-raises.jpg" alt="press" />
@@ -1143,8 +1261,10 @@
         <li class="press" data-complexity="1">
             <span class="excercise-name">Втягивание живота ("вакуум")</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">30</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">30</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/press/vacum.jpg" alt="press" />
@@ -1161,8 +1281,10 @@
             <span class="excercise-name">Приседания со штангой</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/quadriceps/squats.jpg" alt="quadriceps" />
@@ -1185,8 +1307,10 @@
             <span class="excercise-name">Полуприседы</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">40</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">8</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">8</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/quadriceps/half-squats.jpg" alt="quadriceps" />
@@ -1202,8 +1326,10 @@
             <span class="excercise-name">Приседания со штангой на груди</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">25</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/quadriceps/squats-chest.jpg" alt="quadriceps" />
@@ -1219,8 +1345,10 @@
             <span class="excercise-name">Жимы ногами</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">40</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/quadriceps/legs-press.jpg" alt="quadriceps" />
@@ -1235,8 +1363,10 @@
             <span class="excercise-name">Выпады</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">16</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">16</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/quadriceps/lunges.jpeg" alt="quadriceps" />
@@ -1252,8 +1382,10 @@
             <span class="excercise-name">Выпрямление ног на тренажере</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">16</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">16</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/quadriceps/legs-extensions.jpg" alt="quadriceps" />
@@ -1270,8 +1402,10 @@
             <span class="excercise-name">Сгибание ног на тренажере</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">10</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">12</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">12</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/hamstrings/flexion-simulator.jpg" alt="hamstrings" />
@@ -1292,8 +1426,10 @@
             <span class="excercise-name">Становая тяга штанги с прямыми ногами</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/hamstrings/deadlift-streight-legs.jpg" alt="hamstrings" />
@@ -1314,8 +1450,10 @@
         <li class="butt" data-complexity="4">
             <span class="excercise-name">Задние подъемы ног</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">10</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">10</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/butt/rear-leg-raises.jpg" alt="butt" />
@@ -1333,8 +1471,10 @@
             <span class="excercise-name">Подъемы на носки стоя</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">20</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">20</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shin/toes-ups.jpg" alt="shin" />
@@ -1355,8 +1495,10 @@
             <span class="excercise-name">Подъемы на носки сидя</span>
             <div class="sets">
                 <span class="weight"><span contenteditable="true">30</span> кг</span>
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">20</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">20</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shin/toes-ups-sitting.gif" alt="shin" />
@@ -1370,8 +1512,10 @@
         <li class="shin" data-complexity="8">
             <span class="excercise-name">Подъемы на носки "осликом"</span>
             <div class="sets">
-                <span contenteditable="true">3</span>x
-                <span contenteditable="true">20</span>
+                <span class="repeats">
+                    <span contenteditable="true">3</span> x
+                    <span contenteditable="true">20</span>
+                </span>
             </div>
             <div class="description">
                 <img src="img/excercises/shin/donkey.jpg" alt="shin" />

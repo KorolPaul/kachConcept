@@ -247,7 +247,7 @@ path {
 }
 
 .training .excercise-name {
-    padding-right: 120px;
+    padding-right: 135px;
 }
 .excercises li.animated, .training li.animated {
     transition: .2s all ease-in;
@@ -269,10 +269,12 @@ li.temp {
     padding: 10px 15px;
     background: #fefefe;
     opacity: 0;
+    visibility: hidden;
     transition: .2s all ease;
 }
 .info.opened {
     opacity: 1;
+    visibility: visible;
 }
 .info + .info.opened {
     z-index: 2;
@@ -296,7 +298,7 @@ li.temp {
 .sets {
     position: absolute;
     top: 3px;
-    right: 20px;
+    right: 23px;
     display: none;
 }
 .sets > span {
@@ -325,9 +327,33 @@ li.temp {
     opacity: 1;
 }
 
+.repeats {
+    display: inline-block;
+    border-right: 1px solid #404040;
+    width: 46px;
+}
+.repeats > span {
+    display: inline-block; 
+    min-width: 8px;
+    max-width: 15px;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
 .weight {
     border-right: 1px solid #404040;
     border-left: 1px solid #404040;
+    display: inline-block;
+    width: 43px;
+    text-align: right;
+}
+.weight > span {
+    display: inline-block; 
+    min-width: 8px;
+    max-width: 24px;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: top;
 }
 
 .description {

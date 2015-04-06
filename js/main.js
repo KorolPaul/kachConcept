@@ -6,7 +6,8 @@ window.onload = function () {
             dragExcerciseNext,
             mouseOffset,
             trainings = [],
-            timer = 0,
+            timerShow = 0,
+            timerHide = 0,
             xml, 
             info = document.getElementById('info'),
             trainingsBlock = document.getElementById('trainings'),
@@ -60,9 +61,12 @@ window.onload = function () {
                 excercise.innerHTML = html[i].innerHTML;
                 excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');
 
-                excercise.addEventListener('mouseover', showInfo);
-                excercise.addEventListener('mouseout', hideInfo);
+                excercise.addEventListener('mouseenter', showInfo);
+                excercise.addEventListener('mouseleave', hideInfo);
                 excercise.addEventListener('mousedown', moveExcerciseStart);
+
+                info.nextElementSibling.onmouseenter = function () {clearTimeout(timerHide)};
+                info.nextElementSibling.onmouseout = hideInfo;
 
                 excercises.appendChild(excercise);
             }
@@ -138,17 +142,31 @@ window.onload = function () {
             deleteButton.onclick = deleteExcersice;
             excercise.appendChild(deleteButton);
 
-            for (var i = 0; i < sets.childElementCount; i++) {
-                sets.children[i].addEventListener("DOMCharacterDataModified", saveProgram, false);
-            }
+            sets.addEventListener('input', validateSets, false);
+
 
             training.appendChild(excercise);
             
             if (typeof(training.dataset.complexity) === 'undefined') {
                 training.dataset.complexity = parseInt(complexity);
             } else {
-                training.dataset.complexity = parseInt(training.dataset.complexity) + parseInt(complexity);
+                calculateComplexity(training, complexity);
             }
+
+            
+            saveProgram();
+        }
+
+        function deleteExcersice(e) {
+            var training = e.target.parentNode.parentNode;
+            training.removeChild(e.target.parentNode);
+            calculateComplexity(training, - parseInt(e.target.parentNode.dataset["complexity"]));
+            saveProgram();
+        }
+
+        function calculateComplexity(training, complexity) {
+            training.dataset.complexity = parseInt(training.dataset.complexity) + parseInt(complexity);
+            training.className = 'training droppable';
 
             if (training.dataset.complexity > 20)
                 training.classList.add("easy");
@@ -158,14 +176,6 @@ window.onload = function () {
                 training.classList.add("hard");
             if (training.dataset.complexity > 60)
                 training.classList.add("insane");
-
-            saveProgram();
-        }
-
-        function deleteExcersice(e) {
-            var training = e.target.parentNode.parentNode;
-            training.removeChild(e.target.parentNode);
-            saveProgram();
         }
 
         function addTraining() {
@@ -179,22 +189,23 @@ window.onload = function () {
         }
 
         function showInfo(e) {
-            clearTimeout(timer);
+            clearTimeout(timerShow);
             var html = this.innerHTML;
 
-            timer = setTimeout(function () {
+            timerShow = setTimeout(function () {
                 info.innerHTML = html;
                 info.classList.add("opened");
-            }, 200);
+                clearTimeout(timerHide);
+            }, 250);
         }
 
         function hideInfo(e) {
             info.nextElementSibling.innerHTML = info.innerHTML;
             info.nextElementSibling.classList.add("opened");
-            setTimeout(function () {
+            timerHide = setTimeout(function () {
                 info.classList.remove("opened");
                 info.nextElementSibling.classList.remove("opened");
-            }, 200);
+            }, 250); 
         }
 
         function loadExcercises() {
@@ -218,6 +229,15 @@ window.onload = function () {
             localStorage.trainingProgramm = trainingsBlock.innerHTML;
         }
 
+        function validateSets(e) {
+            if (/[0-9]/.test(e.key)) {
+                console.log(trainingsBlock.innerHTML)
+                saveProgram();
+            } else if (e.keyCode != 8 && e.keyCode != 46 && e.keyCode != 8 && e.keyCode != 37 && e.keyCode != 39) {
+                e.preventDefault();
+            }
+        }
+
         function rotateBody() {
             var body = document.getElementsByTagName('svg');
 
@@ -226,23 +246,39 @@ window.onload = function () {
             }
         }
 
+        function clearLocalStorage(e) {
+            if (e.keyCode == 76) {
+                localStorage.clear();
+                location.reload(false);
+            }
+        }
+
         return {
             init: function () {
                 switcher.onclick = rotateBody;
                
-                if (localStorage.trainingProgramm !== undefined)
+                if (localStorage.trainingProgramm !== undefined) {
                     trainingsBlock.innerHTML = localStorage.trainingProgramm;
+                }
                 
-                for (var i = 0; i < muscules.length; i++)
+                for (var i = 0; i < muscules.length; i++) {
                     muscules[i].onclick = showExcercises;
+                }
 
-                for (var i = 0; i < droppable.length; i++)
+                for (var i = 0; i < droppable.length; i++) {
                     trainings.push(droppable[i]);
+                }
 
                 for (var i = 0; i < document.getElementsByClassName('delete').length; i++) {
                     document.getElementsByClassName('delete')[i].onclick = deleteExcersice
                 }
 
+                var sets = trainingsBlock.querySelectorAll('.sets');
+                for (var i = 0; i < sets.length; i++) {
+                    sets[i].addEventListener('input', validateSets, false);
+                }
+
+                document.onkeydown = clearLocalStorage; //remove after release
                 addTrainingButton.onclick = addTraining;
                 loadExcercises();
             }
