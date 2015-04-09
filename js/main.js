@@ -31,12 +31,17 @@ window.onload = function () {
             if (!e.which && e.button) {
                 e.which = e.button & 1 ? 1 : (e.button & 2 ? 3 : (e.button & 4 ? 2 : 0))
             }
+            if (e.pageX == 0) {
+                e = e.touches[0] || e.changedTouches[0];
+            }
+
             return e
         }
 
         function getPosition(e) {
-            var left = 0;
-            var top = 0;
+            var left = 0,
+                top = 0;
+
             while (e.offsetParent) {
                 left += e.offsetLeft;
                 top += e.offsetTop;
@@ -64,6 +69,7 @@ window.onload = function () {
                 excercise.addEventListener('mouseenter', showInfo);
                 excercise.addEventListener('mouseleave', hideInfo);
                 excercise.addEventListener('mousedown', moveExcerciseStart);
+                excercise.addEventListener('touchstart', moveExcerciseStart);
 
                 info.nextElementSibling.onmouseenter = function () {clearTimeout(timerHide)};
                 info.nextElementSibling.onmouseout = hideInfo;
@@ -79,8 +85,10 @@ window.onload = function () {
             dragExcercise = this.cloneNode(true);
             dragExcercise.classList.add('temp');
 
-            document.onmousemove = moveExcercise;
-            document.onmouseup = moveExcerciseEnd;
+            document.addEventListener('mousemove', moveExcercise);
+            document.addEventListener('mouseup', moveExcerciseEnd);
+            document.addEventListener('touchmove', moveExcercise);
+            document.addEventListener('touchend', moveExcerciseEnd);
 
             document.body.appendChild(dragExcercise);
 
@@ -89,25 +97,25 @@ window.onload = function () {
                 x: e.pageX - pos.x,
                 y: e.pageY - pos.y
             }
-            document.body.onselectstart = function () { return false };
+            //document.body.onselectstart = function () { return false };
             return false;
         }
 
         function moveExcercise(e) {
             e = fixEvent(e);
-            dragExcercise.style.left = e.pageX - mouseOffset.x + "px";
-            dragExcercise.style.top = e.pageY - mouseOffset.y + "px";
+            
+            dragExcercise.style.left = e.pageX - mouseOffset.x + 'px';
+            dragExcercise.style.top = e.pageY - mouseOffset.y + 'px';
             if (dragExcerciseNext) {
                 dragExcerciseNext = dragExcercise.nextSibling.nextSibling;
-                dragExcerciseNext.style.marginTop = dragExcercise.offsetHeight + "px";
-                dragExcerciseNext.className += "animated";
+                dragExcerciseNext.style.marginTop = dragExcercise.offsetHeight + 'px';
+                dragExcerciseNext.className += 'animated';
             }
         }
 
         function moveExcerciseEnd(e) {
             e = fixEvent(e)
             var isDropped = false;
-
             for (var i = 0; i < trainings.length; i++) {
                 var targ = trainings[i];
                 var targPos = getPosition(targ);
@@ -115,7 +123,7 @@ window.onload = function () {
                 var targHeight = parseInt(targ.offsetHeight);
 
                 if ((e.pageX > targPos.x) && (e.pageX < (targPos.x + targWidth)) && (e.pageY > targPos.y) && (e.pageY < (targPos.y + targHeight))) {
-                    dragExcercise.classList.remove("temp");
+                    dragExcercise.classList.remove('temp');
                     addExcersice(targ, dragExcercise);
                     isDropped = true;
                 }
@@ -128,8 +136,10 @@ window.onload = function () {
 
             dragExcercise = null;
             dragExcerciseNext = null;
-            document.onmousemove = null;
-            document.onmouseup = null;
+            document.removeEventListener('mousemove', moveExcercise);
+            document.removeEventListener('mouseup', moveExcerciseEnd);
+            document.removeEventListener('touchmove', moveExcercise);
+            document.removeEventListener('touchend', moveExcerciseEnd);
         }
 
         function addExcersice(training, excercise) {
@@ -142,7 +152,7 @@ window.onload = function () {
             deleteButton.onclick = deleteExcersice;
             excercise.appendChild(deleteButton);
 
-            sets.addEventListener('keydown', validateSets, false);
+            sets.addEventListener('input', validateSets, false);
 
 
             training.appendChild(excercise);
@@ -153,6 +163,7 @@ window.onload = function () {
                 calculateComplexity(training, complexity);
             }
 
+            
             saveProgram();
         }
 
@@ -230,7 +241,7 @@ window.onload = function () {
 
         function validateSets(e) {
             if (/[0-9]/.test(e.key)) {
-                setTimeout(function () { saveProgram() }, 1000);
+                saveProgram();
             } else if (e.keyCode != 8 && e.keyCode != 46 && e.keyCode != 8 && e.keyCode != 37 && e.keyCode != 39) {
                 e.preventDefault();
             }
@@ -260,7 +271,8 @@ window.onload = function () {
                 }
                 
                 for (var i = 0; i < muscules.length; i++) {
-                    muscules[i].onclick = showExcercises;
+                    muscules[i].addEventListener('click', showExcercises);
+                    muscules[i].addEventListener('touchend', showExcercises);
                 }
 
                 for (var i = 0; i < droppable.length; i++) {
@@ -273,7 +285,7 @@ window.onload = function () {
 
                 var sets = trainingsBlock.querySelectorAll('.sets');
                 for (var i = 0; i < sets.length; i++) {
-                    sets[i].addEventListener('keydown', validateSets, false);
+                    sets[i].addEventListener('input', validateSets, false);
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release
