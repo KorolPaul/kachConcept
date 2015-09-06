@@ -10,13 +10,15 @@ window.onload = function () {
             timerHide = 0,
             xml, 
             info = document.getElementById('info'),
+            infoClose = document.getElementById('info_close'),
             trainingsBlock = document.getElementById('trainings'),
             addTrainingButton = document.getElementById('addTraining'),
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
             muscules = document.getElementsByTagName('g'),
             excercises = document.getElementById('excercises'), 
-            switcher = document.getElementById('muscles_switcher');
+            switcher = document.getElementById('muscles_switcher'), 
+            isInfoShown = false;
 
         function fixEvent(e) {
             e = e || window.event;
@@ -67,12 +69,12 @@ window.onload = function () {
                 excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');
 
                 excercise.addEventListener('mouseenter', showInfo);
-                excercise.addEventListener('mouseleave', hideInfo);
+                excercise.addEventListener('click', showInfo);
+                excercise.addEventListener('mouseleave', function () {
+                    clearTimeout(timerShow);
+                });
                 excercise.addEventListener('mousedown', moveExcerciseStart);
                 excercise.addEventListener('touchstart', moveExcerciseStart);
-
-                info.nextElementSibling.onmouseenter = function () {clearTimeout(timerHide)};
-                info.nextElementSibling.onmouseout = hideInfo;
 
                 excercises.appendChild(excercise);
             }
@@ -199,23 +201,30 @@ window.onload = function () {
         }
 
         function showInfo(e) {
-            clearTimeout(timerShow);
             var html = this.innerHTML;
 
-            timerShow = setTimeout(function () {
-                info.innerHTML = html;
+            if (isInfoShown) {
+                clearTimeout(timerShow);
+                hideInfo();
+            } else {
+                isInfoShown = true;
                 info.classList.add("opened");
+            }
+            
+            timerShow = setTimeout(function () {
+                info.querySelector('.info_content').innerHTML = html;
+                info.classList.add("visible");
                 clearTimeout(timerHide);
-            }, 250);
+                info.nextElementSibling.classList.remove("visible");
+            }, 300);
         }
 
         function hideInfo(e) {
-            info.nextElementSibling.innerHTML = info.innerHTML;
-            info.nextElementSibling.classList.add("opened");
+            info.nextElementSibling.querySelector('.info_content').innerHTML = info.innerHTML;
+            info.nextElementSibling.classList.add("visible");
             timerHide = setTimeout(function () {
-                info.classList.remove("opened");
-                info.nextElementSibling.classList.remove("opened");
-            }, 250); 
+                info.nextElementSibling.classList.remove("visible");
+            }, 300); 
         }
 
         function loadExcercises() {
@@ -286,6 +295,13 @@ window.onload = function () {
                 var sets = trainingsBlock.querySelectorAll('.sets');
                 for (var i = 0; i < sets.length; i++) {
                     sets[i].addEventListener('input', validateSets, false);
+                }
+
+                infoClose.onclick = function (e) {
+                    e.preventDefault();
+                    info.classList.remove("opened");
+                    info.nextElementSibling.classList.remove("visible");
+                    isInfoShown = false;
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release

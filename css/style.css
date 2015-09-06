@@ -28,6 +28,7 @@ body {
     color: #404040;
     font: 16px 'Roboto Condensed', sans-serif;
     background: #fff;
+    overflow: hidden;
 }
 a {
     outline: none;
@@ -260,25 +261,42 @@ li.temp {
     top: -100px;
 }
 
+/*INFO*/
 .info {
+    background: #c0eff7;
+    border-left: 5px solid #ff4c36;
     position: absolute;
-    top: 5vh;
-    z-index: 1;
-    left: 35%;
+    top: 0;
+    right: 0;
+    bottom: 0;
     width: 50%;
-    border: 1px solid #404040;
+    z-index: 1;
     padding: 10px 15px;
-    background: #fefefe;
-    opacity: 0;
-    visibility: hidden;
-    transition: .2s all ease;
+    overflow: auto;
+    transition: .4s transform ease-out;
+    transform: translateX(100%);
 }
 .info.opened {
-    opacity: 1;
-    visibility: visible;
+    transform: translateX(0);
 }
-.info + .info.opened {
-    z-index: 2;
+
+.info__temp {
+    background: #e6e24d;
+    transition: .3s ease opacity;
+    opacity: 1;
+}
+.info__temp.visible {
+    transition: .3s ease opacity;
+    opacity: 0;
+    transform: translateX(0);
+}
+.info_close {
+    color: #ff4c36;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
 .info .description {
     display: block;
