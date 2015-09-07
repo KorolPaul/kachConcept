@@ -281,14 +281,17 @@ li.temp {
 }
 
 .info__temp {
-    background: #e6e24d;
     transition: .3s ease opacity;
-    opacity: 1;
+    transform: translateX(0);
+    opacity: 0;
+    z-index: -1;
 }
 .info__temp.visible {
-    transition: .3s ease opacity;
-    opacity: 0;
-    transform: translateX(0);
+    transition: none;
+    opacity: 1;
+}
+.info__focus {
+    z-index: 1;
 }
 .info_close {
     color: #ff4c36;

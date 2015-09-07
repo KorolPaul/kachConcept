@@ -208,23 +208,22 @@ window.onload = function () {
                 hideInfo();
             } else {
                 isInfoShown = true;
-                info.classList.add("opened");
+                info.classList.add('opened');
+                info.querySelector('.info_content').innerHTML = html;
             }
             
             timerShow = setTimeout(function () {
-                info.querySelector('.info_content').innerHTML = html;
-                info.classList.add("visible");
                 clearTimeout(timerHide);
-                info.nextElementSibling.classList.remove("visible");
+                info.querySelector('.info_content').innerHTML = html;
+                info.nextElementSibling.classList.remove('visible');
+                setTimeout(function () { info.nextElementSibling.classList.remove('info__focus'); }, 300);
             }, 300);
         }
 
         function hideInfo(e) {
-            info.nextElementSibling.querySelector('.info_content').innerHTML = info.innerHTML;
-            info.nextElementSibling.classList.add("visible");
-            timerHide = setTimeout(function () {
-                info.nextElementSibling.classList.remove("visible");
-            }, 300); 
+            info.nextElementSibling.querySelector('.info_content').innerHTML = info.querySelector('.info_content').innerHTML;
+            info.nextElementSibling.classList.add('visible');
+            info.nextElementSibling.classList.add('info__focus');
         }
 
         function loadExcercises() {
