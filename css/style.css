@@ -3,19 +3,19 @@
     padding: 0px;
 }
 .color1 {
-    background: #5db0bf;
+    background: rgb(93, 176, 191);
 }
 .color2 {
-    background: #355d80;
+    background: rgb(53, 93, 128);
 }
 .color3 {
-    background: #ff4c36;
+    background: rgb(255, 76, 54);
 }
 .color4 {
-    background: #404040;
+    background: rgb(64, 64, 64);
 }
 .color5 {
-    background: #e6e24d;
+    background: rgb(230, 226, 77);
 }
 html {
     height: 100%;
@@ -25,14 +25,14 @@ body {
     position: relative;
     display: -webkit-flex;
     display: flex;
-    color: #404040;
+    color: rgb(64, 64, 64);
     font: 16px 'Roboto Condensed', sans-serif;
-    background: #fff;
     overflow: hidden;
+    background: radial-gradient(ellipse at 50% 50%, #eee 0%, #e0dfdf 100%);
 }
 a {
     outline: none;
-    color: #355d80;
+    color: rgb(53, 93, 128);
 }
 a:hover {
     text-decoration: none;
@@ -50,31 +50,31 @@ p {
 }
 
 h1 {
-    color: #355d80;
+    color: rgb(53, 93, 128);
     font-size: 36px;
     font-weight: normal;
     margin: 0 0 25px 0;
 }
 h2 {
-    color: #404040;
+    color: rgb(64, 64, 64);
     font-size: 20px;
     font-weight: normal;
     line-height: 20px;
 }
 h3 {
-    color: #404040;
+    color: rgb(64, 64, 64);
     font-size: 16px;
     margin: 10px 0;
 }
 h4 {
-    color: #355d80;
+    color: rgb(53, 93, 128);
     font-size: 30px;
     font-weight: normal;
     margin: 0 0 25px 0;
 }
 
 input[type="text"], input[type="password"] {
-    border: 1px solid #404040;
+    border: 1px solid rgb(64, 64, 64);
     text-align: center;
     padding: 2px 5px;
     color: #3f4554;
@@ -91,25 +91,19 @@ table {
 }
 
 
-
-/*HTML5*/
-header, section, footer, nav, article, aside {
-    display: block;
-}
-
 /*---Content---*/
 .content {
 }
 
 
-/*trainings*/
+/* Trainings */
 .shedule {
-    border: 1px solid #404040;
+    border: 1px solid rgb(64, 64, 64);
     width: 23%;
     position: relative;
 }
 .shedule_header {
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid rgb(64, 64, 64);
     padding: 10px;
     font-size: 30px;
 }
@@ -119,7 +113,7 @@ header, section, footer, nav, article, aside {
 }
 .training {
     min-height: 200px;
-    border-bottom: 1px solid #404040;
+    border-bottom: 1px solid rgb(64, 64, 64);
     transition: background-color .3s ease, min-height .6s ease-in-out;
     position: relative;
     counter-increment: i;
@@ -157,7 +151,7 @@ header, section, footer, nav, article, aside {
     left: 50%;
     font-size: 30px;
     color: #fff;
-    background: #ff4c36;
+    background: rgb(255, 76, 54);
     padding: 1px 15px 3px;
     border-radius: 100%;
     cursor: pointer;
@@ -166,6 +160,7 @@ header, section, footer, nav, article, aside {
     opacity: .7;
 }
 
+/* Muscles */
 .muscles {
     text-align: center;
     align-content: flex-end;
@@ -227,11 +222,11 @@ path {
 
 /*excerrsizes*/
 .excercises {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     left: 10px;
     top: 10vh;
     max-width: 33%;
-    background: #fff;
     max-height: 70%;
     overflow: auto;
 }
@@ -241,11 +236,29 @@ path {
     transition: .05s all ease;
 }
 .excercise-name {
-    border: 1px solid #404040;
+    border: 1px solid rgb(64, 64, 64);
     padding: 2px 20px 2px 2px;
     display: block;
     cursor: pointer;
     transition: .2s all ease-in;
+}
+
+.excercises .excercise-name {
+    background: rgba(53, 93, 128, .25);
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #fff;
+    padding: 5px 20px 5px 5px;
+}
+.excercises li:last-child .excercise-name {
+    border: none;
+}
+.info .excercise-name {
+    transition: none;
+    margin: 0 0 5px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
 }
 
 .training .excercise-name {
@@ -263,17 +276,15 @@ li.temp {
 
 /*INFO*/
 .info {
-    background: #c0eff7;
-    border-left: 5px solid #ff4c36;
+    background: #fcfcfc;
+    border-left: 8px solid rgb(255, 76, 54);
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     width: 50%;
     z-index: 1;
-    padding: 10px 15px;
-    overflow: auto;
-    transition: .4s transform ease-out;
+    transition: .3s transform ease;
     transform: translateX(100%);
 }
 .info.opened {
@@ -284,32 +295,38 @@ li.temp {
     transition: .3s ease opacity;
     transform: translateX(0);
     opacity: 0;
-    z-index: -1;
+    visibility: hidden;
 }
 .info__temp.visible {
     transition: none;
     opacity: 1;
 }
 .info__focus {
-    z-index: 1;
+    visibility: visible;
 }
 .info_close {
-    color: #ff4c36;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    color: rgb(255, 76, 54);
+    position: fixed;
+    top: 10px;
+    left: -37px;
     font-size: 20px;
     text-decoration: none;
+    transition: .2s all ease;
+    display: none;
+}
+.info_close:hover {
+    color: #fff;
+}
+.info.opened .info_close {
+    display: block;
+}
+.info_content {
+    max-height: 100%;
+    overflow: auto;
+    padding: 10px 20px 10px;
 }
 .info .description {
     display: block;
-}
-.info .excercise-name {
-    margin: 0 0 5px;
-    display: block;
-    font-weight: bold;
-    border: none;
-    font-size: 18px;
 }
 .info img {
     max-width: 100%;
@@ -333,7 +350,7 @@ li.temp {
 }
 
 .delete {
-    color: #ff4c36;
+    color: rgb(255, 76, 54);
     position: absolute;
     right: 5px;
     top: 2px;
@@ -342,7 +359,7 @@ li.temp {
     transition: .2s ease opacity, .3s ease text-shadow;
 }
 .delete:hover {
-    text-shadow: 0 0 1px #ff4c36;
+    text-shadow: 0 0 1px rgb(255, 76, 54);
 }
 
 .trainings li:hover .delete {
@@ -351,7 +368,7 @@ li.temp {
 
 .repeats {
     display: inline-block;
-    border-right: 1px solid #404040;
+    border-right: 1px solid rgb(64, 64, 64);
     width: 46px;
 }
 .repeats > span {
@@ -363,8 +380,8 @@ li.temp {
     vertical-align: top;
 }
 .weight {
-    border-right: 1px solid #404040;
-    border-left: 1px solid #404040;
+    border-right: 1px solid rgb(64, 64, 64);
+    border-left: 1px solid rgb(64, 64, 64);
     display: inline-block;
     width: 43px;
     text-align: right;

@@ -72,6 +72,7 @@ window.onload = function () {
                 excercise.addEventListener('click', showInfo);
                 excercise.addEventListener('mouseleave', function () {
                     clearTimeout(timerShow);
+                    info.nextElementSibling.classList.remove('info__focus');
                 });
                 excercise.addEventListener('mousedown', moveExcerciseStart);
                 excercise.addEventListener('touchstart', moveExcerciseStart);
@@ -155,7 +156,6 @@ window.onload = function () {
             excercise.appendChild(deleteButton);
 
             sets.addEventListener('input', validateSets, false);
-
 
             training.appendChild(excercise);
             
@@ -298,8 +298,8 @@ window.onload = function () {
 
                 infoClose.onclick = function (e) {
                     e.preventDefault();
-                    info.classList.remove("opened");
-                    info.nextElementSibling.classList.remove("visible");
+                    info.classList.remove('opened');
+                    info.nextElementSibling.classList.remove('visible');
                     isInfoShown = false;
                 }
 
