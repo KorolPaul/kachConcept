@@ -155,6 +155,7 @@ table {
     padding: 1px 15px 3px;
     border-radius: 100%;
     cursor: pointer;
+    z-index: 1;
 }
 .addTraining:hover {
     opacity: .7;
@@ -236,23 +237,20 @@ path {
     transition: .05s all ease;
 }
 .excercise-name {
-    border: 1px solid rgb(64, 64, 64);
-    padding: 2px 20px 2px 2px;
     display: block;
     cursor: pointer;
+    background: rgba(53, 93, 128, .2);
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    padding: 5px 20px 5px 5px;
     transition: .2s all ease-in;
 }
-
-.excercises .excercise-name {
-    background: rgba(53, 93, 128, .25);
-    border-width: 0 0 1px 0;
-    border-bottom: 1px solid #fff;
-    padding: 5px 20px 5px 5px;
-}
-.excercises li:last-child .excercise-name {
+.excercises li:last-child .excercise-name, 
+.training li:last-child .excercise-name {
     border: none;
 }
 .info .excercise-name {
+    background: transparent;
     transition: none;
     margin: 0 0 5px;
     display: block;
@@ -368,7 +366,6 @@ li.temp {
 
 .repeats {
     display: inline-block;
-    border-right: 1px solid rgb(64, 64, 64);
     width: 46px;
 }
 .repeats > span {
@@ -380,8 +377,8 @@ li.temp {
     vertical-align: top;
 }
 .weight {
-    border-right: 1px solid rgb(64, 64, 64);
-    border-left: 1px solid rgb(64, 64, 64);
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    border-left: 1px solid rgba(255, 255, 255, .5);
     display: inline-block;
     width: 43px;
     text-align: right;
