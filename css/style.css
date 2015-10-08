@@ -23,11 +23,8 @@ html {
 body {
     min-height: 100%;
     position: relative;
-    display: -webkit-flex;
-    display: flex;
     color: rgb(64, 64, 64);
     font: 16px 'Roboto Condensed', sans-serif;
-    overflow: hidden;
     background: radial-gradient(ellipse at 50% 50%, #eee 0%, #e0dfdf 100%);
 }
 a {
@@ -57,9 +54,6 @@ h1 {
 }
 h2 {
     color: rgb(64, 64, 64);
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 20px;
 }
 h3 {
     color: rgb(64, 64, 64);
@@ -89,7 +83,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+td, th {
+    border: 1px solid rgb(64, 64, 64);
+    padding: 2px 5px;
+    font-size: 18px;
+}
 
+.flex {
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+}
 
 /*---Content---*/
 .content {
@@ -106,8 +110,9 @@ table {
     border-bottom: 1px solid rgb(64, 64, 64);
     padding: 10px;
     font-size: 30px;
+    font-weight: normal;
+    line-height: 20px;
 }
-
 .trainings {
     counter-reset: i 0;
 }
@@ -185,7 +190,7 @@ table {
     flex-grow: 5;
 }
 
-svg {
+.muscles_side {
     height: 90%;
     opacity: 0;
     height: 88vh;
@@ -196,25 +201,25 @@ svg {
     transition: .3s ease opacity;
     visibility: hidden;
 }
-svg.active {
+.muscles_side.active {
     opacity: 1;
     visibility: visible;
 }
-g {
+.muscles_side g {
     cursor: pointer;
     transition: .2s all ease-out;
     opacity: .3;
 }
-g:hover {
+.muscles_side g:hover {
     opacity: 0;
 }
 
-path {
+.muscles_side path {
     fill: #fff;
 }
 
-.bg, 
-.bg:hover {
+.muscles_side .bg, 
+.muscles_side .bg:hover {
     opacity: 1;
     cursor: default;
 }
@@ -406,7 +411,28 @@ li.temp {
 }
 
 
+/*Statistics*/
+.statistics {
+    margin: auto;
+}
+.statistics td {
+    min-width: 50px;
+}
 
+.plots {
+    margin: auto;
+    width: 80%;
+}
+.plots_item {
+    float: left;
+    margin: 0 5% 30px 0;
+    width: 45%;
+    text-align: center;
+}
+.plots_holder > div { 
+    margin: auto;
+    width: 90%;
+}
 
 .easy {
     background: rgba(204, 255, 216, .7);
