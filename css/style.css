@@ -88,6 +88,9 @@ td, th {
     padding: 2px 5px;
     font-size: 18px;
 }
+caption {
+    font-size: 30px;
+}
 
 .flex {
     display: -webkit-flex;
@@ -413,25 +416,29 @@ li.temp {
 
 /*Statistics*/
 .statistics {
-    margin: auto;
+    margin: 0 auto 50px;
 }
 .statistics td {
-    min-width: 50px;
+    min-width: 70px;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+.statistics td + td {
+    text-align: center;
 }
 
 .plots {
     margin: auto;
     width: 80%;
 }
+.plots_header {
+    margin: 0 auto 20px;
+}
 .plots_item {
     float: left;
     margin: 0 5% 30px 0;
     width: 45%;
     text-align: center;
-}
-.plots_holder > div { 
-    margin: auto;
-    width: 90%;
 }
 
 .easy {

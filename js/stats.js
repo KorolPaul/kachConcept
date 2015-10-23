@@ -25,7 +25,7 @@ function drawPlot(title, index) {
 
     plotItem.classList.add('plots_item');
     plotHolder.classList.add('plots_holder');
-    plotItem.innerHTML = '<h2>' + title + '</h2>';
+    plotItem.innerHTML = '<h2 class="plots_header">' + title + '</h2>';
 
     plotItem.appendChild(plotHolder);
     document.getElementById('plots').appendChild(plotItem);
@@ -41,7 +41,12 @@ function drawPlot(title, index) {
     var options = {
         height: 400,
         curveType: 'function',
-        legend: 'none'
+        legend: 'none',
+        animation: {
+            duration: 1000,
+            easing: 'out',
+            startup: true
+        }
     };
 
     var chart = new google.visualization.LineChart(plotHolder);
