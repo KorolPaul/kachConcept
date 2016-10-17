@@ -1,0 +1,53 @@
+.form {
+    width: 30%;
+    margin: auto;
+}
+.form_group {
+    position: relative;
+    padding: 0 0 35px;
+}
+.form_left {
+    float: left;
+    width: 75%;
+}
+.form_right {
+    background: rgba(53, 93, 128, .2);
+    float: right;
+    padding: 10px 15px;
+    width: 20%;
+}
+.form_label {
+    display: block;
+    text-transform: uppercase;
+}
+.form_input {
+    font-size: 30px;
+    padding: 5px 10px;
+    border: 1px solid #808080;
+    transition: .2s ease all;
+    width: 100%;
+}
+.form_input:focus {
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.form__center {
+    width: 30%;
+    margin: auto;
+}
+.form_button {
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: auto;
+}
+.form_error {
+    color: red;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.validation-summary-errors {
+    position: static;
+}

@@ -1,0 +1,9 @@
+.delete {
+    color: rgb(255, 76, 54);
+    cursor: pointer;
+    transition: .2s ease opacity, .3s ease text-shadow;
+    text-decoration: none;
+}
+.delete:hover {
+    text-shadow: 0 0 1px rgb(255, 76, 54);
+}

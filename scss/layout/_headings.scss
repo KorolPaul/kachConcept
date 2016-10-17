@@ -1,0 +1,53 @@
+﻿%heading1 {
+    color: $heading_color;
+    font: 48px/60px $headings_font-family;
+    margin: 5px 0 15px;
+    @include mobile {
+        font-size: 40px;
+        line-height: normal;
+    }
+}
+%heading2 {
+    color: $heading_color;
+    font: 500 24px/30px $default_font-family;
+    margin: 30px 0 13px;
+    clear: both;
+}
+%heading3 {
+    color: $heading_color;
+    font: 500 18px/24px $default_font-family;
+}
+%heading4 {
+    color: $heading_color;
+    font: 500 15px/20px $default_font-family;
+    margin-bottom: 13px;
+}
+%heading5 {
+    color: $heading_color;
+    font: 500 13px/19px $default_font-family;
+    margin: 0 0 10px;
+}
+
+h1, 
+.heading-1 {
+    @extend %heading1;
+}
+h2,
+.heading-2 {
+    @extend %heading2;
+}
+h3,
+.heading-3 {
+    @extend %heading3;
+}
+h4,
+.heading-4 {
+    @extend %heading4;
+}
+h5,
+.heading-5 {
+    @extend %heading5;
+}
+
+
+

@@ -1,0 +1,14 @@
+.shedule {
+    border: 1px solid rgb(64, 64, 64);
+    width: 23%;
+    position: absolute;
+    display: none;
+
+    &_header {
+        border-bottom: 1px solid rgb(64, 64, 64);
+        padding: 10px;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+}

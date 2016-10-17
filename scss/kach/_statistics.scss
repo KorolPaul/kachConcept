@@ -1,0 +1,13 @@
+.statistics {
+    margin: 0 auto 50px;
+
+    td {
+        min-width: 70px;
+        padding: 5px 10px;
+        font-size: 30px;
+    }
+    td + td {
+        text-align: center;
+    }
+
+}

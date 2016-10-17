@@ -1,0 +1,16 @@
+.delete {
+    color: rgb(255, 76, 54);
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    opacity: 0;
+    cursor: pointer;
+    transition: .2s ease opacity, .3s ease text-shadow;
+
+    &:hover {
+        text-shadow: 0 0 1px rgb(255, 76, 54);
+    }
+    .trainings li:hover & {
+        opacity: 1;
+    }
+}

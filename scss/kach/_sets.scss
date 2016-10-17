@@ -1,0 +1,19 @@
+.sets {
+    position: absolute;
+    top: 3px;
+    right: 23px;
+    display: none;
+
+    & > span {
+        padding: 2px 4px;
+        transition: .2s all ease;
+    }
+    span[contenteditable]:hover,
+    span[contenteditable]:focus {
+        background: #e0dfdf;
+        color: #858585;
+    }
+    .training & {
+        display: block;
+    }
+}

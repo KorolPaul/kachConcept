@@ -1,0 +1,17 @@
+.addTraining {
+    position: absolute;
+    transition: .3s all ease;
+    margin: -23px 0 0 -22px;
+    left: 50%;
+    font-size: 30px;
+    color: #fff;
+    background: rgb(255, 76, 54);
+    padding: 1px 15px 3px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+
+    &:hover {
+        opacity: .7;
+    }
+}

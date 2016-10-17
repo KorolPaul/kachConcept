@@ -1,0 +1,40 @@
+@mixin inline-block {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+@mixin inline-block-wrapper {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -0.31em;
+    word-spacing: -0.43em;
+}
+@mixin inline-block-optimized($font-size: $default_font-size, $line-height: normal) {
+    font-size: $font-size;
+    letter-spacing: normal;
+    line-height: $line-height;
+    word-spacing: normal;
+}
+@mixin invisible-text {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+@mixin cutted-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@mixin tablet {
+    @media all and (max-width: $layout_width) { @content; }
+}
+@mixin mobile {
+    @media all and (max-width: 479px) { @content; }
+}
+@mixin media($resolution) {
+    @media all and (max-width: $resolution) { @content; }
+}
+@mixin filter($url) {
+    -webkit-filter: url($url);
+    filter: url($url);
+}

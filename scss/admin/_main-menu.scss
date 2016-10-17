@@ -1,0 +1,13 @@
+.main-menu-wrapper {
+    background: #2c3e50;
+    padding: 10px
+}
+.main-menu {
+    max-width: 1600px;
+    margin: auto;
+
+    &_link {   
+        color: #ecf0f1;
+        padding: 0 10px 0 0;
+    }
+}

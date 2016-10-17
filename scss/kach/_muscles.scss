@@ -1,0 +1,38 @@
+.muscles {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    
+    &_side {
+        height: 90%;
+        opacity: 0;
+        height: 88vh;
+        max-width: 90%;
+        right: 0;
+        top: 2vh;
+        transition: .3s ease opacity;
+        visibility: hidden;
+
+        &.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        g {
+            cursor: pointer;
+            transition: .2s all ease-out;
+            opacity: .3;
+
+            &:hover {
+                opacity: 0;
+            }
+        }
+        path {
+            fill: #fff;
+        }
+        .bg, 
+        .bg:hover {
+            opacity: 1;
+            cursor: default;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+a {
+    color: rgb(93, 176, 191);
+    font-size: 16px;
+    transition: .2s ease all;
+
+    &:hover {
+        color: rgb(53, 93, 128);
+    }
+}

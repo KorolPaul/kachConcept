@@ -1,0 +1,26 @@
+/*Layout*/
+$layout_width: 1180px;
+
+/*Fonts*/
+$default_font-family: 'Roboto', serif;
+$headings_font-family: Georgia, "Times new roman";
+$default_font-size: 15px;
+$small_font-size: 12px;
+
+$heading_color: #000;
+$default_color: #545454;
+$light_color: #6d6d6d;
+
+$link_color: #000;
+$link_color__hover: #595959;
+
+/*Inputs*/
+$input_color: #000;
+$input_border-color: #e8e8e8;
+$input_background: #fff;
+
+$button_color: #fff;
+$button_background: $link_color;
+
+$error_color: #ef2924;
+$form-wrong_color: #b0182a;

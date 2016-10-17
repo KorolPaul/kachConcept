@@ -1,0 +1,30 @@
+.excercises {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 10px;
+    top: 10vh;
+    max-width: 33%;
+    max-height: 70%;
+    overflow: auto;
+
+    .excercises li,
+    .training li {
+        position: relative;
+        z-index: 1;
+        transition: .05s all ease;
+    }
+    .excercises li.animated,
+    .training li.animated {
+        transition: .2s all ease-in;
+    }
+}
+.excercise-info {
+    position: relative;
+    flex-grow: 5;
+}
+li.temp {
+    position: absolute;
+    cursor: pointer;
+    left: -5000px;
+    top: -100px;
+}

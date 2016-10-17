@@ -1,0 +1,16 @@
+.weight {
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    display: inline-block;
+    width: 43px;
+    text-align: right;
+
+    & > span {
+        display: inline-block; 
+        min-width: 8px;
+        max-width: 24px;
+        height: 20px;
+        overflow: hidden;
+        vertical-align: top;
+    }
+}

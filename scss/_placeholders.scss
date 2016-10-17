@@ -1,0 +1,31 @@
+%clearfix {
+    clear: both;
+    zoom: 1;
+
+    &:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+}
+%holder {
+    margin: auto;
+    width: $layout_width;
+}
+%holder-wide {
+    padding: 0 15px;
+}
+%fade-in {
+    animation: .2s ease fade-in;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

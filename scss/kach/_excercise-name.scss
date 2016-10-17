@@ -1,0 +1,27 @@
+.excercise-name {
+    display: block;
+    cursor: pointer;
+    background: rgba(53, 93, 128, .2);
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    padding: 5px 20px 5px 5px;
+    transition: .2s all ease-in;
+
+    .info & {
+        background: transparent;
+        transition: none;
+        margin: 0 0 5px;
+        display: block;
+        font-weight: bold;
+        border: none;
+        font-size: 18px;
+    }
+
+    .excercises li:last-child &, 
+    .training li:last-child & {
+        border: none;
+    }
+    .training & {
+        padding-right: 135px;
+    }
+}

@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+
+@import "const";
+@import "templates";
+@import "placeholders";
+
+/*Form elements*/
+@import "form-elements/button";
+@import "form-elements/input";
+@import "form-elements/textarea";
+@import "form-elements/label";
+@import "form-elements/form";
+
+/*Layout*/
+@import "layout/normalize";
+@import "layout/layout";
+@import "layout/footer";
+@import "layout/headings";
+@import "layout/links";
+@import "layout/content";
+
+/*Header*/
+@import "header/header";
+@import "header/menu";
+@import "header/logo";
+@import "header/navigation";
+
+/*KACH*/
+@import "kach/addTraining";
+@import "kach/complexity";
+@import "kach/delete";
+@import "kach/description";
+@import "kach/excercises";
+@import "kach/excercise-name";
+@import "kach/info";
+@import "kach/muscles";
+@import "kach/plots";
+@import "kach/schedule";
+@import "kach/sets";
+@import "kach/statistics";
+@import "kach/trainings";
+@import "kach/weight";
+@import "kach/muscles-list";

@@ -1,0 +1,16 @@
+.logo {
+    background: url(img/logo.png) no-repeat 0 center;
+    color: rgb(255, 76, 54);
+    font: 50px 'Russo One', sans-serif;
+    display: inline-block;
+    padding: 0 0 0 140px;
+    height: 183px;
+    line-height: 183px;
+    vertical-align: middle;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(255, 76, 54);
+        filter: contrast(200%);
+    }
+}

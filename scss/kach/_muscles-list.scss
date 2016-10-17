@@ -1,0 +1,16 @@
+.muscles-list {
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    li {
+        list-style: none;
+        margin: 0 0 20px;
+    }
+    a {
+        color: gray;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}

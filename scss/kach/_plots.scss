@@ -1,0 +1,14 @@
+.plots {
+    margin: auto;
+    width: 80%;
+
+    &_header {
+    margin: 0 auto 20px;
+    }
+    &_item {
+        float: left;
+        margin: 0 5% 30px 0;
+        width: 45%;
+        text-align: center;
+    }
+}

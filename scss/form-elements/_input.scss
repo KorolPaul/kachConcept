@@ -1,0 +1,17 @@
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"] {
+    font: 12px 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    font-size: 30px;
+    padding: 5px 10px;
+    border: 1px solid #808080;
+    transition: .2s ease all;
+    width: 100%;
+}
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="datetime"]:focus {
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
