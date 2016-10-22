@@ -5,11 +5,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="style.css" media="all" />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <script src="../../Scripts/jquery-2.1.3.js"></script>
-    <script src="../../Scripts/kach.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/kach.js"></script>
 </head>
 <body>
-    <a href="/" class="logo">muscle.by</a>
+    <a href="/" class="logo">
+        <img src="img/logo.png" alt="muscle.by">
+    </a>
 
     <div class="menu-right">
         <a href="#" class="shedule-icon"></a>
@@ -120,27 +122,13 @@
     </div>
 
     <ul class="muscles-list">
-        <li>
-            <a href="#">спина</a>
-        </li>
-        <li>
-            <a href="#">ягодицы</a>
-        </li>
-        <li>
-            <a href="#">пресс</a>
-        </li>
-        <li>
-            <a href="#">плечи</a>
-        </li>
-        <li>
-            <a href="#">руки</a>
-        </li>
-        <li>
-            <a href="#">грудь</a>
-        </li>
-        <li>
-            <a href="#">ноги</a>
-        </li>
+        <a class="back" href="#">спина</a>
+        <a class="butt" href="#">ягодицы</a>
+        <a class="press" href="#">пресс</a>
+        <a class="shoulder" href="#">плечи</a>
+        <a class="arms" href="#">руки</a>
+        <a class="chest" href="#">грудь</a>
+        <a class="quadriceps" href="#">ноги</a>
     </ul>
 
     <ul id="excercises" class="excercises"></ul>

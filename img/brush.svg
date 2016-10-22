@@ -4,7 +4,7 @@
 	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <defs>
 	<style>
-		.brush-path {fill: #ff0000;}
+		.brush-path {fill: #ff0000; opacity: .7;}
 		#line-1 {fill: url(#pattern-1);}
 		#line-2 {fill: url(#pattern-2);}
 		#line-3 {fill: url(#pattern-3);}
@@ -12,74 +12,68 @@
 		#line-5 {fill: url(#pattern-5);}
 		#line-6 {fill: url(#pattern-6);}
 	</style>
-	<pattern id="pattern-1" patternUnits="userSpaceOnUse"
-			width="0" height="300" viewbox="0 0 500 300">
-			<rect id="pattern-rect-1" y="0" width="0" height="300" fill="#FFFFFF" />
+	<pattern id="pattern-1" width="700" height="300" viewbox="0 0 700 300">
+			<rect id="pattern-rect-1" x="0" width="0" height="300" fill="#ff0000" />
 	</pattern>
-	<pattern id="pattern-2" patternUnits="userSpaceOnUse"
-			width="0" height="300" viewbox="0 0 500 300">
-			<rect id="pattern-rect-2" y="0" width="0" height="300" fill="#FFFFFF" />
+	<pattern id="pattern-2" width="700" height="300" viewbox="0 0 700 300">
+			<rect id="pattern-rect-2" x="700" width="700" height="300" fill="#ff0000" />
 	</pattern>
-	<pattern id="pattern-3" patternUnits="userSpaceOnUse"
-			width="500" height="300" viewbox="0 0 500 300">
-			<rect id="pattern-rect-3" y="0" width="500" height="300" fill="#FFFFFF" />
+	<pattern id="pattern-3" width="700" height="300" viewbox="0 0 700 300">
+			<rect id="pattern-rect-3" x="0" width="0" height="300" fill="#ff0000" />
 	</pattern>
-	<pattern id="pattern-4" patternUnits="userSpaceOnUse"
-			width="500" height="300" viewbox="0 0 500 300">
-			<rect id="pattern-rect-4" y="0" width="500" height="300" fill="#FFFFFF" />
+	<pattern id="pattern-4" width="700" height="300" viewbox="0 0 700 300">
+			<rect id="pattern-rect-4" x="700" width="700" height="300" fill="#ff0000" />
 	</pattern>
-	<pattern id="pattern-5" patternUnits="userSpaceOnUse"
-			width="500" height="300" viewbox="0 0 500 300">
-			<rect id="pattern-rect-5" y="0" width="500" height="300" fill="#FFFFFF" />
+	<pattern id="pattern-5" width="700" height="300" viewbox="0 0 700 300">
+			<rect id="pattern-rect-5" x="0" width="0" height="300" fill="#ff0000" />
 	</pattern>
-	<pattern id="pattern-6" patternUnits="userSpaceOnUse"
-			width="500" height="300" viewbox="0 0 500 300">
-			<rect id="pattern-rect-6" y="0" width="500" height="300" fill="#FFFFFF" />
+	<pattern id="pattern-6" width="700" height="300" viewbox="0 0 700 300">
+			<rect id="pattern-rect-6" x="700" width="700" height="300" fill="#ff0000" />
 	</pattern>
 	<animate xlink:href="#pattern-rect-1"
 			attributeName="width"
 			from="0"
-			to="500"
-			dur="5s"
+			to="700"
+			dur="0.3s"
 			fill="freeze"
 			id="anim1" />
 	<animate xlink:href="#pattern-rect-2"
-			attributeName="width"
-			from="0"
-			to="500"
-			dur="5s"
+			attributeName="x"
+			from="700"
+			to="0"
+			dur="0.15s"
 			fill="freeze"
 			id="anim2"
 			begin="anim1.end" />
 	<animate xlink:href="#pattern-rect-3"
-			attributeName="x"
+			attributeName="width"
 			from="0"
-			to="500"
-			dur="0.5s"
+			to="700"
+			dur="0.15s"
 			fill="freeze"
 			id="anim3"
 			begin="anim2.end" />
 	<animate xlink:href="#pattern-rect-4"
 			attributeName="x"
-			from="0"
-			to="500"
-			dur="0.5s"
+			from="700"
+			to="0"
+			dur="0.15s"
 			fill="freeze"
 			id="anim4"
 			begin="anim3.end" />
 	<animate xlink:href="#pattern-rect-5"
-			attributeName="x"
+			attributeName="width"
 			from="0"
-			to="500"
-			dur="0.5s"
+			to="700"
+			dur="0.15s"
 			fill="freeze"
 			id="anim5"
 			begin="anim4.end" />
 	<animate xlink:href="#pattern-rect-6"
 			attributeName="x"
-			from="0"
-			to="500"
-			dur="0.5s"
+			from="700"
+			to="0"
+			dur="0.15s"
 			fill="freeze"
 			id="anim6"
 			begin="anim5.end" />

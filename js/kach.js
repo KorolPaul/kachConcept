@@ -13,6 +13,7 @@ window.onload = function () {
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
             muscules = document.getElementsByTagName('g'),
+            musculesList = document.querySelectorAll('.muscles-list a')
             excercises = document.getElementById('excercises'), 
             isInfoShown = false;
 
@@ -53,8 +54,8 @@ window.onload = function () {
         }
 
         function showExcercises(e) {
-            var musculeName = this.className['baseVal'];
-
+            var musculeName = this.className['baseVal'] || this.className;
+            console.info(musculeName)
             excercises.innerHTML = '';
 
             var html = xml.getElementsByClassName(musculeName);
@@ -230,6 +231,7 @@ window.onload = function () {
         }
 
         function saveProgram() {
+            /*
             $.ajax({
                 url: '/Training/SaveTraining',
                 type: 'POST',
@@ -237,7 +239,7 @@ window.onload = function () {
                 dataType: 'json',
                 error: function () { console.error('Error!'); }
             });
-
+            */
             localStorage.trainingProgramm = trainingsBlock.innerHTML;
         }
 
@@ -246,6 +248,7 @@ window.onload = function () {
                 trainingsBlock.innerHTML = localStorage.trainingProgramm;
             }
 
+            /*            
             $.ajax({
                 url: '/Training/LoadTraining',
                 type: 'POST',
@@ -258,6 +261,10 @@ window.onload = function () {
                     for (var i = 0; i < muscules.length; i++) {
                         muscules[i].addEventListener('click', showExcercises);
                         muscules[i].addEventListener('touchend', showExcercises);
+                    }
+                    for (var i = 0; i < musculesList.length; i++) {
+                        musculesList[i].addEventListener('click', showExcercises);
+                        musculesList[i].addEventListener('touchend', showExcercises);
                     }
 
                     for (var i = 0; i < droppable.length; i++) {
@@ -275,6 +282,30 @@ window.onload = function () {
                 },
                 error: function () { console.error('Error!'); }
             });
+
+            */
+
+            for (var i = 0; i < muscules.length; i++) {
+                muscules[i].addEventListener('click', showExcercises);
+                muscules[i].addEventListener('touchend', showExcercises);
+            }
+            for (var i = 0; i < musculesList.length; i++) {
+                musculesList[i].addEventListener('click', showExcercises);
+                musculesList[i].addEventListener('touchend', showExcercises);
+            }
+
+            for (var i = 0; i < droppable.length; i++) {
+                trainings.push(droppable[i]);
+            }
+
+            for (var i = 0; i < document.getElementsByClassName('delete').length; i++) {
+                document.getElementsByClassName('delete')[i].onclick = deleteExcersice
+            }
+
+            var sets = trainingsBlock.querySelectorAll('.sets');
+            for (var i = 0; i < sets.length; i++) {
+                sets[i].addEventListener('input', validateSets, false);
+            }
         }
 
         function validateSets(e) {

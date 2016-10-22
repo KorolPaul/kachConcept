@@ -1,10 +1,10 @@
 .excercise-name {
     display: block;
     cursor: pointer;
-    background: rgba(53, 93, 128, .2);
-    border-width: 0 0 1px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, .5);
-    padding: 5px 20px 5px 5px;
+    font-size: 17px;
+    color:#423b5d;
+    padding: 20px 30px 20px 0;
+    border-bottom: 1px solid #e8e8ec;
     transition: .2s all ease-in;
 
     .info & {

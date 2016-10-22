@@ -1,19 +1,18 @@
 .excercises {
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
-    left: 10px;
-    top: 10vh;
-    max-width: 33%;
-    max-height: 70%;
+    right: 0;
+    top: 100px;
+    max-height: calc(100% - 100px);
     overflow: auto;
 
-    .excercises li,
+    li,
     .training li {
+        list-style: none;
         position: relative;
         z-index: 1;
         transition: .05s all ease;
     }
-    .excercises li.animated,
+    li.animated,
     .training li.animated {
         transition: .2s all ease-in;
     }
