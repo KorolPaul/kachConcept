@@ -1,9 +1,12 @@
 window.onload = function () {
 
-    var kachManager = (function () {
-        var dragExcercise,
+    let kachManager = (function () {
+        let dragExcercise,
             dragExcerciseNext,
             mouseOffset,
+            rotateStart,
+            rotateOffset,
+            motionFrame = 0,
             trainings = [],
             xml, 
             info = document.getElementById('info'),
@@ -12,6 +15,7 @@ window.onload = function () {
             addTrainingButton = document.getElementById('addTraining'),
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
+            body = document.getElementById('body'),
             muscules = document.getElementsByTagName('g'),
             musculesList = document.querySelectorAll('.muscles-list a')
             excercises = document.getElementById('excercises'), 
@@ -316,12 +320,29 @@ window.onload = function () {
             }
         }
 
-        function rotateBody() {
-            var body = document.getElementsByTagName('svg');
+        function startRotateBody(e) {
+            rotateStart = e.clientX;
+            document.onmousemove = rotateBody;
+            document.onmouseup = endRotatebody;
+        }
 
-            for (var i = 0; i < body.length; i++) {
-                body[i].classList.toggle('active');
+        function rotateBody(e) {
+            rotateOffset = rotateStart - e.clientX;
+            if(rotateOffset > 25 * motionFrame + 1 && motionFrame <= 12) {
+                motionFrame++;
+            } else if(rotateOffset < 25 * motionFrame + 1 && motionFrame >= 0) {
+                motionFrame--;
             }
+
+            body.style.backgroundPositionX = motionFrame * 9 + "%";            
+            console.log(rotateOffset)
+        }
+
+        function endRotateBody(e) {
+            rotateStart = 0;
+            rotateOffset = 0;
+            document.onmousemove = null;
+            document.onmouseup = null;
         }
 
         function clearLocalStorage(e) {
@@ -344,7 +365,8 @@ window.onload = function () {
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release
-                addTrainingButton.onclick = addTraining;
+                body.onclick = startRotateBody;
+                addTrainingButton.onmousedown = addTraining;
                 loadExcercises();
             }
         }
