@@ -1,6 +1,9 @@
 window.onload = function () {
 
     let kachManager = (function () {
+        const FRAMES_COUNT = 11,
+              FRAMES_INTERVAL = 20;    
+
         let dragExcercise,
             dragExcerciseNext,
             mouseOffset,
@@ -8,8 +11,9 @@ window.onload = function () {
             rotateOffset,
             motionFrame = 0,
             trainings = [],
-            xml, 
-            info = document.getElementById('info'),
+            xml;
+
+        let info = document.getElementById('info'),
             infoClose = document.getElementById('info_close'),
             trainingsBlock = document.getElementById('trainings'),
             addTrainingButton = document.getElementById('addTraining'),
@@ -322,27 +326,28 @@ window.onload = function () {
 
         function startRotateBody(e) {
             rotateStart = e.clientX;
-            document.onmousemove = rotateBody;
-            document.onmouseup = endRotatebody;
+            document.addEventListener("mousemove", rotateBody);
+            document.addEventListener("mouseup", endRotateBody);
         }
 
         function rotateBody(e) {
             rotateOffset = rotateStart - e.clientX;
-            if(rotateOffset > 25 * motionFrame + 1 && motionFrame <= 12) {
-                motionFrame++;
-            } else if(rotateOffset < 25 * motionFrame + 1 && motionFrame >= 0) {
-                motionFrame--;
-            }
+            if (rotateOffset > FRAMES_INTERVAL || rotateOffset < -FRAMES_INTERVAL) {
+                if (rotateOffset > 0) {
+                    motionFrame < FRAMES_COUNT ? motionFrame++ : motionFrame = 0;
+                } else {
+                    motionFrame > 0 ? motionFrame-- : motionFrame = FRAMES_COUNT;
+                }
 
-            body.style.backgroundPositionX = motionFrame * 9 + "%";            
-            console.log(rotateOffset)
+                rotateStart = e.clientX;
+                body.style.backgroundPositionX = motionFrame * 9 + "%";            
+            }            
         }
 
         function endRotateBody(e) {
-            rotateStart = 0;
-            rotateOffset = 0;
-            document.onmousemove = null;
-            document.onmouseup = null;
+            console.info(1)
+            document.removeEventListener("mousemove", rotateBody);
+            document.removeEventListener("mouseup", endRotateBody);
         }
 
         function clearLocalStorage(e) {
@@ -365,7 +370,7 @@ window.onload = function () {
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release
-                body.onclick = startRotateBody;
+                body.addEventListener("mousedown", startRotateBody);
                 addTrainingButton.onmousedown = addTraining;
                 loadExcercises();
             }
