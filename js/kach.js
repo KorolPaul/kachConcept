@@ -20,7 +20,8 @@ window.onload = function () {
             droppable = document.getElementsByClassName('droppable'),
             shedule = document.getElementById('shedule'),
             body = document.getElementById('body'),
-            muscules = document.getElementsByTagName('g'),
+            muscules = document.getElementsByTagName('path'),
+            musculesSides = document.querySelectorAll('.muscles_side'),
             musculesList = document.querySelectorAll('.muscles-list a')
             excercises = document.getElementById('excercises'), 
             isInfoShown = false;
@@ -340,12 +341,17 @@ window.onload = function () {
                 }
 
                 rotateStart = e.clientX;
-                body.style.backgroundPositionX = motionFrame * 9 + "%";            
+                body.style.backgroundPositionX = motionFrame * 9 + "%";
+
+                musculesSides.forEach(function (map) {
+                    map.classList.remove('active')
+                });
+                console.log(motionFrame)
+                musculesSides[motionFrame].classList.add('active');
             }            
         }
 
         function endRotateBody(e) {
-            console.info(1)
             document.removeEventListener("mousemove", rotateBody);
             document.removeEventListener("mouseup", endRotateBody);
         }
@@ -370,7 +376,7 @@ window.onload = function () {
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release
-                body.addEventListener("mousedown", startRotateBody);
+                document.querySelector('.muscles').addEventListener("mousedown", startRotateBody);
                 addTrainingButton.onmousedown = addTraining;
                 loadExcercises();
             }

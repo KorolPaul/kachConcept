@@ -1,9 +1,22 @@
 .muscles {
+    cursor: all-scroll;    
     text-align: center;
     
     &_bg {
-        cursor: all-scroll;
-        cursor: url(https://cdn4.iconfinder.com/data/icons/multisizeicon-edition/512/baru-36-512.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 90vh;
+        width: 42vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+
+        &__girl {
+            background-image: url(img/girl.png);
+        }
+    }
+    &_map {
         background-repeat: no-repeat;
         background-size: auto 100%;
         height: 90vh;
@@ -18,34 +31,29 @@
         }
     }
     &_side {
-
-        display: none;
-
-        opacity: 0;
-        height: 80vh;
-        max-width: 90%;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
         transition: .3s ease opacity;
+        opacity: 0;
         visibility: hidden;
-        position: absolute;
 
         &.active {
             opacity: 1;
             visibility: visible;
-        }
-        g {
-            cursor: pointer;
-            transition: .2s all ease-out;
-            opacity: .3;
 
-            &:hover {
-                opacity: 0;
+            path {
+                display: block;
             }
         }
+
         path {
-            fill: #fff;
+            //fill: green;
+            cursor: pointer;
+            transition: .2s all ease-out;
+            opacity: .2;
+            display: none;
+
+            &:hover {
+                opacity: .6;
+            }
         }
     }
 }
