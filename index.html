@@ -33,15 +33,14 @@
                 <filter id="blur">
                     <feGaussianBlur stdDeviation="3"/>
                 </filter>
-                <pattern id="grid" patternUnits="userSpaceOnUse" width="800" height="587">
-                    <rect x="0" y="0" width="800" height="587" fill="rgba(255, 0, 0, .5)"/>
-                    <image x="0" y="0" width="800" height="587" xlink:href="http://mundocartolafc.com/imagens/header_fundo%20-%20C%C3%B3pia.png" />
+                <pattern id="grid" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(55 0 0)">
+                    <rect x="0" y="0" width="20" height="20" fill="rgba(255, 0, 0, .2)" stroke="red"/>
                 </pattern>
             </defs>
             <style>
                 path {
                     fill: url(#grid);
-                    filter: url(#blur);
+                    //filter: url(#blur);
                 }
             </style>
             <g class="muscles_side active">

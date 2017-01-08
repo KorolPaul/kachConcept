@@ -45,14 +45,13 @@
         }
 
         path {
-            //fill: green;
             cursor: pointer;
             transition: .2s all ease-out;
-            opacity: .2;
+            opacity: .6;
             display: none;
 
             &:hover {
-                opacity: .6;
+                opacity: 1;
             }
         }
     }
