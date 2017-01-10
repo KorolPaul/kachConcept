@@ -23,8 +23,7 @@ window.onload = function () {
             muscules = document.getElementsByTagName('path'),
             musculesSides = document.querySelectorAll('.muscles_side'),
             musculesList = document.querySelectorAll('.muscles-list a')
-            excercises = document.getElementById('excercises'), 
-            isInfoShown = false;
+            excercises = document.getElementById('excercises');
 
         function fixEvent(e) {
             e = e || window.event;
@@ -205,22 +204,9 @@ window.onload = function () {
 
         function showInfo(e) {
             var html = xml.getElementsByClassName(this.dataset['name'])[this.dataset['origin']].innerHTML;
-            if (isInfoShown) {
-                hideInfo();
-            } else {
-                isInfoShown = true;
-                info.classList.add('opened');
-                info.querySelector('.info_holder').innerHTML = html;
-            }
-            
+            console.info(html)
+            info.classList.add('opened');
             info.querySelector('.info_holder').innerHTML = html;
-            info.nextElementSibling.classList.remove('visible');
-        }
-
-        function hideInfo(e) {
-            info.nextElementSibling.querySelector('.info_holder').innerHTML = info.querySelector('.info_holder').innerHTML;
-            info.nextElementSibling.classList.add('visible');
-            info.nextElementSibling.classList.add('info__focus');
         }
 
         function loadExcercises() {
@@ -372,8 +358,6 @@ window.onload = function () {
                 infoClose.onclick = function (e) {
                     e.preventDefault();
                     info.classList.remove('opened');
-                    info.nextElementSibling.classList.remove('visible');
-                    isInfoShown = false;
                 }
 
                 document.onkeydown = clearLocalStorage; //remove after release

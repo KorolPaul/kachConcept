@@ -6,19 +6,19 @@
                 <span class="excercise-name">Жимы арнольда</span>
                 <button class="add-button">добавить в тренировку</button>
                 <div class="characteristics">
-                    <div class="characteristics-item">
-                        <span class="characteristics-value">7</span>
-                        <div class="characteristics-progress">
-                            <div class="characteristics_progress-value" style="width: 70%"></div>
+                    <div class="characteristics_item">
+                        <span class="characteristics_value">7</span>
+                        <div class="characteristics_progress">
+                            <div class="characteristics_progress-value" style="width: 70%"> </div>
                         </div>
-                        <span class="characteristics-title">Сложность</span>
+                        <span class="characteristics_title">Сложность</span>
                     </div>
-                    <div class="characteristics-item">
-                        <span class="characteristics-value">4</span>
-                        <div class="characteristics-progress">
-                            <div class="characteristics_progress-value" style="width: 40%"></div>
+                    <div class="characteristics_item">
+                        <span class="characteristics_value">4</span>
+                        <div class="characteristics_progress">
+                            <div class="characteristics_progress-value" style="width: 40%"> </div>
                         </div>
-                        <span class="characteristics-title">Риск травм</span>
+                        <span class="characteristics_title">Риск травм</span>
                     </div>
                 </div>
             </div>
@@ -29,27 +29,28 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
-                <div class="description_gallery">
-                    <div class="description_gallery-item description_gallery-item__main">
-                        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4305555556% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BLOsc4qDgc2/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"></a></p></div></blockquote>
-                    </div>
-                    <div class="description_gallery-item description_gallery-item__left">
-                        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4305555556% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BHk38wxDTLg/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"></a></p></div></blockquote>
-                    </div>
-                    <div class="description_gallery-item description_gallery-item__right">
-                        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4305555556% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BLOsc4qDgc2/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"></a></p></div></blockquote>
-                    </div>
-                    <div class="description_gallery-item description_gallery-item__left-bottom">
-                        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BN60H0Rg051/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Видео опубликовано Popeyes Supplements Sudbury (@popeyessudbury)</a> <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-12T13:35:46+00:00">Дек 12 2016 в 5:35 PST</time></p></div></blockquote>
-                    </div>
-                    <div class="description_gallery-item description_gallery-item__right-bottom">
-                        <img src="img/excercises/shoulders/arnold.jpg" alt="shoulder" />                        
-                    </div>
-                    <div class="description_gallery-item description_gallery-item__right-far">
-                        <iframe width="200" height="200" src="https://www.youtube.com/embed/6Z15_WdXmVw" frameborder="0"></iframe>
-                    </div>
+            <div class="info_gallery">
+                <div class="info_gallery-item info_gallery-item__main">
+                    <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4305555556% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"> </div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BLOsc4qDgc2/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"> </a></p></div></blockquote>
                 </div>
+                <div class="info_gallery-item info_gallery-item__left">
+                    <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4305555556% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"> </div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BHk38wxDTLg/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"> </a></p></div></blockquote>
+                </div>
+                <div class="info_gallery-item info_gallery-item__right">
+                    <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.4305555556% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"> </div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BLOsc4qDgc2/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank"> </a></p></div></blockquote>
+                </div>
+                <div class="info_gallery-item info_gallery-item__left-bottom">
+                    <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"> </div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BN60H0Rg051/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Видео опубликовано Popeyes Supplements Sudbury (@popeyessudbury)</a> <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-12T13:35:46+00:00">Дек 12 2016 в 5:35 PST</time></p></div></blockquote>
+                </div>
+                <div class="info_gallery-item info_gallery-item__right-bottom">
+                    <img src="img/excercises/shoulders/arnold.jpg" alt="shoulder" />
+                </div>
+                <div class="info_gallery-item info_gallery-item__right-far">
+                    <iframe width="200" height="200" src="https://www.youtube.com/embed/6Z15_WdXmVw" frameborder="0"> </iframe>
+                </div>
+            </div>
+            <div class="info_content">
+                <h3 class="info_title">Техника</h3>
                 <p>Жим Арнольда - базовое упражнение на дельтовидные мышцы: задействуются все три пучка, преимущественно средний и передний.</p>
                 <ol>
                     <li>Возьмите гантели и поднимите их до уровня шеи. Локти должны быть в одной плоскости с туловищем или слегка выдвинуты вперед. Ладонями - быть повернутыми к туловищу;</li>
@@ -58,7 +59,11 @@
                     <li>В верхней точке сделайте паузу и еще сильнее напрягите дельты;</li>
                     <li>Плавно опустите гантели в исходное положение, разворачивая гантели в обратном порядке.</li>
                 </ol>
-                <span>Особенности:</span>
+                <div class="info_advice">
+                    <p>В качестве отягощения можно брать как диск от штанги, так и саму штангу.</p>
+                    <img src="img/barbell.png" alt="barbell" />
+                </div>
+                <h3 class="info_title">Советы</h3>
                 <ul>
                     <li>Эффективность и безопасность упражнения зависят от правильной форма движения: вначале вы поднимаете гантели перед плоскостью туловища (локти при этом плавно разворачиваются в стороны), затем следует поворот в плечевом суставе и руки продолжают движение уже в плоскости туловища;</li>
                     <li>Выполняйте движение плавно, желательно без остановки в нижней точке. Рывки и ускорения переносят нагрузку на позвоночник;</li>
@@ -75,7 +80,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/behind-pullup.jpg" alt="shoulder" />
                 <p>Жим из-за головы - упражнение для развития плеч, которое нагружает дельтовидные мышцы: средний пучок, с акцентом на передний, а также верхнюю часть трапециевидных мышц, трицепсы и переднюю зубчатую мышцу.</p>
                 <ol>
@@ -99,7 +104,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/dumbbell-press.jpg" alt="shoulder" />
                 <p>Жим гантелей сидя - одно из базовых упражнений для плеч. Прежде всего, оно нагружает передние пучки дельтовидных мышц, во вторую - средние пучки дельт. Задняя часть плеча получает и вовсе незначительную долю нагрузки.</p>
                 <ol>
@@ -118,7 +123,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/army-press.jpg" alt="shoulder" />
                 <p>Армейский жим, или жим над головой - одно из лучших упражнений для развития мышц плечевого пояса: дельты, верх груди, а также трицепсы.</p>
                 <ol>
@@ -137,7 +142,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/shvungi.jpg" alt="shoulder" />
                 <p>Упражнение построено на принципе «читинга» и используется для формирования дополнительной силы дельтовидных мышц за счет использования большего веса.</p>
                 <ol>
@@ -156,7 +161,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/breeding-hands.jpg" alt="shoulder" />
                 <p>Упражнение для развития боковой головки дельтовидной мышцы с дополнительной нагрузкой для передней и задней головки дельтовидной мышцы.</p>
                 <ol>
@@ -180,7 +185,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/block-side-shoulder.jpg" alt="shoulder" />
                 <p>В этом упражнении трос создает для ваших мышц постоянное сопротивление, что позволяет хорошо проработать боковую головку дельтовидной мышцы.</p>
                 <ol>
@@ -203,7 +208,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/block-side.jpg" alt="shoulder" />
                 <p>Данное упражнение поможет проработать боковую головку дельтовидной мышцы и сделать плечи более рельефными.</p>
                 <ol>
@@ -222,7 +227,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/block-side-sit.jpg" alt="shoulder" />
                 <p>Изолирующее упражнение для задней дальты.</p>
                 <ol>
@@ -242,7 +247,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/shoulders-lift.jpg" alt="shoulder" />
                 <p>Упражнение для развитие передней головки дельтовидной мышцы, а также, трапециевидных мышц (в верхней трети движения).</p>
                 <ol>
@@ -260,7 +265,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shoulders/back-shoulder.jpg" alt="shoulder" />
                 <p>Отличное изолирующее упражнение для проработки задней головки дельтовидной мышцы.</p>
                 <ol>
@@ -286,7 +291,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img alt="trapezium" src="img/excercises/trapezium/high-lift.jpg" />
                 <p>Это упражнение хорошо развивает трапециевидные и передние дельтовидные мышцы.</p>
                 <ol>
@@ -310,7 +315,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img alt="trapezium" src="img/excercises/trapezium/shrags.jpg" />
                 <p>Шраги - основное упражнение лоя развития плотности и массивности трапециевидных мышц. Выполняется с очень тяжелыми весами.</p>
                 <ol>
@@ -329,7 +334,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img alt="trapezium" src="img/excercises/trapezium/shrags-dumbbells.jpg" />
                 <p>Шраги - основное упражнение лоя развития плотности и массивности трапециевидных мышц. Выполняется с очень тяжелыми весами.</p>
                 <ol>
@@ -350,7 +355,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/bench-press.jpeg" alt="chest" />
                 <p>Базовое упражнение, позволяющее значительно развить силу и массу грудных мышц, а теже передних дельтоидов и трицепсов.</p>
                 <ol>
@@ -369,7 +374,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/incle-bench-press.jpeg" alt="chest" />
                 <p>Помогает развить силу и массу среднего и верхнего отдела грудных машц, а также передних дельтоидов. При таком угле движения часть нагрузки переходит к верхним грудным мышцам и дельтоидам.</p>
                 <ol>
@@ -388,7 +393,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/bench-dumbbels.jpg" alt="chest" />
                 <p>Упражнения для развития массы и силы среднего и нижнего отдела грудных мышц. Гантели позволяют работать с большим диапазоном движения, чем штанга. Также в работу активнее включаются стабилизирующие мышцы.</p>
                 <ol>
@@ -407,7 +412,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/incle-bench-dumbbels.jpg" alt="chest" />
                 <p>Упражнения для развития массы и силы среднего и верхнего отдела грудных мышц.</p>
                 <ol>
@@ -429,7 +434,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/dips.jpg" alt="chest" />
                 <p>Базовое упражнения для развития грудных мышц и трицепсов. Его эффект схож с эфектом от жима на скамье с обратным наклоном, однако оно позволяет выполнять движение с большим диапазоном.</p>
                 <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
@@ -453,7 +458,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/breeding-dumbbels.jpg" alt="chest" />
                 <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
                 <ol>
@@ -478,7 +483,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/mix-hands-block.jpg" alt="chest" />
                 <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными.</p>
                 <ol>
@@ -497,7 +502,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/chest/pullover.jpg" alt="chest" />
                 <p>Одно из основных изолирующих упражнений для груди. Придает ей выпуклую форму, а также визуально делает более отчетливым разделение между левой и правой грудными. Также является упражнением для нижней части спины.</p>
                 <ol>
@@ -518,7 +523,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/burbell-curl.jpg" alt="biceps" />
                 <p>Базовое и самое эффективное упрежнение для наращивания массы бицепсов.</p>
                 <ol>
@@ -543,7 +548,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/scott-pullup.jpg" alt="biceps" />
                 <p>Развитие бицепсов, особенно в нижней части. Это отличное упражнение для заполнения промежутка между нижней частью бицепса и локтевым сочленением.</p>
                 <ol>
@@ -566,7 +571,7 @@
                     <span contenteditable="true">21</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/21.jpg" alt="biceps" />
                 <p>Упражнение для развития и формирования всей области бицепсов.</p>
                 <ol>
@@ -590,7 +595,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/curl-dumbbells-incline-bench.jpg" alt="biceps" />
                 <p>Упражнение для общего развития бицепсов и их дополнительной растяжки. Помогает нарастить массу и увеличить выпуклость бицепсов.</p>
                 <ol>
@@ -614,7 +619,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/сurl-dumbbell-sitting.jpg" alt="biceps" />
                 <p>Упражнение для массы и проработки формы бицепсов. Во время работы с гантелями вместо штанги, руки получают большую свободу движений, что помогает добиться большего сокращения мышц.</p>
                 <ol>
@@ -639,7 +644,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/hummer.jpg" alt="biceps" />
                 <p>В этом упражнении, помимо бицепсов, тренируются предплечья. Выполняется оно так же, как обычное сгибание рук с гантелями, за исключением того, что ладони все время должны быть повернуты внутрь.</p>
                 <ol>
@@ -658,7 +663,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/concentrated-bending.jpg" alt="biceps" />
                 <p>Главное упражнение для увеличения максимальной высоты бицепса.</p>
                 <ol>
@@ -682,7 +687,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/сurls-block.jpg" alt="biceps" />
                 <p>Упражнение для развитие и формирование бицепсов, особенно их высоты. </p>
                 <ol>
@@ -706,7 +711,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/biceps/burbell-revert-curl.jpg" alt="biceps" />
                 <p>Помимо развитие бицепсов, это упражнение предназначено для развития мышц предплечья.</p>
                 <ol>
@@ -732,7 +737,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/presses-top-shelf.jpeg" alt="triceps" />
                 <p>Развитие трицепсов по всему диапазону движения.</p>
                 <ol>
@@ -756,7 +761,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/presses-top-shelf-reverse.jpg" alt="triceps" />
                 <p>Упражнение для изоляция трицепса и придания ему подковообразной формы.</p>
                 <ol>
@@ -775,7 +780,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/french-presses.jpg" alt="triceps" />
                 <p>Отличное упражнение для развития всех трех головок трицепса.</p>
                 <ol>
@@ -798,7 +803,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/retraction-hand-dumbbells.jpg" alt="triceps" />
                 <p>Проработка трицепса, особенно его верхнего отдела.</p>
                 <ol>
@@ -822,7 +827,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/extension-dumbbell-head.jpg" alt="triceps" />
                 <p>Упражнение для изоляции и проработки всего объема трицепсов.</p>
                 <ol>
@@ -840,7 +845,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/push-ups-parallel-benches.jpg" alt="triceps" />
                 <p>Упражнение для развития мощности трицепсов.</p>
                 <ol>
@@ -863,7 +868,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/triceps/triceps-extensions.jpg" alt="triceps" />
                 <p>Упражнение для интенсивного потягивание и развитие трицепсов.</p>
                 <ol>
@@ -884,7 +889,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/arms/bending-wrist-barbell.jpg" alt="biceps" />
                 <p>Основное упражнение для развития внутренних мышц-сгибателей предплечья.</p>
                 <ol>
@@ -908,7 +913,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/arms/bending-wrist-barbell-back.jpg" alt="biceps" />
                 <p>Это упражнение для размития мышц-сгибателей предплечья является по-настоящему силовым, и вы может выполняться с довольно большим весом.</p>
                 <ol>
@@ -927,7 +932,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/arms/revert-bending-wrist-barbell.jpg" alt="biceps" />
                 <p>Основное упражнение для развитие внешних мышц-разгибателей предплечья.</p>
                 <ol>
@@ -951,7 +956,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/pull-ups.jpg" alt="back" />
                 <p>Прекрасное упражнение для расширение верхней части спины и развития всего плечевого пояса.</p>
                 <ol>
@@ -969,7 +974,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/close-grip-pull-ups.jpg" alt="back" />
                 <p>Базовое упражнение для развития спины и расширения ее нижнего отдела.</p>
                 <ol>
@@ -988,7 +993,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/traction-high-block.jpg" alt="back" />
                 <p>Это упражнение для расширения спины (особенно, верзней ее части) аналогично подтягиваниям, но его можно выполнять с неполным весом тела.</p>
                 <ol>
@@ -1011,7 +1016,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/deadlift.jpg" alt="back" />
                 <p>Становая тяга штанги является отличным общеукрепляющим упражнением. В нем учавствуют практически все мышцы: нижняя и верхняя часть спины, трапециевидные мышцы, ягодицы и почти все мышцы ног.</p>
                 <ol>
@@ -1035,7 +1040,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/thrust-rod-slope.jpg" alt="back" />
                 <p>Отличное упражнение для наращивания плотной мускулатуры верхней части спины, и, в меньшей степени, нижней части спины.</p>
                 <ol>
@@ -1057,7 +1062,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/t-neck.jpg" alt="back" />
                 <p>Упражнение для наращивания силы и массы мышц средней и внешней части спины.</p>
                 <ol>
@@ -1079,7 +1084,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/thrust-dumbbell.jpg" alt="back" />
                 <p>В отличие от тяги штанги, это упражнение позволит независимо прорабатывать мышцы по обе стороны спины, а также, поднимать больший вес, что позволит добиться лучшего сокращения мышц. А более широкий диапазон движения позволит проработать внутреннюю часть спины.</p>
                 <ol>
@@ -1098,7 +1103,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/back/traction-low-block.jpg" alt="back" />
                 <p>Упражнение для развития мощности спины. В особенности, нижнего отдела.</p>
                 <ol>
@@ -1118,7 +1123,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/small-back/hyperextension.jpg" alt="back" />
                 <p>Отличное упражнение для развития и укрепления мышц-разгибателей позвоночника в нижней части спины. Держа эти мышцы в тонусе, вы забудете о болях в спине и обезопасите себя от травм позвоночника. Также здесь прорабатываются ягодицы и бицепс бедра</p>
                 <ol>
@@ -1138,7 +1143,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/bending-body-incle.jpg" alt="press" />
                 <p>Упражнение для развитие верхней части прямых мышц живота.</p>
                 <ol>
@@ -1160,7 +1165,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/trunk-flexion.jpg" alt="press" />
                 <p>Упражнение для развитие верхней части брюшного пресса и косых мышц живота.</p>
                 <ol>
@@ -1178,7 +1183,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/twisting.jpg" alt="press" />
                 <p>Упражнение для развитие верхней части прямых мышц живота.</p>
                 <ol>
@@ -1196,7 +1201,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/rise-legs-crossbar.jpg" alt="press" />
                 <p>Развитие приемущественно нижнего отдела прямых мышц живота.</p>
                 <ol>
@@ -1214,7 +1219,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/rise-legs-vertical-bench.jpg" alt="press" />
                 <p>Упражнение  для развития приемущественно нижнего отдела прямых мышц живота. Альтернатива подъемам ног к перекладине.</p>
                 <ol>
@@ -1233,7 +1238,7 @@
                     <span contenteditable="true">15</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/flexion-trunk-block.jpg" alt="press" />
                 <p>Развитие верхнего и нижнего отделов прямых мышц живота.</p>
                 <ol>
@@ -1251,7 +1256,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/grouping-horizontal-bar.jpg" alt="press" />
                 <p>Развитие верхнего и нижнего отделов прямых мышц живота. В остальных упражнениях для пресса грудная клетка сближается с тазом или наоборот. Здесь же оба эти движения выполняются одновременно.</p>
                 <ol>
@@ -1269,7 +1274,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/turns-torso.jpg" alt="press" />
                 <p>Упражнение для уплотнения косых мышц живота. Оно выполняется без отягощения, поэтому не увеличивает объем косых мышц, а помогает его уплотнить.</p>
                 <ol>
@@ -1287,7 +1292,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/leg-raises.jpg" alt="press" />
                 <p>Развитие нижнего отдела брюшного пресса.</p>
                 <ol>
@@ -1304,7 +1309,7 @@
                     <span contenteditable="true">30</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/press/vacum.jpg" alt="press" />
                 <p>Это упражнение для развития внутренних мышц живота поможет сделать живот подтянутым.</p>
                 <ol>
@@ -1324,7 +1329,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/quadriceps/squats.jpg" alt="quadriceps" />
                 <p>Приседания со штангой на плечах являются базовым упражнением в бодибилдинге и пауэрлифтинге для развития бедер и ягодиц. Они считаются не только одним из главных силовых упражнений, но также используется в качестве вспомогательногых практически во всех видах спорта.</p>
                 <ol>
@@ -1350,7 +1355,7 @@
                     <span contenteditable="true">8</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/quadriceps/half-squats.jpg" alt="quadriceps" />
                 <p>За счет работы с более тяжелым веслм, это упражнение помогает развить дополнительную массу и силу бедер.</p>
                 <ol>
@@ -1369,7 +1374,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/quadriceps/squats-chest.jpg" alt="quadriceps" />
                 <p>По сравнению с классическими приседаниями, это упражнение позволяет акцентировать нагрузку на квадрицепсах и снимает часть нагрузки со спины.</p>
                 <ol>
@@ -1388,7 +1393,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/quadriceps/legs-press.jpg" alt="quadriceps" />
                 <p>Упражнение для наращивание массы и силы бедер. В отличие от приседаний со штангой, жимы не нагружают нижнюю часть спины, и, поэтому, позволяют работать с очень большим весом.</p>
                 <ol>
@@ -1406,7 +1411,7 @@
                     <span contenteditable="true">16</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/quadriceps/lunges.jpeg" alt="quadriceps" />
                 <p>Упражнение для развития передней части бедра и ягодиц.</p>
                 <ol>
@@ -1425,7 +1430,7 @@
                     <span contenteditable="true">16</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/quadriceps/legs-extensions.jpg" alt="quadriceps" />
                 <p>Отличное упражнение для развития формы и рельефности передней части бедра.</p>
                 <ol>
@@ -1445,7 +1450,7 @@
                     <span contenteditable="true">12</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/hamstrings/flexion-simulator.jpg" alt="hamstrings" />
                 <p>Это основное упражнение, направленное на развитие двуглавой мышцы бедра.</p>
                 <ol>
@@ -1469,7 +1474,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/hamstrings/deadlift-streight-legs.jpg" alt="hamstrings" />
                 <p>Отличное упражнение для развития бицепса бюедра, и, в меньшей степени, ягодиц и нижней части спины.</p>
                 <ol>
@@ -1493,7 +1498,7 @@
                     <span contenteditable="true">10</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/butt/rear-leg-raises.jpg" alt="butt" />
                 <p>Упражнение для развития ягодичных мышц.</p>
                 <ol>
@@ -1514,7 +1519,7 @@
                     <span contenteditable="true">20</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shin/toes-ups.jpg" alt="shin" />
                 <p>Упражнение для развития массы икроножных мышц.</p>
                 <ol>
@@ -1538,7 +1543,7 @@
                     <span contenteditable="true">20</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shin/toes-ups-sitting.gif" alt="shin" />
                 <p>Упражнение для развития нижней и верхней части икроножных мышц.</p>
                 <ol>
@@ -1555,7 +1560,7 @@
                     <span contenteditable="true">20</span>
                 </span>
             </div>
-            <div class="description">
+            <div class="info_content">
                 <img src="img/excercises/shin/donkey.jpg" alt="shin" />
                 <p>Отличное упражнение для развития силы и мощности задней части икроножных мышц.</p>
                 <ol>

@@ -1,0 +1,32 @@
+.menu-right {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    z-index: 2;
+
+    &_link {
+        border-radius: 50%;
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        margin: 0 15px;
+
+        &__shedule {
+            background: url(img/calendar.png) no-repeat;
+            position: relative;
+
+            &:after {
+                content: '|';
+                color: #dddce2;
+                font-size: 20px;
+                position: absolute;
+                right: -16px;
+                top: 2px;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

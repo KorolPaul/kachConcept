@@ -1,0 +1,28 @@
+.characteristics {
+    display: flex;
+    padding: 70px 0 0;
+
+    &_item {
+        flex-grow: 1;
+        margin: 0 10% 0 0;
+    }
+    &_value {
+        color: #f68d1c;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        display: block;
+    }
+    &_progress {
+        background: #e7e7e7;
+        height: 4px;
+        margin: 0 0 10px;
+    }
+    &_progress-value {
+        background: #f68d1c;
+        height: 100%;
+    }
+    &_title {
+        font-size:13px;
+    }
+}

@@ -3,15 +3,8 @@ html, body {
 }
 body {
     background: #fff;
+    font-family: $default_font-family;
     min-height: 100%;
     margin: 0;
     padding: 0;
-}
-
-
-.left {
-    float: left;
-}
-.right {
-    float: right;
 }

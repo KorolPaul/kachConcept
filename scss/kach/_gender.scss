@@ -1,0 +1,29 @@
+.gender {
+    position: absolute;
+    right: 35px;
+    top: 50vh;
+    transform: translate(0, -50%);
+
+    &_button {
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: block;
+        margin: 30px 0;
+        opacity: .5;
+        width: 35px;
+        transition: .2s ease opacity;
+
+        &__male {
+            background-image: url(img/male.png);
+            height: 46px;
+        }
+        &__female {
+            background-image: url(img/female.png);
+            height: 40px;
+        }
+        &:hover,
+        &.active {
+            opacity: 1;
+        }
+    }
+}

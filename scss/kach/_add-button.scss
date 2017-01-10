@@ -1,0 +1,17 @@
+.add-button {
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size:12px;
+    color: #149cca;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    box-shadow: 0 10px 15px -10px rgba(0, 0, 0, .2);
+
+    &:hover {
+        opacity: .7;
+    }
+}
