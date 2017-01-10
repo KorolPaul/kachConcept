@@ -63,16 +63,18 @@ window.onload = function () {
         }
 
         function showExcercises(e) {
-            var musculeName = this.className['baseVal'] || this.className;
-            console.info(musculeName)
-            excercises.innerHTML = '';
+            var musculeName = this.className['baseVal'] || this.className,
+                html = xml.getElementsByClassName(musculeName);
 
-            var html = xml.getElementsByClassName(musculeName);
+            excercises.innerHTML = '';
 
             for (var i = 0; i < html.length; i++) {
                 var excercise = document.createElement('li');
-                excercise.innerHTML = html[i].innerHTML;
+                excercise.innerHTML = html[i].querySelector('.excercise-name').innerHTML;
+                excercise.className = 'excercise-name';
                 excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');
+                excercise.dataset['origin'] = i;
+                excercise.dataset['name'] = musculeName;
 
                 excercise.addEventListener('click', showInfo);
                 excercise.addEventListener('mousedown', moveExcerciseStart);
@@ -202,22 +204,21 @@ window.onload = function () {
         }
 
         function showInfo(e) {
-            var html = this.innerHTML;
-
+            var html = xml.getElementsByClassName(this.dataset['name'])[this.dataset['origin']].innerHTML;
             if (isInfoShown) {
                 hideInfo();
             } else {
                 isInfoShown = true;
                 info.classList.add('opened');
-                info.querySelector('.info_content').innerHTML = html;
+                info.querySelector('.info_holder').innerHTML = html;
             }
             
-            info.querySelector('.info_content').innerHTML = html;
+            info.querySelector('.info_holder').innerHTML = html;
             info.nextElementSibling.classList.remove('visible');
         }
 
         function hideInfo(e) {
-            info.nextElementSibling.querySelector('.info_content').innerHTML = info.querySelector('.info_content').innerHTML;
+            info.nextElementSibling.querySelector('.info_holder').innerHTML = info.querySelector('.info_holder').innerHTML;
             info.nextElementSibling.classList.add('visible');
             info.nextElementSibling.classList.add('info__focus');
         }
