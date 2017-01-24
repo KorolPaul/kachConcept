@@ -2,10 +2,6 @@
     color: $heading_color;
     font: 48px/60px $headings_font-family;
     margin: 5px 0 15px;
-    @include mobile {
-        font-size: 40px;
-        line-height: normal;
-    }
 }
 %heading2 {
     color: $heading_color;

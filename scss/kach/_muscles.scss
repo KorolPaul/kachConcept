@@ -2,29 +2,18 @@
     cursor: all-scroll;    
     text-align: center;
     
-    &_bg {
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-        height: 90vh;
-        width: 42vh;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-
-        &__girl {
-            background-image: url(img/girl.png);
-        }
-    }
     &_map {
         background-repeat: no-repeat;
         background-size: auto 100%;
-        height: 90vh;
-        width: 42vh;
+        height: 80vh;
         left: 50%;
-        top: 50%;
+        top: 55%;
         transform: translate(-50%, -50%);
         position: absolute;
+        @include tablet {
+            height: 90vh;
+            top: 50%;            
+        }
 
         &__girl {
             background-image: url(img/girl.png);

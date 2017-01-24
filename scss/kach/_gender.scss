@@ -1,8 +1,11 @@
 .gender {
     position: absolute;
     right: 35px;
-    top: 50vh;
-    transform: translate(0, -50%);
+    top: 70px;
+    @include tablet {
+        top: 50vh;
+        transform: translate(0, -50%);
+    }
 
     &_button {
         background-repeat: no-repeat;

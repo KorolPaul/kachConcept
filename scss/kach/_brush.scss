@@ -1,7 +1,10 @@
 .brush {
-    width: 65vw;
+    width: 130vw;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @include tablet {
+        width: 65vw;        
+    }
 }

@@ -26,10 +26,10 @@
     white-space: nowrap;
 }
 @mixin tablet {
-    @media all and (max-width: $layout_width) { @content; }
+    @media all and (min-width: 768px) { @content; }
 }
-@mixin mobile {
-    @media all and (max-width: 479px) { @content; }
+@mixin desktop {
+    @media all and (min-width: 1200px) { @content; }
 }
 @mixin media($resolution) {
     @media all and (max-width: $resolution) { @content; }

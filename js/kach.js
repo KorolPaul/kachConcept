@@ -330,10 +330,9 @@ window.onload = function () {
                 rotateStart = e.clientX;
                 body.style.backgroundPositionX = motionFrame * 9 + "%";
 
-                musculesSides.forEach(function (map) {
-                    map.classList.remove('active')
-                });
-                console.log(motionFrame)
+                for (var i = 0; i < musculesSides.length; i++) {
+                    musculesSides[i].classList.remove('active');
+                }
                 musculesSides[motionFrame].classList.add('active');
             }            
         }
