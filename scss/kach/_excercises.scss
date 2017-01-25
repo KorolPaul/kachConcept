@@ -1,9 +1,18 @@
 .excercises {
+    background: rgba(255, 255, 255, .7);
     position: absolute;
+    bottom: 0;
     right: 0;
-    top: 100px;
+    left: 0;
+    padding: 0 20px;
     max-height: calc(100% - 100px);
     overflow: auto;
+    @include tablet {
+        background: transparent;
+        bottom: auto;
+        left: auto;
+        top: 100px;
+    }
 
     li,
     .training li {

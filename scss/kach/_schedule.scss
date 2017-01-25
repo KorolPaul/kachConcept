@@ -1,14 +1,22 @@
 .shedule {
-    border: 1px solid rgb(64, 64, 64);
-    width: 23%;
+    background: #fff;
     position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 25px;
+    z-index: 2;
     display: none;
 
+    &__opened {
+        display: block;
+    }
     &_header {
-        border-bottom: 1px solid rgb(64, 64, 64);
-        padding: 10px;
-        font-size: 30px;
-        font-weight: normal;
-        line-height: 20px;
+        color: #2582e9;
+        font-size: 34px;
+        font-weight: bold;
+        font-style: italic;
+        text-transform: uppercase;
     }
 }

@@ -1,34 +1,18 @@
 .trainings {
-    counter-reset: i 0;
+    padding: 0;
+    margin: 0 -25px 0 0;
+    overflow: auto;
+    white-space: nowrap;
 }
 .training {
-    min-height: 200px;
-    border-bottom: 1px solid rgb(64, 64, 64);
-    transition: background-color .3s ease, min-height .6s ease-in-out;
-    position: relative;
-    counter-increment: i;
+    display: inline-block;
+    list-style: none;
 
-    &:after {
-        content: counter(i);
-        opacity: 1;
-        transition: .3s opacity ease-in;
-        position: absolute;
-        z-index: 0;
-        bottom: -15px;
-        left: 0;
-        font-size: 100px;
-        color: #b1b0b0;
-        text-align: center;
-    }
-    &.new {
-        min-height: 0;
-
-        &:after {
-            opacity: 0;
-        }
-    }
-    li {
-        left: 0 !important;
-        top: 0 !important;
+    &_name {
+        font-weight: bold;
+        font-style: italic;
+        margin: 0 30px 0 0;
+        text-decoration: none;
+        text-transform: uppercase;
     }
 }

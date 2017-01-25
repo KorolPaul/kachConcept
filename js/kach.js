@@ -22,7 +22,8 @@ window.onload = function () {
             body = document.getElementById('body'),
             muscules = document.getElementsByTagName('path'),
             musculesSides = document.querySelectorAll('.muscles_side'),
-            musculesList = document.querySelectorAll('.muscles-list a')
+            musculesList = document.querySelectorAll('.muscles-list a'),
+            sheduleToggle = document.querySelector('#shedule-toggle'),
             excercises = document.getElementById('excercises');
 
         function fixEvent(e) {
@@ -193,20 +194,40 @@ window.onload = function () {
         }
 
         function addTraining() {
-            var newTraining = document.createElement('ul');
+            var newTraining = document.createElement('li');
             newTraining.classList.add('training');
-            newTraining.classList.add('droppable');
-            newTraining.classList.add('new');
+
+            var trainingLink = document.createElement('a');
+            var name = prompt('Введите название тренировки');            
+            trainingLink.attributes.href = "#";
+            trainingLink.classList.add('training_name');
+            trainingLink.innerText = name;            
+
+            var trainingContent = document.createElement('ul');
+            trainingContent.classList.add('training_excercises');
+            
+            //newTraining.classList.add('droppable');
+            //newTraining.classList.add('new');
+            newTraining.appendChild(trainingLink);
+            newTraining.appendChild(trainingContent);
             trainings.push(newTraining);
-            document.getElementsByClassName("trainings")[0].appendChild(newTraining);
-            setTimeout(function () { newTraining.classList.remove('new'); }, 100);
+            document.querySelector(".trainings").appendChild(newTraining);
         }
 
         function showInfo(e) {
             var html = xml.getElementsByClassName(this.dataset['name'])[this.dataset['origin']].innerHTML;
-            console.info(html)
             info.classList.add('opened');
             info.querySelector('.info_holder').innerHTML = html;
+            info.querySelector('.add-button').addEventListener('click', function () { 
+                addExcersiceToTraining(info);
+            });
+        }
+
+        function addExcersiceToTraining(html) {
+            console.log(html)
+            var newExcercise = document.createElement('li');
+            newExcercise.innerHTML = html.querySelector('.excercise-name').innerText;
+            document.querySelector('.training_excercises').appendChild(newExcercise);
         }
 
         function loadExcercises() {
@@ -362,6 +383,10 @@ window.onload = function () {
                 document.onkeydown = clearLocalStorage; //remove after release
                 document.querySelector('.muscles').addEventListener("mousedown", startRotateBody);
                 addTrainingButton.onmousedown = addTraining;
+                sheduleToggle.onclick = function (e) {
+                    e.preventDefault();
+                    shedule.classList.toggle('shedule__opened')
+                };
                 loadExcercises();
             }
         }
