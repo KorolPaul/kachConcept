@@ -11,7 +11,8 @@ var lr = require('tiny-lr'),
     image = require('gulp-image'),
     svg2png = require('gulp-svg2png'),
     server = lr(),
-    autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer'),
+    babel = require('gulp-babel');;
 
 gulp.task('server', function () {
     connect.server({
@@ -43,15 +44,19 @@ gulp.task('sass', function () {
 });
 
 gulp.task('js', function () {
-    gulp.src('js/**/*')
-      //.pipe(uglify())
-      .pipe(gulp.dest('Scripts'))
-      .pipe(connect.reload());;
+    gulp.src('./js/*.js')
+      .pipe(babel({
+         presets: ['es2015']
+        }))
+      .pipe(concat('script.js')) 
+      .pipe(uglify())
+      .pipe(gulp.dest('./'))
+      .pipe(connect.reload());
 });
 
 
 gulp.task('watch', function () {
-    gulp.watch(['*.html', './scss/**/*.scss'], ['html', 'sass']);
+    gulp.watch(['*.html', './scss/**/*.scss', , './js/*.js'], ['html', 'sass', 'js']);
 });
 
 gulp.task('default', function () {

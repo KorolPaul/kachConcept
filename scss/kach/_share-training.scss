@@ -1,0 +1,20 @@
+.share-training {
+    background: #f6f6f6 url(../img/share.png) no-repeat center center;
+    background-size: 18px auto;
+    border-radius: 3px;
+    color: #186ce9;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    height: 38px;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    width: 40%;
+    vertical-align: middle;
+    transition: .3s all ease;
+
+    &:hover {
+        opacity: .7;
+    }
+}
