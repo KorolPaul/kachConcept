@@ -1,24 +1,21 @@
-const FRAMES_COUNT = 11,
-      FRAMES_INTERVAL = 20;  
-      
-let motionFrame = 0,
-    trainings = [],
+
+let trainings = [],
     xml;
 
-let info = document.getElementById('info'),
-    infoClose = document.getElementById('info_close'),
-    trainingsBlock = document.getElementById('trainings'),
-    addTrainingButton = document.getElementById('addTraining'),
-    droppable = document.getElementsByClassName('droppable'),
-    shedule = document.getElementById('shedule'),
-    body = document.getElementById('body'),
-    muscules = document.getElementsByTagName('path'),
-    musculesSides = document.querySelectorAll('.muscles_side'),
-    musculesList = document.querySelectorAll('.muscles-list a'),
-    sheduleToggle = document.querySelector('#shedule-toggle'),
-    excercises = document.getElementById('excercises');
+let info,
+    infoClose,
+    trainingsBlock,
+    addTrainingButton,
+    droppable,
+    shedule,
+    body,
+    muscules,
+    musculesSides,
+    musculesList,
+    sheduleToggle,
+    excercises;
 
-export default UI = {
+const UI = {
 
     addTraining: function() {
         var newTraining = document.createElement('li');
@@ -51,14 +48,13 @@ export default UI = {
     },
 
     addExcersiceToTraining: function(html) {
-        console.log(html)
         var newExcercise = document.createElement('li');
         newExcercise.innerHTML = html.querySelector('.excercise-name').innerText;
         document.querySelector('.training_excercises').appendChild(newExcercise);
     },
 
     loadExcercises: function() {
-        ajax = new XMLHttpRequest();
+        const ajax = new XMLHttpRequest();
 
         ajax.open('get', 'excercises.xml', true);
         ajax.onreadystatechange = function (e) {
@@ -68,10 +64,32 @@ export default UI = {
         }
         ajax.onerror = function () {
             console.log('Cant load xml');
-            setTimeout(loadExcercises, 5000);
+            setTimeout(UI.loadExcercises, 5000);
         }
         ajax.send(null);
         
+    },
+
+    showExcercises: function(e) {
+        var musculeName = this.className['baseVal'] || this.className,
+            html = xml.getElementsByClassName(musculeName);
+
+        excercises.innerHTML = '';
+
+        for (var i = 0; i < html.length; i++) {
+            var excercise = document.createElement('li');
+            excercise.innerHTML = html[i].querySelector('.excercise-name').innerHTML;
+            excercise.className = 'excercise-name';
+            excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');
+            excercise.dataset['origin'] = i;
+            excercise.dataset['name'] = musculeName;
+
+            excercise.addEventListener('click', UI.showInfo);
+            //excercise.addEventListener('mousedown', touch.moveExcerciseStart);
+            //excercise.addEventListener('touchstart', touch.moveExcerciseStart);
+
+            excercises.appendChild(excercise);
+        }
     },
 
     saveProgram: function() {
@@ -130,12 +148,12 @@ export default UI = {
         */
 
         for (var i = 0; i < muscules.length; i++) {
-            muscules[i].addEventListener('click', showExcercises);
-            muscules[i].addEventListener('touchend', showExcercises);
+            muscules[i].addEventListener('click', UI.showExcercises);
+            muscules[i].addEventListener('touchend', UI.showExcercises);
         }
         for (var i = 0; i < musculesList.length; i++) {
-            musculesList[i].addEventListener('click', showExcercises);
-            musculesList[i].addEventListener('touchend', showExcercises);
+            musculesList[i].addEventListener('click', UI.showExcercises);
+            musculesList[i].addEventListener('touchend', UI.showExcercises);
         }
 
         for (var i = 0; i < droppable.length; i++) {
@@ -143,44 +161,15 @@ export default UI = {
         }
 
         for (var i = 0; i < document.getElementsByClassName('delete').length; i++) {
-            document.getElementsByClassName('delete')[i].onclick = deleteExcersice
+            document.getElementsByClassName('delete')[i].onclick = kach.deleteExcersice
         }
 
         var sets = trainingsBlock.querySelectorAll('.sets');
         for (var i = 0; i < sets.length; i++) {
-            sets[i].addEventListener('input', validateSets, false);
+            sets[i].addEventListener('input', kach.validateSets, false);
         }
     },
 
-    startRotateBody: function(e) {
-        rotateStart = e.clientX;
-        document.addEventListener("mousemove", rotateBody);
-        document.addEventListener("mouseup", endRotateBody);
-    },
-
-    rotateBody: function(e) {
-        rotateOffset = rotateStart - e.clientX;
-        if (rotateOffset > FRAMES_INTERVAL || rotateOffset < -FRAMES_INTERVAL) {
-            if (rotateOffset > 0) {
-                motionFrame < FRAMES_COUNT ? motionFrame++ : motionFrame = 0;
-            } else {
-                motionFrame > 0 ? motionFrame-- : motionFrame = FRAMES_COUNT;
-            }
-
-            rotateStart = e.clientX;
-            body.style.backgroundPositionX = motionFrame * 9 + "%";
-
-            for (var i = 0; i < musculesSides.length; i++) {
-                musculesSides[i].classList.remove('active');
-            }
-            musculesSides[motionFrame].classList.add('active');
-        }            
-    },
-
-    endRotateBody: function (e) {
-        document.removeEventListener("mousemove", rotateBody);
-        document.removeEventListener("mouseup", endRotateBody);
-    },
 
     clearLocalStorage: function(e) {
         if (e.keyCode == 76) {

@@ -1,3 +1,4 @@
+/*
 window.onload = function () {
     var stats = document.getElementById('stats');
 
@@ -59,3 +60,4 @@ function generatePlots() {
         drawPlot(plots[i].textContent, i + 1);
     }
 }
+*/

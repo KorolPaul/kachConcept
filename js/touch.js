@@ -1,12 +1,15 @@
-
+const FRAMES_COUNT = 11,
+      FRAMES_INTERVAL = 20;  
+      
 let dragExcercise,
     dragExcerciseNext,
     mouseOffset,
     rotateStart,
-    rotateOffset;
+    rotateOffset,
+    motionFrame = 0;
     
 
-export default touch = {
+const touch = {
     fixEvent: function(e) {
         e = e || window.event;
 
@@ -43,39 +46,17 @@ export default touch = {
         return { x: left, y: top }
     },
 
-    showExcercises: function(e) {
-        var musculeName = this.className['baseVal'] || this.className,
-            html = xml.getElementsByClassName(musculeName);
-
-        excercises.innerHTML = '';
-
-        for (var i = 0; i < html.length; i++) {
-            var excercise = document.createElement('li');
-            excercise.innerHTML = html[i].querySelector('.excercise-name').innerHTML;
-            excercise.className = 'excercise-name';
-            excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');
-            excercise.dataset['origin'] = i;
-            excercise.dataset['name'] = musculeName;
-
-            excercise.addEventListener('click', showInfo);
-            excercise.addEventListener('mousedown', moveExcerciseStart);
-            excercise.addEventListener('touchstart', moveExcerciseStart);
-
-            excercises.appendChild(excercise);
-        }
-    },
-
     moveExcerciseStart: function(e) {
         e.preventDefault();
-        e = fixEvent(e);
+        e = touch.fixEvent(e);
 
         dragExcercise = this.cloneNode(true);
         dragExcercise.classList.add('temp');
 
-        document.addEventListener('mousemove', moveExcercise);
-        document.addEventListener('mouseup', moveExcerciseEnd);
-        document.addEventListener('touchmove', moveExcercise);
-        document.addEventListener('touchend', moveExcerciseEnd);
+        document.addEventListener('mousemove', touch.moveExcercise);
+        document.addEventListener('mouseup', touch.moveExcerciseEnd);
+        document.addEventListener('touchmove', touch.moveExcercise);
+        document.addEventListener('touchend', touch.moveExcerciseEnd);
 
         document.body.appendChild(dragExcercise);
 
@@ -123,9 +104,39 @@ export default touch = {
 
         dragExcercise = null;
         dragExcerciseNext = null;
-        document.removeEventListener('mousemove', moveExcercise);
-        document.removeEventListener('mouseup', moveExcerciseEnd);
-        document.removeEventListener('touchmove', moveExcercise);
-        document.removeEventListener('touchend', moveExcerciseEnd);
+        document.removeEventListener('mousemove', touch.moveExcercise);
+        document.removeEventListener('mouseup', touch.moveExcerciseEnd);
+        document.removeEventListener('touchmove', touch.moveExcercise);
+        document.removeEventListener('touchend', touch.moveExcerciseEnd);
+    },
+
+    startRotateBody: function(e) {
+        rotateStart = e.clientX;
+        document.addEventListener("mousemove", touch.rotateBody);
+        document.addEventListener("mouseup", touch.endRotateBody);
+    },
+
+    rotateBody: function(e) {
+        rotateOffset = rotateStart - e.clientX;
+        if (rotateOffset > FRAMES_INTERVAL || rotateOffset < -FRAMES_INTERVAL) {
+            if (rotateOffset > 0) {
+                motionFrame < FRAMES_COUNT ? motionFrame++ : motionFrame = 0;
+            } else {
+                motionFrame > 0 ? motionFrame-- : motionFrame = FRAMES_COUNT;
+            }
+
+            rotateStart = e.clientX;
+            body.style.backgroundPositionX = motionFrame * 9 + "%";
+
+            for (var i = 0; i < musculesSides.length; i++) {
+                musculesSides[i].classList.remove('active');
+            }
+            musculesSides[motionFrame].classList.add('active');
+        }            
+    },
+
+    endRotateBody: function (e) {
+        document.removeEventListener("mousemove", touch.rotateBody);
+        document.removeEventListener("mouseup", touch.endRotateBody);
     }
 }

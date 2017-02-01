@@ -49,14 +49,14 @@ gulp.task('js', function () {
          presets: ['es2015']
         }))
       .pipe(concat('script.js')) 
-      .pipe(uglify())
+      //.pipe(uglify())
       .pipe(gulp.dest('./'))
       .pipe(connect.reload());
 });
 
 
 gulp.task('watch', function () {
-    gulp.watch(['*.html', './scss/**/*.scss', , './js/*.js'], ['html', 'sass', 'js']);
+    gulp.watch(['*.html', './scss/**/*.scss', './js/*.js'], ['html', 'sass', 'js']);
 });
 
 gulp.task('default', function () {

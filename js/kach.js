@@ -1,4 +1,4 @@
-export default kach = {
+const kach = {
     addExcersice: function(training, excercise) {
         var complexity = parseInt(excercise.dataset["complexity"]),
             sets = excercise.querySelector('.sets'),
@@ -6,10 +6,10 @@ export default kach = {
 
         deleteButton.innerHTML = '&#x2715;';
         deleteButton.classList.add('delete');
-        deleteButton.onclick = deleteExcersice;
+        deleteButton.onclick = kach.deleteExcersice;
         excercise.appendChild(deleteButton);
 
-        sets.addEventListener('input', validateSets, false);
+        sets.addEventListener('input', kach.validateSets, false);
 
         training.appendChild(excercise);
         
@@ -20,14 +20,14 @@ export default kach = {
         }
 
         
-        saveProgram();
+        UI.saveProgram();
     },
 
     deleteExcersice: function(e) {
         var training = e.target.parentNode.parentNode;
         training.removeChild(e.target.parentNode);
         calculateComplexity(training, - parseInt(e.target.parentNode.dataset["complexity"]));
-        saveProgram();
+        UI.saveProgram();
     },
 
     calculateComplexity: function(training, complexity) {
@@ -46,7 +46,7 @@ export default kach = {
 
     validateSets: function(e) {
         if (/[0-9]/.test(e.key)) {
-            saveProgram();
+            UI.saveProgram();
         } else if (e.keyCode != 8 && e.keyCode != 46 && e.keyCode != 8 && e.keyCode != 37 && e.keyCode != 39) {
             e.preventDefault();
         }
