@@ -23,7 +23,7 @@ window.onload = function () {
     document.onkeydown = UI.clearLocalStorage; //remove after release
 
     document.querySelector('.muscles').addEventListener("mousedown", touch.startRotateBody);
-    addTrainingButton.onmousedown = UI.addTraining;
+    addTrainingButton.onmousedown = kach.addTraining;
 
     sheduleToggle.onclick = function (e) {
         e.preventDefault();

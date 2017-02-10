@@ -1,12 +1,9 @@
 const kach = {
     addExcersice: function(training, excercise) {
-        var complexity = parseInt(excercise.dataset["complexity"]),
+        let complexity = parseInt(excercise.dataset["complexity"]),
             sets = excercise.querySelector('.sets'),
-            deleteButton = document.createElement('a');
+            deleteButton = utils.createElement('a', 'delete', '&#x2715;', null, kach.deleteExcersice);
 
-        deleteButton.innerHTML = '&#x2715;';
-        deleteButton.classList.add('delete');
-        deleteButton.onclick = kach.deleteExcersice;
         excercise.appendChild(deleteButton);
 
         sets.addEventListener('input', kach.validateSets, false);
@@ -50,6 +47,16 @@ const kach = {
         } else if (e.keyCode != 8 && e.keyCode != 46 && e.keyCode != 8 && e.keyCode != 37 && e.keyCode != 39) {
             e.preventDefault();
         }
+    },
+
+    addTraining: function () {
+        let newTraining = new Training(prompt('Введите название тренировки'));
+        newTraining.render();
+    },
+
+    addExcersiceToTraining: function(html) {
+        var newExcercise = utils.createElement('li', '', html.querySelector('.excercise-name').innerText);
+        document.querySelector('.training_excercises').appendChild(newExcercise);
     }
 }
 

@@ -44,7 +44,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('js', function () {
-    gulp.src('./js/*.js')
+    gulp.src('./js/**/*.js')
       .pipe(babel({
          presets: ['es2015']
         }))
@@ -56,7 +56,7 @@ gulp.task('js', function () {
 
 
 gulp.task('watch', function () {
-    gulp.watch(['*.html', './scss/**/*.scss', './js/*.js'], ['html', 'sass', 'js']);
+    gulp.watch(['*.html', './scss/**/*.scss', './js/**/*.js'], ['html', 'sass', 'js']);
 });
 
 gulp.task('default', function () {

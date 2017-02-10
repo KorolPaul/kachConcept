@@ -17,27 +17,6 @@ let info,
 
 const UI = {
 
-    addTraining: function() {
-        var newTraining = document.createElement('li');
-        newTraining.classList.add('training');
-
-        var trainingLink = document.createElement('a');
-        var name = prompt('Введите название тренировки');            
-        trainingLink.attributes.href = "#";
-        trainingLink.classList.add('training_name');
-        trainingLink.innerText = name;            
-
-        var trainingContent = document.createElement('ul');
-        trainingContent.classList.add('training_excercises');
-        
-        //newTraining.classList.add('droppable');
-        //newTraining.classList.add('new');
-        newTraining.appendChild(trainingLink);
-        newTraining.appendChild(trainingContent);
-        trainings.push(newTraining);
-        document.querySelector(".trainings").appendChild(newTraining);
-    },
-
     showInfo: function(e) {
         var html = xml.getElementsByClassName(this.dataset['name'])[this.dataset['origin']].innerHTML;
         info.classList.add('opened');
@@ -47,11 +26,6 @@ const UI = {
         });
     },
 
-    addExcersiceToTraining: function(html) {
-        var newExcercise = document.createElement('li');
-        newExcercise.innerHTML = html.querySelector('.excercise-name').innerText;
-        document.querySelector('.training_excercises').appendChild(newExcercise);
-    },
 
     loadExcercises: function() {
         const ajax = new XMLHttpRequest();
@@ -77,14 +51,11 @@ const UI = {
         excercises.innerHTML = '';
 
         for (var i = 0; i < html.length; i++) {
-            var excercise = document.createElement('li');
-            excercise.innerHTML = html[i].querySelector('.excercise-name').innerHTML;
-            excercise.className = 'excercise-name';
+            var excercise = utils.createElement('li', 'excercise-name', html[i].querySelector('.excercise-name').innerHTML, null, UI.showInfo);
             excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');
             excercise.dataset['origin'] = i;
             excercise.dataset['name'] = musculeName;
 
-            excercise.addEventListener('click', UI.showInfo);
             //excercise.addEventListener('mousedown', touch.moveExcerciseStart);
             //excercise.addEventListener('touchstart', touch.moveExcerciseStart);
 
