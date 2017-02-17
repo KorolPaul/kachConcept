@@ -9,7 +9,7 @@ class Training {
         newTraining.saveProgram();
     }
 
-    showExcercises(e) {
+    static showExcercises(e) {
         alert(1)
     }
 
@@ -27,7 +27,7 @@ class Training {
         
         for (let i = 0; i < elements.length; i++) {
             if (typeof elements[i].onclick == "function") {
-                elements[i].dataset.handler = elements[i].onclick.name;
+                elements[i].dataset.handler = 'Training.' + elements[i].onclick.name;
             }
         }
 
@@ -42,8 +42,7 @@ class Training {
         
             for (let i = 0; i < elements.length; i++) {
                 if (elements[i].dataset.handler) {
-                    eval(elements[i].dataset.handler)()
-                    elements[i].addEventListener('click', eval('this.' + elements[i].dataset.handler)());
+                    elements[i].addEventListener('click', eval(elements[i].dataset.handler));
                 }
             }
         }
@@ -66,7 +65,7 @@ class Training {
 
     render() {
         let newTraining = utils.createElement('li', 'trainings_item'),
-            trainingLink = utils.createElement('a', 'trainings_name', this.name, "#", this.showExcercises),
+            trainingLink = utils.createElement('a', 'trainings_name', this.name, "#", Training.showExcercises),
             trainingContent = utils.createElement('ul', 'trainings_excercises');
 
         //newTraining.classList.add('droppable');

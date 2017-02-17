@@ -1,0 +1,27 @@
+.trainings-popup {
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 20px;
+    display: none;
+
+    &__visible {
+        display: block;
+        z-index: 1;
+    }
+
+    &_item {
+        cursor: pointer;
+        list-style: none;
+        font-weight: bold;
+        line-height: 30px;
+        text-transform: uppercase;
+
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
