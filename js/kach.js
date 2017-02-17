@@ -17,14 +17,12 @@ const kach = {
         }
 
         
-        UI.saveProgram();
     },
 
     deleteExcersice: function(e) {
         var training = e.target.parentNode.parentNode;
         training.removeChild(e.target.parentNode);
         calculateComplexity(training, - parseInt(e.target.parentNode.dataset["complexity"]));
-        UI.saveProgram();
     },
 
     calculateComplexity: function(training, complexity) {
@@ -49,14 +47,22 @@ const kach = {
         }
     },
 
-    addTraining: function () {
-        let newTraining = new Training(prompt('Введите название тренировки'));
-        newTraining.render();
+    selectTraining: function (html) {
+        let newExcercise = utils.createElement('li', '', html.querySelector('.excercise-name').innerText),
+            trainingsList = document.querySelectorAll('.trainings_item');
+        
+        for (let i = 0; i < trainingsList.length; i++) {
+            let li = utils.createElement('li', 'trainings-popup_item', trainingsList[i].innerText, null, function(){kach.addExcersiceToTraining(li, newExcercise)})
+            trainingsPopup.appendChild(li)
+        }
+        trainingsPopup.classList.add('trainings-popup__visible');
     },
 
-    addExcersiceToTraining: function(html) {
-        var newExcercise = utils.createElement('li', '', html.querySelector('.excercise-name').innerText);
-        document.querySelector('.training_excercises').appendChild(newExcercise);
+    addExcersiceToTraining: function (e, excercise) {
+        alert(1)
+        document.querySelector('.trainings_item:nth-child(' + utils.index(e) + ') .trainings_excercises').appendChild(excercise);
+        trainingsPopup.classList.remove('trainings-popup__visible');
+        UI.saveProgram();
     }
 }
 

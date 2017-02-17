@@ -1,8 +1,10 @@
 const utils = {
     createElement: function (type, className, content, href, onClick) {
         let el = document.createElement(type);
-        el.classList.add(className);
 
+        if (className) {
+            el.classList.add(className);
+        }
         if (content) {
             el.innerHTML = content;
         }        
@@ -14,5 +16,17 @@ const utils = {
         }
 
         return el;
+    },
+
+    index: function(el) {
+        let children = el.parentNode.childNodes;
+        
+        for (let i = 0; i < children.length; i++) {
+            if (children[i] === el) {
+                return i + 1;
+            }
+        }
+
+        return -1;
     }
 }
