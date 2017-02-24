@@ -4,17 +4,23 @@ let trainings = [],
 
 let info,
     infoClose,
+    training,
     trainingsBlock,
     trainingsPopup,
     addTrainingButton,
     droppable,
     shedule,
     body,
+    map,
     muscules,
     musculesSides,
     musculesList,
     sheduleToggle,
-    excercises;
+    excercise,
+    excercises,
+    excerciseSetsHolder,
+    closeExcercise,
+    deleteExcercise;
 
 const UI = {
 

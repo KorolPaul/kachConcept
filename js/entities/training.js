@@ -6,14 +6,32 @@ class Training {
     static add() {
         let newTraining = new Training(prompt('Введите название тренировки'));
         newTraining.render();
-        newTraining.saveProgram();
+        Training.saveProgram();
     }
+
+    static addExcercise(e, excercise, excerciseInfo) {
+        let excerciseName = utils.createElement('li', 'training_item', null),
+            sets = utils.createElement('ul', 'sets', excerciseInfo.innerHTML);
+
+        excerciseName.appendChild(excercise);
+        excerciseName.appendChild(sets);
+
+        document.querySelector('.trainings_item:nth-child(' + utils.index(e) + ') .trainings_excercises').appendChild(excerciseName);
+        trainingsPopup.classList.remove('trainings-popup__visible');
+
+        Training.saveProgram();
+    } 
 
     static showExcercises(e) {
-        alert(1)
+        training.innerHTML = document.querySelector('.trainings_item:nth-child(' + utils.index(e.target.parentNode) + ') .trainings_excercises').innerHTML;
+        
+        let trainingItems = document.querySelectorAll('.training .training_item');
+        for (let i = 0; i < trainingItems.length; i++){
+            trainingItems[i].addEventListener('click', Excercise.show);
+        }
     }
 
-    saveProgram() {
+    static saveProgram() {
         /*
         $.ajax({
             url: '/Training/SaveTraining',

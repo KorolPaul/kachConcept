@@ -92,7 +92,7 @@ const touch = {
 
             if ((e.pageX > targPos.x) && (e.pageX < (targPos.x + targWidth)) && (e.pageY > targPos.y) && (e.pageY < (targPos.y + targHeight))) {
                 dragExcercise.classList.remove('temp');
-                addExcersice(targ, dragExcercise);
+                addExcercise(targ, dragExcercise);
                 isDropped = true;
             }
         }
@@ -126,7 +126,7 @@ const touch = {
             }
 
             rotateStart = e.clientX;
-            body.style.backgroundPositionX = motionFrame * 9 + "%";
+            map.style.backgroundPositionX = motionFrame * 9 + "%";
 
             for (var i = 0; i < musculesSides.length; i++) {
                 musculesSides[i].classList.remove('active');

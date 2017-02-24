@@ -1,19 +1,98 @@
-.sets {
-    position: absolute;
-    top: 3px;
-    right: 23px;
-    display: none;
+@mixin range-thumb {
+    background: $bright-color;
+    box-shadow: 0 0 0 5px #f6f6f6;
+    border: none;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+@mixin range-track {
+    background: $bright-color;
+    height: 2px;
+    width: 100%;
+}
 
-    & > span {
-        padding: 2px 4px;
-        transition: .2s all ease;
-    }
-    span[contenteditable]:hover,
-    span[contenteditable]:focus {
-        background: #e0dfdf;
-        color: #858585;
-    }
+.sets {
+    display: none;
+    padding: 0;
+
     .training & {
+        display: flex;
+    }
+    .excercise & {
         display: block;
+    }
+
+    &_item {
+        color: #cdcdcf;
+        font-style: italic;
+        list-style: none;
+        padding: 0 25px 0 0;
+        position: relative;
+        text-transform: uppercase;
+
+        &:not(:first-child) {
+            &:after {
+                content: '';
+                border-left: 1px solid #cdcdcf;
+                position: absolute;
+                left: -15px;
+                top: 0;
+                bottom: 0;
+                transform: rotateZ(10deg);
+            }
+        }
+        & > span {
+            color: #6b6a7c;
+            font-size: 30px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .excercise & {
+            color: #6b6a7c;            
+            font-size: 25px;
+            font-weight: bold;
+            padding: 0;
+
+            &:after {
+                content: none;
+            }
+            & > span {
+                float: right;
+            }
+        }
+    }
+    &_range {
+        display: none;
+        -webkit-appearance: none;
+        
+        .excercise & {
+            display: block;
+        }
+        &:focus {
+            outline: none;
+        }
+        &::-webkit-slider-thumb {
+            @include range-thumb;
+            -webkit-appearance: none;
+            margin: -7px;
+        }
+        &::-moz-range-thumb {
+            @include range-thumb;
+        }
+        &::-ms-thumb {
+            @include range-thumb;
+        }
+
+        &::-webkit-slider-runnable-track {
+            @include range-track;
+        }
+        &::-moz-range-track {
+            @include range-track;
+        }
+        &::-ms-track {
+            @include range-track;
+        }
     }
 }

@@ -1,19 +1,25 @@
 window.onload = function () {
 
-    info = document.getElementById('info'),
-    infoClose = document.getElementById('info_close'),
-    trainingsBlock = document.getElementById('trainings'),
-    trainingsPopup = document.getElementById('trainings-popup'),
-    addTrainingButton = document.getElementById('addTraining'),
-    droppable = document.getElementsByClassName('droppable'),
-    shedule = document.getElementById('shedule'),
-    body = document.getElementById('body'),
-    muscules = document.getElementsByTagName('path'),
-    musculesSides = document.querySelectorAll('.muscles_side'),
-    musculesList = document.querySelectorAll('.muscles-list a'),
-    sheduleToggle = document.querySelector('#shedule-toggle'),
+    info = document.getElementById('info');
+    infoClose = document.getElementById('info_close');
+    training = document.getElementById('training');
+    trainingsBlock = document.getElementById('trainings');
+    trainingsPopup = document.getElementById('trainings-popup');
+    addTrainingButton = document.getElementById('addTraining');
+    droppable = document.getElementsByClassName('droppable');
+    shedule = document.getElementById('shedule');
+    map = document.getElementById('map');
+    body = document.getElementById('body');
+    muscules = document.getElementsByTagName('path');
+    musculesSides = document.querySelectorAll('.muscles_side');
+    musculesList = document.querySelectorAll('.muscles-list a');
+    sheduleToggle = document.querySelector('#shedule-toggle');
+    excercise = document.getElementById('excercise');
     excercises = document.getElementById('excercises');
-               
+    excerciseSetsHolder = document.getElementById('excercise_sets-holder');
+    deleteExcercise = document.getElementById('delete-excercise');
+    closeExcercise = document.getElementById('close-excercise');
+    
     Training.loadProgram();
 
     infoClose.onclick = function (e) {
@@ -34,10 +40,6 @@ window.onload = function () {
         trainings.push(droppable[i]);
     }
 
-    for (var i = 0; i < document.getElementsByClassName('delete').length; i++) {
-        document.getElementsByClassName('delete')[i].onclick = kach.deleteExcersice
-    }
-
     var sets = trainingsBlock.querySelectorAll('.sets');
     for (var i = 0; i < sets.length; i++) {
         sets[i].addEventListener('input', kach.validateSets, false);
@@ -47,6 +49,8 @@ window.onload = function () {
 
     document.querySelector('.muscles').addEventListener("mousedown", touch.startRotateBody);
     addTrainingButton.onmousedown = Training.add;
+    closeExcercise.addEventListener('click', Excercise.close);
+    deleteExcercise.addEventListener('click', Excercise.delete);
 
     sheduleToggle.onclick = function (e) {
         e.preventDefault();

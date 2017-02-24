@@ -17,6 +17,11 @@
 
         &__girl {
             background-image: url(img/girl.png);
+            width: 37vh;
+            z-index: 0;
+            @include tablet {
+                width: 42vh;
+            }
         }
     }
     &_side {
@@ -42,6 +47,17 @@
             &:hover {
                 opacity: 1;
             }
+        }
+    }
+    &_title {
+        fill: #8ddf33;
+        font-size: 100px;
+        font-weight: bold;
+        font-style: italic;
+        text-transform: uppercase;
+
+        &__back {
+            z-index: -1;
         }
     }
 }

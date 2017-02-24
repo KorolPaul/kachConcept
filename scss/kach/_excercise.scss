@@ -1,0 +1,35 @@
+.excercise {
+    background: #f6f6f6;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 60px 40px 40px;
+    display: none;
+
+    &__visible {
+        display: block;
+    }
+    &_close {
+        color: #000;
+        font-size: 30px;
+        position: absolute;
+        top: 45px;
+        right: 45px;
+        text-decoration: none;
+    }
+    &_delete {
+        background: $bright-color;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        height: 38px;
+        vertical-align: middle;
+        transition: .3s all ease;
+    }
+}
