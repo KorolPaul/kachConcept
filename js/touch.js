@@ -126,7 +126,15 @@ const touch = {
             }
 
             rotateStart = e.clientX;
-            map.style.backgroundPositionX = motionFrame * 9 + "%";
+            body.style.backgroundPositionX = motionFrame * 9 + "%";
+            
+            for (let i = 0; i < musculeTitles.length; i++){
+                if (musculeTitles[i].dataset.layer == motionFrame) {
+                    musculeTitles[i].classList.add('muscles_title__visible');
+                } else {
+                    musculeTitles[i].classList.remove('muscles_title__visible');                    
+                }
+            }
 
             for (var i = 0; i < musculesSides.length; i++) {
                 musculesSides[i].classList.remove('active');

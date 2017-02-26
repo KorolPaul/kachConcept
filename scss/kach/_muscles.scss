@@ -51,13 +51,81 @@
     }
     &_title {
         fill: #8ddf33;
-        font-size: 100px;
+        font-size: 30px;
         font-weight: bold;
         font-style: italic;
+        position: absolute;
+        text-decoration: none;
         text-transform: uppercase;
+        z-index: -1;
+        opacity: 0;
+        transition: .2s ease opacity,
+                    .2s ease transform;
 
+        &__visible {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        &__press {
+            top: 50%;
+            left: 45%;
+        }
+        &__sidepress {
+            top: 30%;
+            left: 50%;
+            transform: translate(-100%, 0);
+            z-index: 0;
+        }
+        &__shoulder {
+            top: 50%;
+            left: 45%;
+        }
+        &__trapezium {
+            top: 30%;
+            left: 50%;
+            transform: translate(-100%, 0);
+            z-index: 0;
+        }
+        &__chest {
+            top: 50%;
+            left: 45%;
+        }
+        &__quadriceps {
+            top: 30%;
+            left: 50%;
+            transform: translate(-100%, 0);
+            z-index: 0;
+        }
+        &__biceps {
+            top: 50%;
+            left: 45%;
+        }
+        &__triceps {
+            top: 30%;
+            left: 50%;
+            transform: translate(-100%, 0);
+            z-index: 0;
+        }
+        &__hamstrings {
+            top: 50%;
+            left: 45%;
+        }
+        &__shin {
+            top: 30%;
+            left: 50%;
+            transform: translate(-100%, 0);
+            z-index: 0;
+        }
+        &__butt {
+            top: 50%;
+            left: 45%;
+        }
         &__back {
-            z-index: -1;
+            top: 30%;
+            left: 50%;
+            transform: translate(-100%, 0);
+            z-index: 0;
         }
     }
 }
