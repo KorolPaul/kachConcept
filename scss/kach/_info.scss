@@ -67,8 +67,7 @@
                     color: #aff7ff;
                     display: block;
                     font-size: 26px;
-                    font-style: italic;
-                    font-weight: bold;
+                    font-family: $subheadings_font-family;
                     margin: 0 0 5px;
                 }
             }
@@ -76,8 +75,7 @@
     }
     &_title {
         font-size: 26px;
-        font-style: italic;
-        font-weight: bold;
+        font-family: $subheadings_font-family;
         @include tablet {
             margin-left: -30px;
         }
@@ -109,58 +107,72 @@
     &_gallery-item {
         overflow: hidden;
         position: absolute;
+        transition: .2s ease all;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
 
         &__main {
-            height: 200px;
-            width: 200px;
+            min-width: 200px;
             top: 40px;
             left: 50%;
             transform: translate(-50%, 0);
             z-index: 5;
         }
         &__left {
-            height: 215px;
-            width: 215px;
+            min-width: 215px;
             top: 0;
             left: -50%;
             z-index: 4;
         }
         &__right {
-            height: 170px;
-            width: 170px;
+            min-width: 170px;
             top: 20px;
             left: 75%;
             z-index: 3;
         }
         &__left-bottom {
-            height: 155px;
-            width: 155px;
+            min-width: 155px;
             top: 200px;
             left: -25%;
             z-index: 2;
         }
         &__right-bottom {
-            height: 180px;
-            width: 180px;
+            min-width: 180px;
             top: 200px;
             left: 55%;
             z-index: 1;
         }
         &__right-far {
-            height: 170px;
-            width: 170px;
+            min-width: 170px;
             top: 165px;
             left: 105%;
             z-index: 5;
         }
+        &__active {
+            top: 50%;
+            left: 50%;
+            width: 50vmin;
+            transform: translate(-50%, -50%);
+            z-index: 6;
+
+            &:before {
+                z-index: -1;
+            }
+            iframe {
+                width: 100%;
+            }
+        }
 
         img,
-        iframe,
         blockquote {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
             width: 100%;
         }
     }

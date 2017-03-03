@@ -25,12 +25,28 @@ let info,
 const UI = {
 
     showInfo: function(e) {
-        var html = xml.getElementsByClassName(this.dataset['name'])[this.dataset['origin']].innerHTML;
+        let html = xml.getElementsByClassName(this.dataset['name'])[this.dataset['origin']].innerHTML;
         info.classList.add('opened');
+
         info.querySelector('.info_holder').innerHTML = html;
         info.querySelector('.add-button').addEventListener('click', function () { 
             kach.selectTraining(info);
         });
+
+        let galleryItems = info.querySelectorAll('.info_gallery-item');
+        for (let i = 0; i < galleryItems.length; i++) {
+            galleryItems[i].addEventListener('click', function () {
+                for (let j = 0; j < galleryItems.length; j++) {
+                    galleryItems[j].classList.remove('info_gallery-item__active');
+                }
+
+                galleryItems[i].classList.add('info_gallery-item__active');
+                galleryItems[i].children[0].click();
+            })
+        }
+
+        window.instgrm.Embeds.process();
+        
     },
 
     loadExcercises: function() {

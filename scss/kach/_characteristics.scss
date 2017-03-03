@@ -9,8 +9,7 @@
     &_value {
         color: #f68d1c;
         font-size: 30px;
-        font-style: italic;
-        font-weight: bold;
+        font-family: $subheadings_font-family;
         display: block;
     }
     &_progress {
