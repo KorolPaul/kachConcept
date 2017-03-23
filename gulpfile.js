@@ -16,7 +16,7 @@ var lr = require('tiny-lr'),
 
 gulp.task('server', function () {
     connect.server({
-        livereload: true,
+        //livereload: true,
         port: 3000
     })
 });

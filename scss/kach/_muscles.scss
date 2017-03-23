@@ -10,6 +10,7 @@
         top: 55%;
         transform: translate(-50%, -50%);
         position: absolute;
+        clip: rect(0, auto, auto, 5vh);
         @include tablet {
             height: 90vh;
             top: 50%;            
@@ -50,81 +51,115 @@
         }
     }
     &_title {
-        fill: #8ddf33;
-        font-size: 30px;
+        font-size: 15vmin;
+        line-height: 1;
         font-family: $headings_font-family;
         position: absolute;
         text-decoration: none;
         text-transform: uppercase;
-        z-index: -1;
+        z-index: 2;
         opacity: 0;
-        transition: .2s ease opacity,
-                    .2s ease transform;
+        transform: translate(-30%, 0);        
+        user-select: none;
+        visibility: hidden;
+        transition: .2s ease filter,
+                    .5s ease opacity,
+                    .4s ease transform;
 
-        &__visible {
-            opacity: 1;
-            z-index: 1;
+        &:hover {
+            color: inherit;
+            filter: saturate(1.75);
         }
 
         &__press {
-            top: 50%;
-            left: 45%;
+            color: $press;
+            top: 52%;
+            left: 50%;
         }
         &__sidepress {
+            color: $press;            
             top: 30%;
-            left: 50%;
-            transform: translate(-100%, 0);
+            right: 55%;
             z-index: 0;
+            transform: translate(30%, 0);
         }
         &__shoulder {
-            top: 50%;
-            left: 45%;
+            color: $shoulders;
+            top: 35%;
+            left: 55%;
         }
         &__trapezium {
-            top: 30%;
-            left: 50%;
-            transform: translate(-100%, 0);
+            color: $shoulders;            
+            top: 20%;
+            right: 39%;
+            transform: translate(30%, 0);
             z-index: 0;
-        }
-        &__chest {
-            top: 50%;
-            left: 45%;
         }
         &__quadriceps {
-            top: 30%;
-            left: 50%;
-            transform: translate(-100%, 0);
+            color: $chest;
+            top: 69%;
+            left: 19%;
+        }
+        &__chest {
+            color: $chest;
+            top: 21%;
+            right: 42%;
+            transform: translate(30%, 0);
             z-index: 0;
         }
-        &__biceps {
+        &__hamstrings {
+            color: $triceps;
             top: 50%;
             left: 45%;
         }
         &__triceps {
-            top: 30%;
-            left: 50%;
-            transform: translate(-100%, 0);
+            color: $triceps;
+            top: 19%;
+            right: 46%;
+            transform: translate(30%, 0);
             z-index: 0;
         }
-        &__hamstrings {
+        &__arm {
+            color: $biceps;
             top: 50%;
-            left: 45%;
+            left: 20%;
         }
-        &__shin {
-            top: 30%;
-            left: 50%;
-            transform: translate(-100%, 0);
+        &__biceps {
+            color: $biceps;
+            top: 25%;
+            right: 52%;
+            transform: translate(30%, 0);
             z-index: 0;
         }
         &__butt {
-            top: 50%;
-            left: 45%;
+            color: $butt;
+            top: 30%;
+            left: 35%;
+        }
+        &__shin {
+            color: $butt;
+            top: 61%;
+            right: 55%;
+            transform: translate(30%, 0);
+            z-index: 0;
+        }
+        &__small-back {
+            color: $back;
+            top: 49%;
+            left: 34%;
         }
         &__back {
-            top: 30%;
-            left: 50%;
-            transform: translate(-100%, 0);
+            color: $back;
+            top: 25%;
+            right: 12%;
+            transform: translate(30%, 0);
             z-index: 0;
+        }
+         
+         &__visible {
+            opacity: 1;
+            transform: translate(0);
+            visibility: visible;
         }
     }
 }

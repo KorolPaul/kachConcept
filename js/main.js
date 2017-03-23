@@ -9,9 +9,8 @@ window.onload = function () {
     droppable = document.getElementsByClassName('droppable');
     shedule = document.getElementById('shedule');
     body = document.getElementById('body');
-    muscules = document.getElementsByTagName('path');
+    muscules = document.querySelectorAll('path, .muscles_title');
     musculesSides = document.querySelectorAll('.muscles_side');
-    musculesList = document.querySelectorAll('.muscles-list a');
     musculeTitles = document.querySelectorAll('.muscles_title');
     sheduleToggle = document.querySelector('#shedule-toggle');
     excercise = document.getElementById('excercise');
@@ -30,10 +29,6 @@ window.onload = function () {
     for (var i = 0; i < muscules.length; i++) {
         muscules[i].addEventListener('click', UI.showExcercises);
         muscules[i].addEventListener('touchend', UI.showExcercises);
-    }
-    for (var i = 0; i < musculesList.length; i++) {
-        musculesList[i].addEventListener('click', UI.showExcercises);
-        musculesList[i].addEventListener('touchend', UI.showExcercises);
     }
 
     for (var i = 0; i < droppable.length; i++) {

@@ -66,12 +66,12 @@ const UI = {
         
     },
 
-    showExcercises: function(e) {
-        var musculeName = this.className['baseVal'] || this.className,
+    showExcercises: function (e) {
+        var musculeName = this.dataset.muscle || this.className['baseVal'] || this.className,
             html = xml.getElementsByClassName(musculeName);
 
         excercises.innerHTML = '';
-
+        console.log(musculeName)
         for (var i = 0; i < html.length; i++) {
             var excercise = utils.createElement('li', 'excercise-name', html[i].querySelector('.excercise-name').innerHTML, null, UI.showInfo);
             excercise.dataset['complexity'] = html[i].getAttribute('data-complexity');

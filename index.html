@@ -34,26 +34,31 @@
             <button class="excercise_delete" id="delete-excercise">✕</button>
         </div>
     </div>
+    <!--
     <img class="brush" src="img/brush.svg" alt="">
+    -->
     <div class="muscles">
         <div class="muscles_titles">
-            <a class="muscles_title muscles_title__press muscles_title__visible" href="#" data-layer="0">пресс</a>
-            <a class="muscles_title muscles_title__sidepress muscles_title__visible" href="#" data-layer="0">косые</a>
+            <a class="muscles_title muscles_title__chest muscles_title__visible" data-muscle="chest" href="#" data-layer="0">грудные</a>
+            <a class="muscles_title muscles_title__quadriceps muscles_title__visible" data-muscle="quadriceps" href="#" data-layer="0">квадрицепс</a>
 
-            <a class="muscles_title muscles_title__shoulder" href="#" data-layer="1">плечи</a>
-            <a class="muscles_title muscles_title__trapezium" href="#" data-layer="1">трепеции</a>
+            <a class="muscles_title muscles_title__shoulder" data-muscle="shoulder" href="#" data-layer="1">плечи</a>
+            <a class="muscles_title muscles_title__trapezium" data-muscle="trapezium" href="#" data-layer="1">трепеции</a>
 
-            <a class="muscles_title muscles_title__chest" href="#" data-layer="2">грудь</a>
-            <a class="muscles_title muscles_title__quadriceps" href="#" data-layer="2">квадрицепс</a>
+            <a class="muscles_title muscles_title__butt" data-muscle="butt" href="#" data-layer="4">ягодицы</a>
+            <a class="muscles_title muscles_title__shin" data-muscle="shin" href="#" data-layer="4">икры</a>            
 
-            <a class="muscles_title muscles_title__biceps" href="#" data-layer="3">бицепс</a>
-            <a class="muscles_title muscles_title__triceps" href="#" data-layer="3">трицепс</a>
+            <a class="muscles_title muscles_title__back" data-muscle="back" href="#" data-layer="6">широчайшие</a>
+            <a class="muscles_title muscles_title__small-back" data-muscle="triceps" href="#" data-layer="6">длинные</a>
 
-            <a class="muscles_title muscles_title__hamstrings" href="#" data-layer="4">бицепс бедра</a>
-            <a class="muscles_title muscles_title__shin" href="#" data-layer="4">икры</a>
+            <a class="muscles_title muscles_title__hamstrings" data-muscle="hamstrings" href="#" data-layer="7">бицепс бедра</a>
+            <a class="muscles_title muscles_title__triceps" data-muscle="triceps" href="#" data-layer="7">трицепс</a>
 
-            <a class="muscles_title muscles_title__butt" href="#" data-layer="5">ягодицы</a>
-            <a class="muscles_title muscles_title__back" href="#" data-layer="5">спина</a>
+            <a class="muscles_title muscles_title__biceps" data-muscle="biceps" href="#" data-layer="10">бицепс</a>
+            <a class="muscles_title muscles_title__arm" data-muscle="biceps" href="#" data-layer="10">предплечья</a>
+
+            <a class="muscles_title muscles_title__press" data-muscle="press" href="#" data-layer="11">пресс</a>
+            <a class="muscles_title muscles_title__sidepress" data-muscle="press" href="#" data-layer="11">косые</a>
         </div>
         <svg class="muscles_map muscles_map__girl" id="body" pointer-events="all" version="1.1"  version="1.1" viewBox="0 0 600 1300">
             <defs>
@@ -123,7 +128,7 @@
     </div>
     
     <ul class="trainings-popup" id="trainings-popup"></ul>
-    
+    <div class="fade"></div>
     <script async="" defer="defer" src="//platform.instagram.com/en_US/embeds.js"></script>
 </body>
 </html>
