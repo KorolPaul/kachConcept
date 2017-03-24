@@ -1,3 +1,11 @@
+@mixin title-color($color) {
+    color: $color;
+
+    &:hover {
+        color: $color;
+    }
+}
+
 .muscles {
     cursor: all-scroll;    
     text-align: center;
@@ -72,84 +80,84 @@
         }
 
         &__press {
-            color: $press;
+            @include title-color($press);
             top: 52%;
             left: 50%;
         }
         &__sidepress {
-            color: $press;            
+            @include title-color($press);
             top: 30%;
             right: 55%;
             z-index: 0;
             transform: translate(30%, 0);
         }
         &__shoulder {
-            color: $shoulders;
+            @include title-color($shoulders);
             top: 35%;
             left: 55%;
         }
         &__trapezium {
-            color: $shoulders;            
+            @include title-color($shoulders);
             top: 20%;
             right: 39%;
             transform: translate(30%, 0);
             z-index: 0;
         }
         &__quadriceps {
-            color: $chest;
+            @include title-color($chest);
             top: 69%;
             left: 19%;
         }
         &__chest {
-            color: $chest;
+            @include title-color($chest);
             top: 21%;
             right: 42%;
             transform: translate(30%, 0);
             z-index: 0;
         }
         &__hamstrings {
-            color: $triceps;
+            @include title-color($triceps);
             top: 50%;
             left: 45%;
         }
         &__triceps {
-            color: $triceps;
+            @include title-color($triceps);
             top: 19%;
             right: 46%;
             transform: translate(30%, 0);
             z-index: 0;
         }
         &__arm {
-            color: $biceps;
+            @include title-color($biceps);
             top: 50%;
             left: 20%;
         }
         &__biceps {
-            color: $biceps;
+            @include title-color($biceps);
             top: 25%;
             right: 52%;
             transform: translate(30%, 0);
             z-index: 0;
         }
         &__butt {
-            color: $butt;
+            @include title-color($butt);
             top: 30%;
             left: 35%;
         }
         &__shin {
-            color: $butt;
+            @include title-color($butt);
             top: 61%;
             right: 55%;
             transform: translate(30%, 0);
             z-index: 0;
         }
         &__small-back {
-            color: $back;
+            @include title-color($back);
             top: 49%;
             left: 34%;
         }
         &__back {
-            color: $back;
+            @include title-color($back);
             top: 25%;
             right: 12%;
             transform: translate(30%, 0);
@@ -160,6 +168,7 @@
             opacity: 1;
             transform: translate(0);
             visibility: visible;
+            display: none;
         }
     }
 }

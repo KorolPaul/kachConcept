@@ -28,5 +28,17 @@ const utils = {
         }
 
         return -1;
+    },
+
+    addEvent: function (el, events, handler) {
+        for (let i = 0; i < events.length; i++) {
+            el.addEventListener(events[i], handler);
+        }
+    },
+
+    removeEvent: function (el, events, handler) {
+        for (let i = 0; i < events.length; i++) {
+            el.removeEventListener(events[i], handler);
+        }
     }
 }

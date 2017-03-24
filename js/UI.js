@@ -1,6 +1,8 @@
 
 let trainings = [],
-    xml;
+    xml,
+    isTouchDevice = 'ontouchstart' in document.documentElement;
+;
 
 let info,
     infoClose,

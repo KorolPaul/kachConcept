@@ -27,8 +27,7 @@ window.onload = function () {
     }
 
     for (var i = 0; i < muscules.length; i++) {
-        muscules[i].addEventListener('click', UI.showExcercises);
-        muscules[i].addEventListener('touchend', UI.showExcercises);
+        utils.addEvent(muscules[i], ['click', 'touchend'], UI.showExcercises);
     }
 
     for (var i = 0; i < droppable.length; i++) {
@@ -42,7 +41,8 @@ window.onload = function () {
 
     document.onkeydown = UI.clearLocalStorage; //remove after release
 
-    document.querySelector('.muscles').addEventListener("mousedown", touch.startRotateBody);
+    utils.addEvent(document.querySelector('.muscles'), ['mousedown', 'touchstart'], touch.startRotateBody);
+
     addTrainingButton.onmousedown = Training.add;
     closeExcercise.addEventListener('click', Excercise.close);
     deleteExcercise.addEventListener('click', Excercise.delete);

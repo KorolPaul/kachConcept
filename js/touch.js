@@ -114,10 +114,32 @@ const touch = {
         rotateStart = e.clientX;
         document.addEventListener("mousemove", touch.rotateBody);
         document.addEventListener("mouseup", touch.endRotateBody);
+
+        document.addEventListener("touchmove", touch.rotateBody);
+        document.addEventListener("touchend", touch.endRotateBody);
+
+         motionFrame < FRAMES_COUNT ? motionFrame++ : motionFrame = 0;
+        body.style.backgroundPositionX = motionFrame * 9 + "%";
     },
 
     rotateBody: function(e) {
         rotateOffset = rotateStart - e.clientX;
+       
+
+        
+        /*
+        if (!isTouchDevice) {
+            
+            let hammertime = new Hammer(document.querySelector('.muscles'));
+            hammertime.on('swipe', function (ev) {
+                if (rotateOffset > FRAMES_INTERVAL || rotateOffset < -FRAMES_INTERVAL) {
+                    touch.swipeBody(rotateOffset);
+                }    
+            });
+
+            return null;
+        }
+        /*
         if (rotateOffset > FRAMES_INTERVAL || rotateOffset < -FRAMES_INTERVAL) {
             if (rotateOffset > 0) {
                 motionFrame < FRAMES_COUNT ? motionFrame++ : motionFrame = 0;
@@ -140,11 +162,36 @@ const touch = {
                 musculesSides[i].classList.remove('active');
             }
             musculesSides[motionFrame].classList.add('active');
-        }            
+        }
+        */
     },
 
-    endRotateBody: function (e) {
-        document.removeEventListener("mousemove", touch.rotateBody);
-        document.removeEventListener("mouseup", touch.endRotateBody);
+    endRotateBody: function () {
+        utils.addEvent(document, ['mousemove', 'touchmove'], touch.rotateBody);
+        utils.addEvent(document, ['mouseup', 'touchend'], touch.endRotateBody);
+    },
+
+    swipeBody: function (direction) {
+        console.log(direction)
+        if (direction > 0) {
+            motionFrame < FRAMES_COUNT ? motionFrame++ : motionFrame = 0;
+        } else {
+            motionFrame > 0 ? motionFrame-- : motionFrame = FRAMES_COUNT;
+        }
+
+            body.style.backgroundPositionX = motionFrame * 9 + "%";
+            
+            for (let i = 0; i < musculeTitles.length; i++){
+                if (musculeTitles[i].dataset.layer == motionFrame) {
+                    musculeTitles[i].classList.add('muscles_title__visible');
+                } else {
+                    musculeTitles[i].classList.remove('muscles_title__visible');                    
+                }
+            }
+
+            for (var i = 0; i < musculesSides.length; i++) {
+                musculesSides[i].classList.remove('active');
+            }
+            musculesSides[motionFrame].classList.add('active');
     }
 }
