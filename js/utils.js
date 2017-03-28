@@ -40,5 +40,21 @@ const utils = {
         for (let i = 0; i < events.length; i++) {
             el.removeEventListener(events[i], handler);
         }
+    },
+
+    addClassToElements: function (elements, className) {
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].classList.add(className);
+        }
+    },
+
+    removeClassFromElements: function (elements, className) {
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].classList.remove(className);
+        }
+    },
+
+    isSet: function (obj) {
+        return typeof obj !== 'undefined' && obj !== null;
     }
 }

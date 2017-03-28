@@ -7,7 +7,7 @@
 }
 
 .muscles {
-    cursor: all-scroll;    
+    cursor: ns-resize;    
     text-align: center;
     
     &_map {
@@ -168,7 +168,6 @@
             opacity: 1;
             transform: translate(0);
             visibility: visible;
-            display: none;
         }
     }
 }

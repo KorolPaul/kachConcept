@@ -8,10 +8,8 @@ window.onload = function () {
     addTrainingButton = document.getElementById('addTraining');
     droppable = document.getElementsByClassName('droppable');
     shedule = document.getElementById('shedule');
-    body = document.getElementById('body');
     muscules = document.querySelectorAll('path, .muscles_title');
     musculesSides = document.querySelectorAll('.muscles_side');
-    musculeTitles = document.querySelectorAll('.muscles_title');
     sheduleToggle = document.querySelector('#shedule-toggle');
     excercise = document.getElementById('excercise');
     excercises = document.getElementById('excercises');
@@ -41,8 +39,8 @@ window.onload = function () {
 
     document.onkeydown = UI.clearLocalStorage; //remove after release
 
-    utils.addEvent(document.querySelector('.muscles'), ['mousedown', 'touchstart'], touch.startRotateBody);
-
+    new Body();
+    
     addTrainingButton.onmousedown = Training.add;
     closeExcercise.addEventListener('click', Excercise.close);
     deleteExcercise.addEventListener('click', Excercise.delete);
@@ -52,5 +50,25 @@ window.onload = function () {
         shedule.classList.toggle('shedule__opened')
     };
 
-    UI.loadExcercises();       
+    UI.loadExcercises();
 }
+
+window.onerror = function (msg, url, lineNo, columnNo, error) {
+    var string = msg.toLowerCase();
+    var substring = "script error";
+    if (string.indexOf(substring) > -1){
+        alert('Script Error: See Browser Console for Detail');
+    } else {
+        var message = [
+            'Message: ' + msg,
+            'URL: ' + url,
+            'Line: ' + lineNo,
+            'Column: ' + columnNo,
+            'Error object: ' + JSON.stringify(error)
+        ].join(' - ');
+
+        alert(message);
+    }
+
+    return false;
+};

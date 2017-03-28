@@ -12,7 +12,6 @@ let info,
     addTrainingButton,
     droppable,
     shedule,
-    body,
     muscules,
     musculesSides,
     musculesList,
@@ -86,6 +85,8 @@ const UI = {
             excercises.appendChild(excercise);
         }
     },
+
+    
 
     clearLocalStorage: function(e) {
         if (e.keyCode == 76) {
